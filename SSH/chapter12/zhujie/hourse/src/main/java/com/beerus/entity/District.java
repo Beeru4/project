@@ -1,0 +1,52 @@
+package com.beerus.entity;
+
+import javax.persistence.*;
+import java.util.Set;
+
+/**
+ * 区县表
+ */
+@Entity
+@Table(name = "DISTRICT")
+public class District {
+    @Id
+    @GeneratedValue(strategy = GenerationType.IDENTITY)
+    private Integer id;
+    @Column(name = "NAME")
+    private String name;
+    @OneToMany
+    @JoinColumn(name = "DISTRICT_ID")
+    private Set<Street> datas;
+
+    public District() {
+    }
+
+    public Integer getId() {
+        return id;
+    }
+
+    public void setId(Integer id) {
+        this.id = id;
+    }
+
+
+    public String getName() {
+        return name;
+    }
+
+    public void setName(String name) {
+        this.name = name;
+    }
+
+    public District(Integer id) {
+        this.id = id;
+    }
+
+    public Set<Street> getDatas() {
+        return datas;
+    }
+
+    public void setDatas(Set<Street> datas) {
+        this.datas = datas;
+    }
+}

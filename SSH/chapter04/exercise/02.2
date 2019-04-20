@@ -1,0 +1,15 @@
+PL/SQL Developer Test script 3.0
+11
+--¼ò´ð02.2
+declare 
+  v_empno emp.empno%TYPE;
+begin
+  SELECT empno INTO v_empno FROM emp;
+  EXCEPTION
+  WHEN TOO_MANY_ROWS THEN
+  DBMS_OUTPUT.PUT_LINE('error,donts data row!');
+  WHEN OTHERS THEN
+   DBMS_OUTPUT.PUT_LINE(SQLERRM);
+end;
+0
+0

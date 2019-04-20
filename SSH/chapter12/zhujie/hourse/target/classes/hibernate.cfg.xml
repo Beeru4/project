@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-configuration PUBLIC
+        "-//Hibernate/Hibernate Configuration DTD 3.0//EN"
+        "http://www.hibernate.org/dtd/hibernate-configuration-3.0.dtd">
+<hibernate-configuration>
+    <session-factory>
+        <!--配置链接参数-->
+        <property name="connection.url">jdbc:mysql://localhost:3306/Renting?characterEncoding=utf-8</property>
+        <property name="connection.driver_class">com.mysql.jdbc.Driver</property>
+        <property name="connection.username">root</property>
+        <property name="connection.password">12345678</property>
+        <!--配置辅助参数-->
+        <property name="show_sql">true</property>
+      <!--  <property name="format_sql">true</property>-->
+        <property name="dialect">org.hibernate.dialect.MySQLDialect</property>
+        <property name="current_session_context_class">thread</property>
+        <!--配置映射-->
+        <mapping class="com.beerus.entity.Street"/>
+        <mapping class="com.beerus.entity.House"/>
+        <mapping class="com.beerus.entity.District"/>
+        <mapping class="com.beerus.entity.Type"/>
+        <mapping class="com.beerus.entity.Users"/>
+    </session-factory>
+</hibernate-configuration>

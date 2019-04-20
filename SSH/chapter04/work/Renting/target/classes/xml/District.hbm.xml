@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+        "http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd" >
+<hibernate-mapping>
+    <!--name=类名 tale=表名-->
+    <class name="com.beerus.entity.District" table="DISTRICT" dynamic-update="true">
+        <id column="ID" name="id">
+            <generator class="assigned"></generator>
+        </id>
+        <property name="name" column="NAME"></property>
+    </class>
+
+</hibernate-mapping>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+        "http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd" >
+<hibernate-mapping>
+    <class name="com.beerus.entity.House" table="HOUSE" dynamic-update="true">
+        <id name="id" column="ID">
+            <generator class="assigned"></generator>
+        </id>
+        <property name="title" column="TITLE"></property>
+        <property name="description" column="DESCRIPTION"></property>
+        <property name="price" column="PRICE"></property>
+        <property name="pubdate" column="PUBDATE"></property>
+        <property name="floorage" column="FLOORAGE"></property>
+        <property name="contact" column="CONTACT"></property>
+        <property name="userId" column="USER_ID"></property>
+        <property name="typeId" column="TYPE_ID"></property>
+        <property name="streetId" column="STREET_ID"></property>
+    </class>
+
+</hibernate-mapping>

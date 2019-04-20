@@ -1,0 +1,696 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ArtifactsWorkspaceSettings">
+    <artifacts-to-build>
+      <artifact name="hourse:war exploded" />
+    </artifacts-to-build>
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="632ca93c-ff16-41d1-98ee-66b2ab5764f7" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../../../chapter13/SignalSys/src/main/java/com/beerus/filter/EncodingFilter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../chapter13/SignalSys/src/main/java/com/beerus/filter/OpenSessionViewFilter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../chapter13/SignalSys/src/main/java/com/beerus/utils/HibernateUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../chapter13/SignalSys/src/main/java/com/beerus/utils/Mark.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../chapter13/SignalSys/src/main/java/com/beerus/utils/Page.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../chapter13/SignalSys/src/main/java/com/beerus/utils/Params.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../chapter13/SignalSys/src/main/java/com/beerus/utils/Result.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../chapter13/SignalSys/src/main/java/com/beerus/utils/Tool.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../chapter13/SignalSys/src/main/webapp/My97DatePicker/My97DatePicker.htm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../chapter13/SignalSys/src/main/webapp/My97DatePicker/WdatePicker.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../chapter13/SignalSys/src/main/webapp/My97DatePicker/calendar.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../chapter13/SignalSys/src/main/webapp/My97DatePicker/config.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../chapter13/SignalSys/src/main/webapp/My97DatePicker/lang/en.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../chapter13/SignalSys/src/main/webapp/My97DatePicker/lang/zh-cn.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../chapter13/SignalSys/src/main/webapp/My97DatePicker/lang/zh-tw.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../chapter13/SignalSys/src/main/webapp/My97DatePicker/skin/WdatePicker.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../chapter13/SignalSys/src/main/webapp/My97DatePicker/skin/datePicker.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../chapter13/SignalSys/src/main/webapp/My97DatePicker/skin/default/datepicker.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../chapter13/SignalSys/src/main/webapp/My97DatePicker/skin/default/img.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../chapter13/SignalSys/src/main/webapp/My97DatePicker/skin/whyGreen/bg.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../chapter13/SignalSys/src/main/webapp/My97DatePicker/skin/whyGreen/datepicker.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../chapter13/SignalSys/src/main/webapp/My97DatePicker/skin/whyGreen/img.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../chapter13/SignalSys/src/main/webapp/images/esale_logo.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../chapter13/SignalSys/src/main/webapp/images/layer08.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../chapter13/SignalSys/src/main/webapp/images/layer09.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../chapter13/SignalSys/src/main/webapp/images/layer10.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../chapter13/SignalSys/src/main/webapp/images/layer11.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../chapter13/SignalSys/src/main/webapp/images/none.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../chapter13/SignalSys/src/main/webapp/order/add.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../chapter13/SignalSys/src/main/webapp/order/detail_add.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../chapter04/work/chapter04.sql" beforeDir="false" afterPath="$PROJECT_DIR$/../../../chapter04/work/chapter04.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../chapter04/work/hourse/.idea/dataSources.local.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../chapter04/work/hourse/.idea/dataSources.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../chapter04/work/hourse/.idea/dataSources/3a7eca88-2d2e-449f-80ea-c3ec4d681143.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../chapter04/work/hourse/.idea/encodings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../chapter04/work/hourse/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../chapter04/work/hourse/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../chapter04/work/hourse/src/main/java/com/beerus/action/HouseAction.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../chapter04/work/hourse/src/main/java/com/beerus/action/HouseAction.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../chapter04/work/hourse/src/main/java/com/beerus/action/UserAction.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../chapter04/work/hourse/src/main/java/com/beerus/action/UserAction.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../chapter04/work/hourse/src/main/java/com/beerus/dao/UserDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../chapter04/work/hourse/src/main/java/com/beerus/dao/UserDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../chapter04/work/hourse/src/main/java/com/beerus/dao/impl/UserDaoImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../chapter04/work/hourse/src/main/java/com/beerus/dao/impl/UserDaoImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../chapter04/work/hourse/src/main/java/com/beerus/interceptor/LoginInterceptor.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../chapter04/work/hourse/src/main/java/com/beerus/interceptor/LoginInterceptor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../chapter04/work/hourse/src/main/java/com/beerus/service/UserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../chapter04/work/hourse/src/main/java/com/beerus/service/UserService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../chapter04/work/hourse/src/main/java/com/beerus/service/impl/UserServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../chapter04/work/hourse/src/main/java/com/beerus/service/impl/UserServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../chapter04/work/hourse/src/main/resources/hibernate.cfg.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../chapter04/work/hourse/src/main/resources/hibernate.cfg.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../chapter04/work/hourse/src/main/resources/struts.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../chapter04/work/hourse/src/main/resources/struts.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../chapter04/work/hourse/src/main/webapp/page/add.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../../../chapter04/work/hourse/src/main/webapp/page/add.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../chapter04/work/hourse/src/main/webapp/page/error.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../../../chapter04/work/hourse/src/main/webapp/page/error.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../chapter04/work/hourse/src/main/webapp/page/register.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../../../chapter04/work/hourse/src/main/webapp/page/register.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../chapter04/work/hourse/target/classes/com/beerus/action/HouseAction.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../../chapter04/work/hourse/target/classes/com/beerus/action/HouseAction.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../chapter04/work/hourse/target/classes/com/beerus/action/UserAction.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../../chapter04/work/hourse/target/classes/com/beerus/action/UserAction.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../chapter04/work/hourse/target/classes/com/beerus/dao/UserDao.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../../chapter04/work/hourse/target/classes/com/beerus/dao/UserDao.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../chapter04/work/hourse/target/classes/com/beerus/dao/impl/UserDaoImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../../chapter04/work/hourse/target/classes/com/beerus/dao/impl/UserDaoImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../chapter04/work/hourse/target/classes/com/beerus/interceptor/LoginInterceptor.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../../chapter04/work/hourse/target/classes/com/beerus/interceptor/LoginInterceptor.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../chapter04/work/hourse/target/classes/com/beerus/service/UserService.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../../chapter04/work/hourse/target/classes/com/beerus/service/UserService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../chapter04/work/hourse/target/classes/com/beerus/service/impl/UserServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../../chapter04/work/hourse/target/classes/com/beerus/service/impl/UserServiceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../chapter04/work/hourse/target/classes/hibernate.cfg.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../chapter04/work/hourse/target/classes/hibernate.cfg.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../chapter04/work/hourse/target/classes/struts.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../chapter04/work/hourse/target/classes/struts.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../chapter04/work/hourse/target/hourse-1.0-SNAPSHOT/WEB-INF/classes/com/beerus/action/HouseAction.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../../chapter04/work/hourse/target/hourse-1.0-SNAPSHOT/WEB-INF/classes/com/beerus/action/HouseAction.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../chapter04/work/hourse/target/hourse-1.0-SNAPSHOT/WEB-INF/classes/com/beerus/action/UserAction.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../../chapter04/work/hourse/target/hourse-1.0-SNAPSHOT/WEB-INF/classes/com/beerus/action/UserAction.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../chapter04/work/hourse/target/hourse-1.0-SNAPSHOT/WEB-INF/classes/com/beerus/dao/UserDao.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../../chapter04/work/hourse/target/hourse-1.0-SNAPSHOT/WEB-INF/classes/com/beerus/dao/UserDao.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../chapter04/work/hourse/target/hourse-1.0-SNAPSHOT/WEB-INF/classes/com/beerus/dao/impl/UserDaoImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../../chapter04/work/hourse/target/hourse-1.0-SNAPSHOT/WEB-INF/classes/com/beerus/dao/impl/UserDaoImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../chapter04/work/hourse/target/hourse-1.0-SNAPSHOT/WEB-INF/classes/com/beerus/interceptor/LoginInterceptor.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../../chapter04/work/hourse/target/hourse-1.0-SNAPSHOT/WEB-INF/classes/com/beerus/interceptor/LoginInterceptor.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../chapter04/work/hourse/target/hourse-1.0-SNAPSHOT/WEB-INF/classes/com/beerus/service/UserService.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../../chapter04/work/hourse/target/hourse-1.0-SNAPSHOT/WEB-INF/classes/com/beerus/service/UserService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../chapter04/work/hourse/target/hourse-1.0-SNAPSHOT/WEB-INF/classes/com/beerus/service/impl/UserServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../../chapter04/work/hourse/target/hourse-1.0-SNAPSHOT/WEB-INF/classes/com/beerus/service/impl/UserServiceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../chapter04/work/hourse/target/hourse-1.0-SNAPSHOT/WEB-INF/classes/hibernate.cfg.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../chapter04/work/hourse/target/hourse-1.0-SNAPSHOT/WEB-INF/classes/hibernate.cfg.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../chapter04/work/hourse/target/hourse-1.0-SNAPSHOT/WEB-INF/classes/struts.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../chapter04/work/hourse/target/hourse-1.0-SNAPSHOT/WEB-INF/classes/struts.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../chapter04/work/hourse/target/hourse-1.0-SNAPSHOT/page/add.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../../../chapter04/work/hourse/target/hourse-1.0-SNAPSHOT/page/add.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../chapter04/work/hourse/target/hourse-1.0-SNAPSHOT/page/error.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../../../chapter04/work/hourse/target/hourse-1.0-SNAPSHOT/page/error.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../chapter04/work/hourse/target/hourse-1.0-SNAPSHOT/page/register.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../../../chapter04/work/hourse/target/hourse-1.0-SNAPSHOT/page/register.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../chapter04/work/hourse/target/hourse-1.0-SNAPSHOT/page/show.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../../../chapter04/work/hourse/target/hourse-1.0-SNAPSHOT/page/show.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../chapter11/testFIleUpload/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../chapter11/testFIleUpload/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../chapter11/testFIleUpload/src/main/java/cn/action/OneAction.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../chapter11/testFIleUpload/src/main/java/cn/action/OneAction.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../chapter11/testFIleUpload/src/main/webapp/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../../../chapter11/testFIleUpload/src/main/webapp/index.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../chapter11/testFIleUpload/target/testFileUpload-1.0-SNAPSHOT/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../../../chapter11/testFIleUpload/target/testFileUpload-1.0-SNAPSHOT/index.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../tools/hibernate-distribution-3.6.0.Final/project" beforeDir="false" afterPath="$PROJECT_DIR$/../../../tools/hibernate-distribution-3.6.0.Final/project" afterDir="false" />
+    </list>
+    <ignored path="$PROJECT_DIR$/target/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
+  </component>
+  <component name="FUSProjectUsageTrigger">
+    <session id="143670808">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.closed" value="7" />
+          <entry key="project.open.time.0" value="2" />
+          <entry key="project.open.time.1" value="3" />
+          <entry key="project.open.time.13" value="1" />
+          <entry key="project.open.time.2" value="1" />
+          <entry key="project.opened" value="7" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="CLASS" value="2" />
+          <entry key="JAVA" value="12" />
+          <entry key="JSP" value="1" />
+          <entry key="Manifest" value="1" />
+          <entry key="PLAIN_TEXT" value="3" />
+          <entry key="Properties" value="8" />
+          <entry key="UML" value="1" />
+          <entry key="XML" value="14" />
+          <entry key="spring.factories" value="1" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="JAVA" value="291" />
+          <entry key="XML" value="195" />
+        </counts>
+      </usages-collector>
+    </session>
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../../.." />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/src/main/java/com/beerus/entity/Type.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/beerus/entity/Users.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/beerus/entity/District.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/hibernate.cfg.xml" />
+        <option value="$PROJECT_DIR$/src/main/resources/applicationContext.xml" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="LogFilters">
+    <option name="FILTER_ERRORS" value="false" />
+    <option name="FILTER_WARNINGS" value="false" />
+    <option name="FILTER_INFO" value="true" />
+    <option name="FILTER_DEBUG" value="true" />
+    <option name="CUSTOM_FILTER" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="localRepository" value="$PROJECT_DIR$/../../../../../maven/maven_jar" />
+        <option name="mavenHome" value="$PROJECT_DIR$/../../../../../maven/apache-maven-3.6.0" />
+        <option name="userSettingsFile" value="$PROJECT_DIR$/../../../../../maven/apache-maven-3.6.0/conf/settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="MavenProjectNavigator">
+    <treeState>
+      <expand>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="hourse" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="hourse" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Lifecycle" type="58874e2:MavenProjectsStructure$LifecycleNode" />
+        </path>
+      </expand>
+      <select />
+    </treeState>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="y" value="23" />
+    <option name="width" value="1440" />
+    <option name="height" value="842" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="hourse" type="b2602c69:ProjectViewProjectNode" />
+              <item name="hourse" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="hourse" type="b2602c69:ProjectViewProjectNode" />
+              <item name="hourse" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="hourse" type="b2602c69:ProjectViewProjectNode" />
+              <item name="hourse" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="hourse" type="b2602c69:ProjectViewProjectNode" />
+              <item name="hourse" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="hourse" type="b2602c69:ProjectViewProjectNode" />
+              <item name="hourse" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="beerus" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="hourse" type="b2602c69:ProjectViewProjectNode" />
+              <item name="hourse" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="beerus" type="462c0819:PsiDirectoryNode" />
+              <item name="entity" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1554906931267" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="MavenSettings" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager">
+    <configuration name="Unnamed" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 8.5.382" ALTERNATIVE_JRE_ENABLED="false">
+      <option name="UPDATE_ON_FRAME_DEACTIVATION" value="true" />
+      <option name="UPDATE_CLASSES_ON_FRAME_DEACTIVATION" value="true" />
+      <deployment>
+        <artifact name="hourse:war exploded">
+          <settings>
+            <option name="CONTEXT_PATH" value="/" />
+          </settings>
+        </artifact>
+      </deployment>
+      <server-settings>
+        <option name="BASE_DIRECTORY_NAME" value="Unnamed_hourse_7" />
+      </server-settings>
+      <predefined_log_file id="Tomcat" enabled="true" />
+      <predefined_log_file id="Tomcat Catalina" enabled="true" />
+      <predefined_log_file id="Tomcat Manager" enabled="false" />
+      <predefined_log_file id="Tomcat Host Manager" enabled="false" />
+      <predefined_log_file id="Tomcat Localhost Access" enabled="false" />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="51381" />
+      </RunnerSettings>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Cover">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Debug">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Run">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <method v="2">
+        <option name="Make" enabled="true" />
+        <option name="BuildArtifacts" enabled="true">
+          <artifact name="hourse:war exploded" />
+        </option>
+      </method>
+    </configuration>
+    <configuration default="true" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 8.5.382" ALTERNATIVE_JRE_ENABLED="false">
+      <option name="UPDATING_POLICY" value="restart-server" />
+      <deployment />
+      <server-settings>
+        <option name="BASE_DIRECTORY_NAME" value="_hourse" />
+      </server-settings>
+      <predefined_log_file id="Tomcat" enabled="true" />
+      <predefined_log_file id="Tomcat Catalina" enabled="true" />
+      <predefined_log_file id="Tomcat Manager" enabled="false" />
+      <predefined_log_file id="Tomcat Host Manager" enabled="false" />
+      <predefined_log_file id="Tomcat Localhost Access" enabled="false" />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="51381" />
+      </RunnerSettings>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Cover">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Debug">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Run">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="632ca93c-ff16-41d1-98ee-66b2ab5764f7" name="Default Changelist" comment="" />
+      <created>1554902183621</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1554902183621</updated>
+      <workItem from="1554902184885" duration="42000" />
+      <workItem from="1554902496427" duration="4458000" />
+      <workItem from="1554948468044" duration="3000" />
+      <workItem from="1554948897750" duration="248000" />
+      <workItem from="1554951118309" duration="106000" />
+      <workItem from="1554960566085" duration="791000" />
+      <workItem from="1554962913336" duration="14000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="5662000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="0" y="23" width="1440" height="842" extended-state="6" />
+    <layout>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.32474965" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Web" order="2" side_tool="true" />
+      <window_info id="Image Layers" order="3" />
+      <window_info id="Designer" order="4" />
+      <window_info id="UI Designer" order="5" />
+      <window_info id="Capture Tool" order="6" />
+      <window_info id="Favorites" order="7" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32933334" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Version Control" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Terminal" order="9" />
+      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
+      <window_info anchor="bottom" id="Java Enterprise" order="11" />
+      <window_info anchor="bottom" id="Application Servers" order="12" weight="0.32933334" />
+      <window_info anchor="bottom" id="Spring" order="13" />
+      <window_info anchor="bottom" id="Messages" order="14" weight="0.32933334" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Capture Analysis" order="4" />
+      <window_info anchor="right" id="Database" order="5" weight="0.3297568" />
+      <window_info anchor="right" id="Theme Preview" order="6" />
+      <window_info anchor="right" id="Palette&#9;" order="7" />
+      <window_info anchor="right" id="Maven Projects" order="8" weight="0.3297568" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="jar://$PROJECT_DIR$/../../../../../maven/maven_jar/org/springframework/spring-context/4.3.18.RELEASE/spring-context-4.3.18.RELEASE.jar!/META-INF/spring.handlers">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/../../../../../maven/maven_jar/org/springframework/spring-context/4.3.18.RELEASE/spring-context-4.3.18.RELEASE.jar!/META-INF/spring.schemas">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/../../../../../maven/maven_jar/org/springframework/spring-beans/4.3.18.RELEASE/spring-beans-4.3.18.RELEASE.jar!/META-INF/spring.handlers">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/../../../../../maven/maven_jar/org/springframework/spring-beans/4.3.18.RELEASE/spring-beans-4.3.18.RELEASE.jar!/META-INF/spring.tooling">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/../../../../../maven/maven_jar/org/springframework/spring-beans/4.3.18.RELEASE/spring-beans-4.3.18.RELEASE.jar!/META-INF/spring.schemas">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/../../../../../maven/maven_jar/org/springframework/spring-beans/4.3.18.RELEASE/spring-beans-4.3.18.RELEASE.jar!/META-INF/spring.factories">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/../../../../../maven/maven_jar/org/springframework/spring-beans/4.3.18.RELEASE/spring-beans-4.3.18.RELEASE.jar!/META-INF/notice.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/../../../../../maven/maven_jar/org/springframework/spring-beans/4.3.18.RELEASE/spring-beans-4.3.18.RELEASE.jar!/META-INF/MANIFEST.MF">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/../../../../../maven/maven_jar/org/springframework/spring-aop/4.3.18.RELEASE/spring-aop-4.3.18.RELEASE.jar!/META-INF/spring.handlers">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/../../../../../maven/maven_jar/org/springframework/spring-aop/4.3.18.RELEASE/spring-aop-4.3.18.RELEASE.jar!/META-INF/spring.schemas">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/../../../../../maven/maven_jar/org/springframework/spring-aop/4.3.18.RELEASE/spring-aop-4.3.18.RELEASE.jar!/META-INF/spring.tooling">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/xml/Type.hbm.xml" />
+    <entry file="file://$PROJECT_DIR$/src/main/resources/xml/District.hbm.xml" />
+    <entry file="uml://JAVA/org.springframework.orm.hibernate4.LocalSessionFactoryBean">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>JAVA</ID>
+          <OriginalElement>org.springframework.orm.hibernate4.LocalSessionFactoryBean</OriginalElement>
+          <nodes>
+            <node x="" y="">org.springframework.dao.support.PersistenceExceptionTranslator</node>
+            <node x="" y="">org.springframework.orm.hibernate4.HibernateExceptionTranslator</node>
+            <node x="" y="">org.springframework.beans.factory.FactoryBean</node>
+            <node x="" y="">org.springframework.beans.factory.DisposableBean</node>
+            <node x="" y="">org.springframework.context.ResourceLoaderAware</node>
+            <node x="" y="">org.springframework.beans.factory.Aware</node>
+            <node x="" y="">org.springframework.beans.factory.InitializingBean</node>
+            <node x="" y="">org.springframework.orm.hibernate4.LocalSessionFactoryBean</node>
+          </nodes>
+          <notes />
+          <edges />
+          <settings layout="Hierarchic Group" zoom="1.0" x="457.0" y="94.0" />
+          <SelectedNodes />
+          <Categories />
+          <SCOPE>All</SCOPE>
+          <VISIBILITY>private</VISIBILITY>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/../../../../../maven/maven_jar/org/springframework/spring-orm/4.3.18.RELEASE/spring-orm-4.3.18.RELEASE.jar!/org/springframework/orm/hibernate4/LocalSessionFactoryBean.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="28" column="31" lean-forward="true" selection-start-line="28" selection-start-column="31" selection-end-line="28" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/../../../../../maven/maven_jar/org/springframework/spring-orm/4.3.18.RELEASE/spring-orm-4.3.18.RELEASE.jar!/org/springframework/orm/hibernate3/annotation/AnnotationSessionFactoryBean.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="33" column="13" selection-start-line="33" selection-start-column="13" selection-end-line="33" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/applicationContext.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" column="45" selection-start-line="3" selection-start-column="45" selection-end-line="3" selection-end-column="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/beerus/entity/Street.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/beerus/entity/District.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="26" selection-start-line="26" selection-end-line="26" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/beerus/entity/House.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/beerus/entity/Type.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="18" selection-start-line="18" selection-end-line="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/beerus/entity/Users.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="16" column="11" selection-start-line="16" selection-start-column="5" selection-end-line="16" selection-end-column="11" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="570">
+          <caret line="38" column="21" selection-start-line="6" selection-start-column="2" selection-end-line="38" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/beerus/utils/Page.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/hibernate.cfg.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="17" column="51" selection-start-line="17" selection-start-column="51" selection-end-line="17" selection-end-column="51" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/struts.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/index.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" column="7" selection-start-line="10" selection-start-column="7" selection-end-line="10" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="388">
+          <caret line="52" column="44" selection-start-line="52" selection-start-column="44" selection-end-line="52" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>

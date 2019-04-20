@@ -1,0 +1,15 @@
+PL/SQL Developer Test script 3.0
+11
+--¼ò´ð02.1
+declare 
+  v_data emp%ROWTYPE;
+begin
+  SELECT * INTO v_data FROM emp WHERE empno = 6666;
+  EXCEPTION
+  WHEN NO_DATA_FOUND THEN
+  DBMS_OUTPUT.PUT_LINE('error,data notfound!');
+  WHEN OTHERS THEN
+  DBMS_OUTPUT.PUT_LINE(SQLERRM);
+end;
+0
+0

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+        "http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd" >
+<hibernate-mapping>
+    <class  name="com.beerus.entity.Street" table="STREET"  dynamic-update="true" dynamic-insert="true">
+        <id name="id" column="ID">
+            <generator class="assigned"></generator>
+        </id>
+        <property name="name" column="NAME"></property>
+<!-- 单向多对一 -->
+      <many-to-one name="district" column="DISTRICT_ID" class="com.beerus.entity.District"></many-to-one>
+    </class>
+</hibernate-mapping>

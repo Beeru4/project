@@ -1,0 +1,1092 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ArtifactsWorkspaceSettings">
+    <artifacts-to-build>
+      <artifact name="SignalSys:war exploded" />
+    </artifacts-to-build>
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="b16bf331-1f79-474d-b72f-2cb43800962d" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../../../SSM/chapter01/SMBMS/src/main/java/com/beerus/service/ProviderService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../SSM/chapter01/SMBMS/src/main/webapp/calendar/My97DatePicker.htm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../SSM/chapter01/SMBMS/src/main/webapp/calendar/WdatePicker.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../SSM/chapter01/SMBMS/src/main/webapp/calendar/calendar.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../SSM/chapter01/SMBMS/src/main/webapp/calendar/config.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../SSM/chapter01/SMBMS/src/main/webapp/calendar/lang/en.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../SSM/chapter01/SMBMS/src/main/webapp/calendar/lang/zh-cn.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../SSM/chapter01/SMBMS/src/main/webapp/calendar/lang/zh-tw.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../SSM/chapter01/SMBMS/src/main/webapp/calendar/skin/WdatePicker.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../SSM/chapter01/SMBMS/src/main/webapp/calendar/skin/datePicker.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../SSM/chapter01/SMBMS/src/main/webapp/calendar/skin/default/datepicker.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../SSM/chapter01/SMBMS/src/main/webapp/calendar/skin/default/img.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../SSM/chapter01/SMBMS/src/main/webapp/calendar/skin/whyGreen/bg.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../SSM/chapter01/SMBMS/src/main/webapp/calendar/skin/whyGreen/datepicker.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../SSM/chapter01/SMBMS/src/main/webapp/calendar/skin/whyGreen/img.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../SSM/chapter01/SMBMS/src/main/webapp/css/public.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../SSM/chapter01/SMBMS/src/main/webapp/css/style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../SSM/chapter01/SMBMS/src/main/webapp/error.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../SSM/chapter01/SMBMS/src/main/webapp/images/buy.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../SSM/chapter01/SMBMS/src/main/webapp/images/clock.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../SSM/chapter01/SMBMS/src/main/webapp/images/formBg.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../SSM/chapter01/SMBMS/src/main/webapp/images/gys.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../SSM/chapter01/SMBMS/src/main/webapp/images/home.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../SSM/chapter01/SMBMS/src/main/webapp/images/leftBg.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../SSM/chapter01/SMBMS/src/main/webapp/images/loginBg.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../SSM/chapter01/SMBMS/src/main/webapp/images/login_bg.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../SSM/chapter01/SMBMS/src/main/webapp/images/login_img.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../SSM/chapter01/SMBMS/src/main/webapp/images/mm.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../SSM/chapter01/SMBMS/src/main/webapp/images/n.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../SSM/chapter01/SMBMS/src/main/webapp/images/read.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../SSM/chapter01/SMBMS/src/main/webapp/images/schu.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../SSM/chapter01/SMBMS/src/main/webapp/images/search.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../SSM/chapter01/SMBMS/src/main/webapp/images/tc.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../SSM/chapter01/SMBMS/src/main/webapp/images/tianjia.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../SSM/chapter01/SMBMS/src/main/webapp/images/time.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../SSM/chapter01/SMBMS/src/main/webapp/images/xiugai.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../SSM/chapter01/SMBMS/src/main/webapp/images/y.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../SSM/chapter01/SMBMS/src/main/webapp/images/yh.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../SSM/chapter01/SMBMS/src/main/webapp/images/zd.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../SSM/chapter01/SMBMS/src/main/webapp/index.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../SSM/chapter01/SMBMS/src/main/webapp/js/billadd.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../SSM/chapter01/SMBMS/src/main/webapp/js/billlist.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../SSM/chapter01/SMBMS/src/main/webapp/js/billmodify.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../SSM/chapter01/SMBMS/src/main/webapp/js/billview.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../SSM/chapter01/SMBMS/src/main/webapp/js/common.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../SSM/chapter01/SMBMS/src/main/webapp/js/jquery-1.8.3.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../SSM/chapter01/SMBMS/src/main/webapp/js/provideradd.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../SSM/chapter01/SMBMS/src/main/webapp/js/providerlist.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../SSM/chapter01/SMBMS/src/main/webapp/js/providermodify.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../SSM/chapter01/SMBMS/src/main/webapp/js/providerview.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../SSM/chapter01/SMBMS/src/main/webapp/js/pwdmodify.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../SSM/chapter01/SMBMS/src/main/webapp/js/rollpage.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../SSM/chapter01/SMBMS/src/main/webapp/js/time.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../SSM/chapter01/SMBMS/src/main/webapp/js/useradd.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../SSM/chapter01/SMBMS/src/main/webapp/js/userlist.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../SSM/chapter01/SMBMS/src/main/webapp/js/usermodify.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../SSM/chapter01/SMBMS/src/main/webapp/js/userview.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../SSM/chapter01/SMBMS/src/main/webapp/jsp/billadd.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../SSM/chapter01/SMBMS/src/main/webapp/jsp/billlist.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../SSM/chapter01/SMBMS/src/main/webapp/jsp/billmodify.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../SSM/chapter01/SMBMS/src/main/webapp/jsp/billview.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../SSM/chapter01/SMBMS/src/main/webapp/jsp/common/foot.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../SSM/chapter01/SMBMS/src/main/webapp/jsp/common/head.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../SSM/chapter01/SMBMS/src/main/webapp/jsp/error.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../SSM/chapter01/SMBMS/src/main/webapp/jsp/frame.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../SSM/chapter01/SMBMS/src/main/webapp/jsp/provideradd.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../SSM/chapter01/SMBMS/src/main/webapp/jsp/providerlist.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../SSM/chapter01/SMBMS/src/main/webapp/jsp/providermodify.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../SSM/chapter01/SMBMS/src/main/webapp/jsp/providerview.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../SSM/chapter01/SMBMS/src/main/webapp/jsp/pwdmodify.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../SSM/chapter01/SMBMS/src/main/webapp/jsp/rollpage.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../SSM/chapter01/SMBMS/src/main/webapp/jsp/useradd.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../SSM/chapter01/SMBMS/src/main/webapp/jsp/userlist.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../SSM/chapter01/SMBMS/src/main/webapp/jsp/usermodify.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../SSM/chapter01/SMBMS/src/main/webapp/jsp/userview.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../SSM/chapter01/SMBMS/src/main/webapp/login.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../chapter04/work/hourse/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../chapter04/work/hourse/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../chapter14/JBOA/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../chapter14/JBOA/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../chapter14/JBOA/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../chapter14/JBOA/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../chapter14/JBOA/src/main/java/com/beerus/action/CVoucherAction.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../chapter14/JBOA/src/main/java/com/beerus/action/CVoucherAction.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../chapter14/JBOA/src/main/webapp/jsp/claim/claim_voucher_edit.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../../chapter14/JBOA/src/main/webapp/jsp/claim/claim_voucher_edit.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../chapter14/JBOA/target/JBOA-1.0-SNAPSHOT/WEB-INF/classes/com/beerus/action/CVoucherAction.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../chapter14/JBOA/target/JBOA-1.0-SNAPSHOT/WEB-INF/classes/com/beerus/action/CVoucherAction.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../chapter14/JBOA/target/JBOA-1.0-SNAPSHOT/jsp/claim/claim_voucher_edit.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../../chapter14/JBOA/target/JBOA-1.0-SNAPSHOT/jsp/claim/claim_voucher_edit.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../chapter14/JBOA/target/classes/com/beerus/action/CVoucherAction.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../chapter14/JBOA/target/classes/com/beerus/action/CVoucherAction.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../tools/hibernate-distribution-3.6.0.Final/project" beforeDir="false" afterPath="$PROJECT_DIR$/../../tools/hibernate-distribution-3.6.0.Final/project" afterDir="false" />
+    </list>
+    <ignored path="$PROJECT_DIR$/out/" />
+    <ignored path="$PROJECT_DIR$/target/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="manager@localhost" type="feb32156:DbDataSourceImpl" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="manager@localhost" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="manager@localhost" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="manager: schema" type="c314c289:MysqlImplModel$Schema" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="FUSProjectUsageTrigger">
+    <session id="-1306805919">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.closed" value="37" />
+          <entry key="project.open.time.0" value="1" />
+          <entry key="project.open.time.1" value="18" />
+          <entry key="project.open.time.10" value="2" />
+          <entry key="project.open.time.11" value="3" />
+          <entry key="project.open.time.12" value="3" />
+          <entry key="project.open.time.13" value="1" />
+          <entry key="project.open.time.2" value="3" />
+          <entry key="project.open.time.3" value="2" />
+          <entry key="project.open.time.4" value="1" />
+          <entry key="project.open.time.8" value="1" />
+          <entry key="project.open.time.9" value="2" />
+          <entry key="project.opened" value="37" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="HTML" value="1" />
+          <entry key="JAVA" value="2474" />
+          <entry key="JSP" value="1755" />
+          <entry key="PLAIN_TEXT" value="16" />
+          <entry key="XML" value="286" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="CLASS" value="2" />
+          <entry key="CSS" value="1" />
+          <entry key="JAVA" value="136" />
+          <entry key="JSP" value="23" />
+          <entry key="JavaScript" value="3" />
+          <entry key="Scratch" value="1" />
+          <entry key="UML" value="1" />
+          <entry key="XML" value="18" />
+        </counts>
+      </usages-collector>
+    </session>
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/beerus/action/OrderAction.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="15">
+              <caret line="47" column="26" selection-start-line="47" selection-start-column="26" selection-end-line="47" selection-end-column="26" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/order/detail_add.jsp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="780">
+              <caret line="52" column="49" selection-start-line="52" selection-start-column="49" selection-end-line="52" selection-end-column="49" />
+              <folding>
+                <element signature="n#style#0;n#td#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#td#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#td#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#td#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#td#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#td#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#td#0;n#!!top" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/beerus/entity/CusCustomer.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="555">
+              <caret line="50" column="39" selection-start-line="50" selection-start-column="39" selection-end-line="50" selection-end-column="39" />
+              <folding>
+                <element signature="e#1027#1028#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/beerus/entity/SaleOrder.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="555">
+              <caret line="43" column="12" selection-start-line="43" selection-start-column="5" selection-end-line="43" selection-end-column="12" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/order/add.jsp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1350">
+              <caret line="90" column="59" selection-start-line="90" selection-start-column="59" selection-end-line="90" selection-end-column="59" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/beerus/action/CustomerAction.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="315">
+              <caret line="30" column="44" selection-start-line="30" selection-start-column="44" selection-end-line="30" selection-end-column="44" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/struts.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="120">
+              <caret line="8" column="29" selection-start-line="8" selection-start-column="29" selection-end-line="8" selection-end-column="29" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="435">
+              <caret line="29" column="43" selection-start-line="29" selection-start-column="43" selection-end-line="29" selection-end-column="43" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/hibernate.cfg.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="270">
+              <caret line="18" column="26" selection-start-line="18" selection-start-column="26" selection-end-line="18" selection-end-column="26" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>css</find>
+      <find>prodList</find>
+      <find>cusLst</find>
+      <find>dvCus</find>
+      <find>tCusList</find>
+      <find>选择</find>
+      <find>dosave</find>
+      <find>cusId</find>
+      <find>images</find>
+      <find>searchCustomer.action</find>
+      <find>line.odlProductPrice</find>
+      <find>setProdPrice</find>
+      <find>删除</find>
+      <find>line.odlProductCount</find>
+      <find>setTotal</find>
+      <find>javascript:doAddDetail();</find>
+      <find>hidden</find>
+      <find>jqu</find>
+      <find>option</find>
+      <find>selec</find>
+      <find>return</find>
+    </findStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../.." />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/filter/OpenSessionViewFilter.java" />
+        <option value="$PROJECT_DIR$/src/main/java/utils/Params.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/beerus/utils/Params.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/beerus/utils/HibernateUtils.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/beerus/filter/OpenSessionViewFilter.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/hibernate.cfg.xml" />
+        <option value="$PROJECT_DIR$/src/main/webapp/index.jsp" />
+        <option value="$PROJECT_DIR$/src/main/java/com/beerus/action/UserAction.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/beerus/dao/impl/CusCustomerDao.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/beerus/dao/CusCustomerDao.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/beerus/dao/impl/CusCustomerDaoImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/beerus/service/impl/CusCustomerService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/beerus/service/impl/CusCustomerServiceImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/beerus/service/CusCustomerService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/beerus/filter/EncodingFilter.java" />
+        <option value="$PROJECT_DIR$/src/main/java/test/Test.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/beerus/entity/CusCustomer.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/beerus/entity/SaleProduct.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/beerus/action/CustomerAction.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/beerus/dao/SaleDao.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/beerus/dao/impl/SaleDaoImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/beerus/service/SaleService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/beerus/service/impl/SaleServiceImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/beerus/utils/Result.java" />
+        <option value="$PROJECT_DIR$/src/main/webapp/order/add.jsp" />
+        <option value="$PROJECT_DIR$/src/main/java/com/beerus/entity/SaleOrder.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/beerus/entity/SaleOrderLine.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/struts.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/com/beerus/action/OrderAction.java" />
+        <option value="$PROJECT_DIR$/src/main/webapp/order/detail_add.jsp" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="LogFilters">
+    <option name="FILTER_ERRORS" value="false" />
+    <option name="FILTER_WARNINGS" value="false" />
+    <option name="FILTER_INFO" value="true" />
+    <option name="FILTER_DEBUG" value="true" />
+    <option name="CUSTOM_FILTER" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="localRepository" value="$PROJECT_DIR$/../../../../maven/maven_jar" />
+        <option name="mavenHome" value="$PROJECT_DIR$/../../../../maven/apache-maven-3.6.0" />
+        <option name="userSettingsFile" value="$PROJECT_DIR$/../../../../maven/apache-maven-3.6.0/conf/settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="MavenProjectNavigator">
+    <treeState>
+      <expand>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="SignalSys" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="SignalSys" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Lifecycle" type="58874e2:MavenProjectsStructure$LifecycleNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="SignalSys" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Dependencies" type="f4be9f2a:MavenProjectsStructure$DependenciesNode" />
+        </path>
+      </expand>
+      <select />
+    </treeState>
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="y" value="23" />
+    <option name="width" value="1440" />
+    <option name="height" value="842" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="SignalSys" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SignalSys" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SignalSys" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SignalSys" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SignalSys" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SignalSys" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SignalSys" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SignalSys" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="webapp" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SignalSys" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SignalSys" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="webapp" type="462c0819:PsiDirectoryNode" />
+              <item name="order" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DatabaseDriversLRU" value="mysql" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1555292756186" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/webapp/js" />
+      <recent name="$PROJECT_DIR$/src/main/webapp" />
+      <recent name="$PROJECT_DIR$/src/main/webapp/css" />
+      <recent name="$PROJECT_DIR$/src/main/webapp/order" />
+      <recent name="$PROJECT_DIR$/src/main/java" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager">
+    <configuration name="Unnamed" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 8.5.38" ALTERNATIVE_JRE_ENABLED="false">
+      <option name="UPDATE_ON_FRAME_DEACTIVATION" value="true" />
+      <option name="UPDATE_CLASSES_ON_FRAME_DEACTIVATION" value="true" />
+      <deployment>
+        <artifact name="SignalSys:war exploded">
+          <settings>
+            <option name="CONTEXT_PATH" value="/" />
+          </settings>
+        </artifact>
+      </deployment>
+      <server-settings>
+        <option name="BASE_DIRECTORY_NAME" value="Unnamed_SignalSys_3" />
+      </server-settings>
+      <predefined_log_file id="Tomcat" enabled="true" />
+      <predefined_log_file id="Tomcat Catalina" enabled="true" />
+      <predefined_log_file id="Tomcat Manager" enabled="false" />
+      <predefined_log_file id="Tomcat Host Manager" enabled="false" />
+      <predefined_log_file id="Tomcat Localhost Access" enabled="false" />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="51795" />
+      </RunnerSettings>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Cover">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Debug">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Run">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <method v="2">
+        <option name="Make" enabled="true" />
+        <option name="BuildArtifacts" enabled="true">
+          <artifact name="SignalSys:war exploded" />
+        </option>
+      </method>
+    </configuration>
+    <configuration default="true" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 8.5.38" ALTERNATIVE_JRE_ENABLED="false">
+      <option name="UPDATE_ON_FRAME_DEACTIVATION" value="true" />
+      <option name="UPDATE_CLASSES_ON_FRAME_DEACTIVATION" value="true" />
+      <deployment>
+        <artifact name="SignalSys:war exploded">
+          <settings>
+            <option name="CONTEXT_PATH" value="/" />
+          </settings>
+        </artifact>
+      </deployment>
+      <server-settings>
+        <option name="BASE_DIRECTORY_NAME" value="_SignalSys" />
+      </server-settings>
+      <predefined_log_file id="Tomcat" enabled="true" />
+      <predefined_log_file id="Tomcat Catalina" enabled="true" />
+      <predefined_log_file id="Tomcat Manager" enabled="false" />
+      <predefined_log_file id="Tomcat Host Manager" enabled="false" />
+      <predefined_log_file id="Tomcat Localhost Access" enabled="false" />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="51795" />
+      </RunnerSettings>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Cover">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Debug">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Run">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <method v="2">
+        <option name="Make" enabled="true" />
+        <option name="BuildArtifacts" enabled="true">
+          <artifact name="SignalSys:war exploded" />
+        </option>
+      </method>
+    </configuration>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="b16bf331-1f79-474d-b72f-2cb43800962d" name="Default Changelist" comment="" />
+      <created>1554948563658</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1554948563658</updated>
+      <workItem from="1554948565929" duration="553000" />
+      <workItem from="1554949155505" duration="16818000" />
+      <workItem from="1554971355336" duration="3991000" />
+      <workItem from="1554982648196" duration="228000" />
+      <workItem from="1554983115106" duration="3364000" />
+      <workItem from="1554991168496" duration="487000" />
+      <workItem from="1554991662329" duration="10348000" />
+      <workItem from="1555039697694" duration="148000" />
+      <workItem from="1555215338017" duration="55000" />
+      <workItem from="1555290734694" duration="314000" />
+      <workItem from="1555291089178" duration="75000" />
+      <workItem from="1555291203739" duration="91000" />
+      <workItem from="1555291297815" duration="289000" />
+      <workItem from="1555291693892" duration="184000" />
+      <workItem from="1555291881884" duration="76000" />
+      <workItem from="1555292051695" duration="719000" />
+      <workItem from="1555296655755" duration="533000" />
+      <workItem from="1555307887460" duration="410000" />
+      <workItem from="1555308915622" duration="5000" />
+      <workItem from="1555310601221" duration="138000" />
+      <workItem from="1555311362661" duration="57000" />
+      <workItem from="1555311438148" duration="517000" />
+      <workItem from="1555312616223" duration="824000" />
+      <workItem from="1555313540197" duration="135000" />
+      <workItem from="1555314230104" duration="264000" />
+      <workItem from="1555316373662" duration="1175000" />
+      <workItem from="1555320436142" duration="510000" />
+      <workItem from="1555342795502" duration="21000" />
+      <workItem from="1555393804640" duration="353000" />
+      <workItem from="1555462936088" duration="180000" />
+      <workItem from="1555469632090" duration="49000" />
+      <workItem from="1555478331690" duration="2000" />
+      <workItem from="1555486580706" duration="615000" />
+      <workItem from="1555488098967" duration="654000" />
+      <workItem from="1555566208947" duration="79000" />
+      <workItem from="1555571687063" duration="883000" />
+      <workItem from="1555638294698" duration="776000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="45920000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="0" y="23" width="1440" height="842" extended-state="0" />
+    <editor active="true" />
+    <layout>
+      <window_info id="Persistence" order="0" sideWeight="0.504" side_tool="true" weight="0.29756796" />
+      <window_info active="true" content_ui="combo" id="Project" order="1" sideWeight="0.496" visible="true" weight="0.16881259" />
+      <window_info id="Structure" order="2" sideWeight="0.50329673" side_tool="true" weight="0.26752505" />
+      <window_info id="Designer" order="3" />
+      <window_info id="Image Layers" order="4" />
+      <window_info id="UI Designer" order="5" />
+      <window_info id="Favorites" order="6" side_tool="true" />
+      <window_info id="Capture Tool" order="7" />
+      <window_info id="Web" order="8" sideWeight="0.50329673" side_tool="true" weight="0.26752505" />
+      <window_info anchor="bottom" id="Application Servers" order="0" weight="0.32933334" />
+      <window_info anchor="bottom" id="Message" order="1" />
+      <window_info anchor="bottom" id="Find" order="2" />
+      <window_info anchor="bottom" id="Run" order="3" sideWeight="0.49928468" weight="0.32933334" />
+      <window_info anchor="bottom" id="Debug" order="4" weight="0.39333335" />
+      <window_info anchor="bottom" id="Cvs" order="5" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="6" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="7" weight="0.32933334" />
+      <window_info anchor="bottom" id="Terminal" order="8" weight="0.32933334" />
+      <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.5007153" side_tool="true" weight="0.32933334" />
+      <window_info anchor="bottom" id="Messages" order="10" weight="0.32933334" />
+      <window_info anchor="bottom" id="Java Enterprise" order="11" weight="0.32933334" />
+      <window_info anchor="bottom" id="Database Changes" order="12" weight="0.32933334" />
+      <window_info anchor="bottom" id="Version Control" order="13" show_stripe_button="false" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.24964234" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Capture Analysis" order="4" />
+      <window_info anchor="right" id="Maven Projects" order="5" weight="0.3297568" />
+      <window_info anchor="right" id="Database" order="6" weight="0.3297568" />
+      <window_info anchor="right" id="Palette&#9;" order="7" />
+      <window_info anchor="right" id="Theme Preview" order="8" />
+    </layout>
+    <layout-to-restore>
+      <window_info id="Persistence" order="0" sideWeight="0.504" side_tool="true" weight="0.29756796" />
+      <window_info content_ui="combo" id="Project" order="1" sideWeight="0.496" visible="true" weight="0.3018598" />
+      <window_info id="Structure" order="2" sideWeight="0.50329673" side_tool="true" weight="0.26752505" />
+      <window_info id="Designer" order="3" />
+      <window_info id="Image Layers" order="4" />
+      <window_info id="UI Designer" order="5" />
+      <window_info id="Favorites" order="6" side_tool="true" />
+      <window_info id="Capture Tool" order="7" />
+      <window_info id="Web" order="8" sideWeight="0.50329673" side_tool="true" weight="0.26752505" />
+      <window_info anchor="bottom" id="Application Servers" order="0" weight="0.32933334" />
+      <window_info anchor="bottom" id="Message" order="1" />
+      <window_info anchor="bottom" id="Find" order="2" />
+      <window_info anchor="bottom" id="Run" order="3" sideWeight="0.49928468" weight="0.32933334" />
+      <window_info active="true" anchor="bottom" id="Debug" order="4" visible="true" weight="0.39333335" />
+      <window_info anchor="bottom" id="Cvs" order="5" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="6" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="7" weight="0.32933334" />
+      <window_info anchor="bottom" id="Terminal" order="8" weight="0.32933334" />
+      <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.5007153" side_tool="true" weight="0.32933334" />
+      <window_info anchor="bottom" id="Messages" order="10" weight="0.32933334" />
+      <window_info anchor="bottom" id="Java Enterprise" order="11" weight="0.32933334" />
+      <window_info anchor="bottom" id="Database Changes" order="12" weight="0.32933334" />
+      <window_info anchor="bottom" id="Version Control" order="13" show_stripe_button="false" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.24964234" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Capture Analysis" order="4" />
+      <window_info anchor="right" id="Maven Projects" order="5" weight="0.3297568" />
+      <window_info anchor="right" id="Database" order="6" weight="0.3297568" />
+      <window_info anchor="right" id="Palette&#9;" order="7" />
+      <window_info anchor="right" id="Theme Preview" order="8" />
+    </layout-to-restore>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="antWorkspaceConfiguration">
+    <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
+    <option name="FILTER_TARGETS" value="false" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/beerus/utils/HibernateUtils.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" selection-start-line="2" selection-end-line="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/beerus/utils/Mark.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/beerus/utils/Page.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/beerus/utils/Params.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/beerus/utils/Tool.java" />
+    <entry file="uml://DATABASE/106235eb-53cf-4016-9570-19ad6ff1eec9.TABLE:manager.CUS_CUSTOMER">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>DATABASE</ID>
+          <OriginalElement>106235eb-53cf-4016-9570-19ad6ff1eec9.TABLE:manager.CUS_CUSTOMER</OriginalElement>
+          <nodes>
+            <node x="" y="">106235eb-53cf-4016-9570-19ad6ff1eec9.TABLE:manager.CUS_CUSTOMER</node>
+          </nodes>
+          <notes />
+          <edges />
+          <settings layout="Hierarchic Group" zoom="1.0" x="105.0" y="48.0" />
+          <SelectedNodes />
+          <Categories>
+            <Category>Key columns</Category>
+            <Category>Columns</Category>
+          </Categories>
+          <SCOPE>All</SCOPE>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/106235eb-53cf-4016-9570-19ad6ff1eec9/console.sql">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/js/jquery-1.12.3.min.js" />
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/css/styles.css">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/My97DatePicker/lang/en.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/beerus/service/CusCustomerService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="15" column="7" selection-start-line="15" selection-start-column="7" selection-end-line="15" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/beerus/filter/EncodingFilter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="22" column="43" lean-forward="true" selection-start-line="22" selection-start-column="43" selection-end-line="22" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="18" column="20" lean-forward="true" selection-start-line="18" selection-start-column="20" selection-end-line="18" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/beerus/filter/OpenSessionViewFilter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="24" selection-start-line="24" selection-end-line="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/index.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="405">
+          <caret line="27" column="7" selection-start-line="27" selection-start-column="7" selection-end-line="27" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/../../../../maven/maven_jar/org/apache/struts/xwork/xwork-core/2.3.16.3/xwork-core-2.3.16.3.jar!/com/opensymphony/xwork2/DefaultActionInvocation.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="612">
+          <caret line="376" selection-start-line="376" selection-end-line="376" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/beerus/service/SaleService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="345">
+          <caret line="27" column="13" selection-start-line="27" selection-start-column="13" selection-end-line="27" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/beerus/service/impl/CusCustomerServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="14" column="51" selection-start-line="14" selection-start-column="51" selection-end-line="14" selection-end-column="51" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/beerus/service/impl/SaleServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="31" selection-start-line="31" selection-end-line="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/beerus/entity/SaleProduct.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="103">
+          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/js/jquery-1.12.4.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/beerus/utils/Result.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="15" column="33" selection-start-line="15" selection-start-column="19" selection-end-line="15" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/beerus/dao/impl/CusCustomerDaoImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="15" selection-start-line="15" selection-end-line="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/beerus/dao/SaleDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="450">
+          <caret line="35" column="7" selection-start-line="35" selection-start-column="7" selection-end-line="35" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/beerus/dao/CusCustomerDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="14" column="38" selection-start-line="14" selection-start-column="3" selection-end-line="14" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/test/Test.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/beerus/dao/impl/SaleDaoImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="15" column="13" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/beerus/entity/SaleOrderLine.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="22" column="28" selection-start-line="22" selection-start-column="28" selection-end-line="22" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/beerus/action/OrderAction.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="47" column="26" selection-start-line="47" selection-start-column="26" selection-end-line="47" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/beerus/entity/CusCustomer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="555">
+          <caret line="50" column="39" selection-start-line="50" selection-start-column="39" selection-end-line="50" selection-end-column="39" />
+          <folding>
+            <element signature="e#1027#1028#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/beerus/entity/SaleOrder.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="555">
+          <caret line="43" column="12" selection-start-line="43" selection-start-column="5" selection-end-line="43" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/order/add.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1350">
+          <caret line="90" column="59" selection-start-line="90" selection-start-column="59" selection-end-line="90" selection-end-column="59" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/beerus/action/CustomerAction.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="30" column="44" selection-start-line="30" selection-start-column="44" selection-end-line="30" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/struts.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" column="29" selection-start-line="8" selection-start-column="29" selection-end-line="8" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="435">
+          <caret line="29" column="43" selection-start-line="29" selection-start-column="43" selection-end-line="29" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/hibernate.cfg.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="18" column="26" selection-start-line="18" selection-start-column="26" selection-end-line="18" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/order/detail_add.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="780">
+          <caret line="52" column="49" selection-start-line="52" selection-start-column="49" selection-end-line="52" selection-end-column="49" />
+          <folding>
+            <element signature="n#style#0;n#td#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#td#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#td#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#td#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#td#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#td#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#td#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <last-edited>SignalSys:war</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+                <option value="0.5" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>Hibernate</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>SignalSys</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+                <option value="0.6" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>Maven: antlr:antlr:2.7.7</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>

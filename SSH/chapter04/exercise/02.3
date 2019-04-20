@@ -1,0 +1,16 @@
+PL/SQL Developer Test script 3.0
+12
+--02.3
+declare
+  v_status orders.order_status%TYPE;
+begin
+  SELECT order_status INTO v_status FROM orders WHERE order_id = 1;
+  IF v_status = 0 THEN
+    DELETE FROM orders WHERE order_id = 1;
+    COMMIT;
+  ELSE
+    DBMS_OUTPUT.PUT_LINE('该订单已确认,无法删除!');
+  END IF;
+end;
+0
+0

@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE struts PUBLIC "-//Apache Software Foundation//DTD Struts Configuration 2.3//EN"
+        "http://struts.apache.org/dtds/struts-2.3.dtd">
+<struts>
+    <!--设置一次请求一共的文件大小-->
+<constant name="struts.multipart.maxSize" value="2097152"/>
+    <package name="default" extends="struts-default" namespace="/">
+        <interceptors>
+            <!--文件上传拦截器栈-->
+            <interceptor-stack name="fileStack">
+                <!--重写文件上传拦截器 注意:如果重写了 就得放在默认栈在前面 不然会被默认的覆盖-->
+                <interceptor-ref name="fileUpload">
+                    <!--设置单个文件上传大小为102.4kb-->
+                    <param name="maximumSize">1024000</param>
+                    <!--设置上传格式-->
+                    <param name="allowedTypes">image/jpg,image/jpeg,image/png</param>
+                </interceptor-ref>
+                <interceptor-ref name="defaultStack"/>
+            </interceptor-stack>
+        </interceptors>
+        <!--定义默认拦截器栈-->
+        <default-interceptor-ref name="fileStack"/>
+        <!--定义对应的action-->
+        <action name="one" class="cn.action.OneAction">
+            <!--配置上传地址-->
+            <param name="savePath">/images</param>
+            <result>index.jsp</result>
+        </action>
+        <action name="many" class="cn.action.ManyAction">
+            <!--配置上传地址-->
+            <param name="savePath">/images</param>
+            <result>many.jsp</result>
+            <result name="input">many.jsp</result>
+        </action>
+        <action name="down" class="cn.action.DownAction">
+            <!--配置下载地址-->
+            <param name="inputPath">/images</param>
+            <!--文件下载的type是stream-->
+            <result name="success" type="stream">
+                <!--设置下载数据类型-->
+                <param name="contentType">application/octet-stream<!--application/octet-stream 代表任意二进制文件 更多见笔记或www.baidu.com--></param>
+                <!--对应的数据流对象名字-->
+                <param name="inputName">inputStream</param>
+                <!--下载的时候打开提示框-->
+                <param name="contentDisposition">attachment;filename="${fileName}"</param>
+                <!--配置缓存区大小-->
+                <param name="bufferSize">5000</param>
+            </result>
+            <result name="input">down.jsp</result>
+        </action>
+    </package>
+
+</struts>

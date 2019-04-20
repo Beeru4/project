@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE configuration
+        PUBLIC "-//mybatis.org//DTD Config 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-config.dtd">
+<configuration>
+    <!--MyBatis配置文件-->
+    <!--引入数据库属性文件-->
+    <!--和Struts.xml一样 节点是有放的先后顺序-->
+    <!--  <properties resource="database.properties"/>-->
+    <properties resource="database.properties">
+        <!--使用property子节点配置-->
+        <property name="url" value="jdbc:mysql://localhost:3306/SMBMS?characterEncoding=utf-8"/>
+        <property name="driver" value="com.mysql.jdbc.Driver"/>
+        <property name="username" value="root"/>
+        <property name="password" value="12345678"/>
+    </properties>
+    <!--配置日志实现为LOG4J-->
+    <settings>
+        <setting name="logImpl" value="LOG4J"/>
+    </settings>
+    <!--设置别名-->
+    <typeAliases>
+        <package name="com.beerus.entity"/>
+    </typeAliases>
+    <!--配置MyBatis多套运行环境 default只可以有一个 -->
+    <environments default="developer">
+        <!--配置事务管理,采用JDBC的事务管理-->
+        <!--这套运行环境下只可以有一个id-->
+        <environment id="developer">
+            <transactionManager type="JDBC"></transactionManager>
+            <!--POOLED:MyBatis自带的数据源 JNDI:基于tomcat的数据源-->
+            <dataSource type="POOLED">
+                <!--读取属性文件的数据-->
+                <property name="url" value="${url}"/>
+                <property name="driver" value="${driver}"/>
+                <property name="username" value="${username}"/>
+                <property name="password" value="${password}"/>
+            </dataSource>
+        </environment>
+    </environments>
+    <!--在此映射mapper文件-->
+    <mappers>
+        <mapper resource="xml/ProviderMapper.xml"/>
+        <!--绝对路径-->
+        <!--    <mapper url=""/>-->
+    </mappers>
+</configuration>

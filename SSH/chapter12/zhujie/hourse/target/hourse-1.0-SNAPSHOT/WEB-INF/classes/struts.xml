@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE struts PUBLIC "-//Apache Software Foundation//DTD Struts Configuration 2.3//EN"
+        "http://struts.apache.org/dtds/struts-2.3.dtd">
+<!--配置Struts跳转路径-->
+<struts>
+    <!--配置错误信息-->
+    <constant name="struts.custom.i18n.resources" value="errorMsg"/>
+    <package name="user" namespace="/" extends="struts-default">
+        <!--拦截器-->
+        <interceptors>
+            <!--自定义拦截器-->
+            <interceptor name="loginInter" class="com.beerus.interceptor.LoginInterceptor"></interceptor>
+            <!--拦截器栈-->
+            <interceptor-stack name="interStack">
+                <!--默认拦截器栈 如果不写会被另外的覆盖-->
+                <!--对于defaultStack这个放的位置是有学问的 看你想优先执行谁 放在前面的最先执行-->
+                <!--注意:只对Action的请求才会发生作用-->
+                <interceptor-ref name="loginInter"/>
+                <interceptor-ref name="defaultStack"/>
+            </interceptor-stack>
+        </interceptors>
+
+        <!--定义默认拦截器-->
+        <default-interceptor-ref name="interStack"/>
+        <!--默认页面-->
+        <default-action-ref name="defaultAction"></default-action-ref>
+        <global-results>
+            <!--定义全局结果-->
+            <result name="login">page/login_struts2.jsp</result>
+            <result name="input">page/error.jsp</result>
+        </global-results>
+        <action name="defaultAction">
+            <!--默认跳到登录页面-->
+            <result>page/login_struts2.jsp</result>
+        </action>
+        <action name="login" class="com.beerus.action.UserAction" method="login_User">
+            <!--上机三效果-->
+           <!-- <result name="success" type="redirectAction">findAllList</result>-->
+            <!--上机五效果-->
+             <result name="success" type="redirectAction">uHouseList</result>
+           <!-- <result name="login">page/login_struts2.jsp</result>
+            <result name="input">page/error.jsp</result>-->
+        </action>
+        <!--用户通配控制-->
+        <action name="*User" class="com.beerus.action.UserAction" method="{1}_User">
+            <result name="success" type="redirect">page/{1}_success.jsp</result>
+            <result name="error">register.jsp</result>
+            <result name="input">page/register.jsp</result>
+        </action>
+        <!--查找房屋-->
+        <action name="*List" class="com.beerus.action.HouseAction" method="{1}_List">
+            <result>page/house_list.jsp</result>
+        </action>
+        <action name="*House" class="com.beerus.action.HouseAction" method="{1}_House">
+            <result>page/{1}.jsp</result>
+            <result name="addHouse" type="redirectAction">uHouseList</result>
+        </action>
+        <!--查找对应用户下的房屋-->
+        <action name="uHouseList" class="com.beerus.action.HouseAction" method="findByUserHouseList">
+            <result>page/manage.jsp</result>
+        </action>
+
+    </package>
+</struts>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+        "http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd" >
+<hibernate-mapping>
+    <!--name=类名 tale=表名-->
+    <class name="com.beerus.entity.District" table="DISTRICT" dynamic-update="true" dynamic-insert="true">
+        <id column="ID" name="id">
+            <generator class="assigned"></generator>
+        </id>
+        <property name="name" column="NAME"></property>
+        <!--双向一对多 一个区县对应多条街道 cascade = 集联操作 inverse=是是否制动维护 false代表自己维护 true代表别人维护 自己不管-->
+        <set name="datas" cascade="save-update" inverse="true">
+            <key column="DISTRICT_ID"></key>
+            <one-to-many class="com.beerus.entity.Street"></one-to-many>
+        </set>
+    </class>
+</hibernate-mapping>

@@ -1,0 +1,21 @@
+PL/SQL Developer Test script 3.0
+17
+-- 02.4
+declare 
+   CURSOR cursor_total
+   IS
+   SELECT order_total FROM orders;
+begin
+   -- 循环游标
+  FOR v_total IN cursor_total LOOP
+      IF v_total.order_total < 50000 THEN
+         DBMS_OUTPUT.PUT_LINE('需要提高订货额!');
+       ELSIF v_total.order_total > 50000 THEN
+         DBMS_OUTPUT.PUT_LINE('已达到订货额!');
+       ELSE
+         NULL;
+       END IF;
+      END LOOP;
+end;
+0
+0

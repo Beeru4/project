@@ -1,0 +1,21 @@
+PL/SQL Developer Test script 3.0
+17
+
+declare 
+  v_ename VARCHAR(1);
+  --异常类型
+  e_error EXCEPTION;
+  e_errormsg VARCHAR2(200):='成功';
+begin
+     SELECT ENAME INTO v_ename FROM emp WHERE EMPNO = 7369;
+ EXCEPTION
+ WHEN NO_DATA_FOUND THEN
+     e_errormsg:='没有找到数据!';
+ WHEN VALUE_ERROR THEN
+     e_errormsg:='长度超过变量长度!';
+ WHEN OTHERS THEN
+     e_errormsg:=SQLERRM;
+     DBMS_OUTPUT.PUT_LINE(e_errormsg);
+end;
+0
+0
