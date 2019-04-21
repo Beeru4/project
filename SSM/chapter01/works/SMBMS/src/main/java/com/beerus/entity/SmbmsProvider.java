@@ -1,140 +1,152 @@
 package com.beerus.entity;
 
 
-import java.sql.Timestamp;
+import java.util.Date;
+import java.util.List;
 
 /**
  * 供应商Bean
  */
 public class SmbmsProvider {
 
-  private Integer id;
-  private String proCode;
-  private String proName;
-  private String proDesc;
-  private String proContact;
-  private String proPhone;
-  private String proAddress;
-  private String proFax;
-  private Integer createBy;
-  private Timestamp creationDate;
-  private Integer modifyBy;
-  private Timestamp modifyDate;
+    private Integer id;
+    private String proCode;
+    private String proName;
+    private String proDesc;
+    private String proContact;
+    private String proPhone;
+    private String proAddress;
+    private String proFax;
+    private Integer createBy;
+    private Date creationDate;
+    private Integer modifyBy;
+    private Date modifyDate;
 
-  public SmbmsProvider() {
-  }
 
-  public Integer getId() {
-    return id;
-  }
+    private List<SmbmsBill> smbmsBills;//一个供应商对应多条订单
 
-  public void setId(Integer id) {
-    this.id = id;
-  }
+    public List<SmbmsBill> getSmbmsBills() {
+        return smbmsBills;
+    }
 
-  public String getProCode() {
-    return proCode;
-  }
+    public void setSmbmsBills(List<SmbmsBill> smbmsBills) {
+        this.smbmsBills = smbmsBills;
+    }
 
-  public void setProCode(String proCode) {
-    this.proCode = proCode;
-  }
+    public SmbmsProvider() {
+    }
 
-  public String getProName() {
-    return proName;
-  }
+    public Integer getId() {
+        return id;
+    }
 
-  public void setProName(String proName) {
-    this.proName = proName;
-  }
+    public void setId(Integer id) {
+        this.id = id;
+    }
 
-  public String getProDesc() {
-    return proDesc;
-  }
+    public String getProCode() {
+        return proCode;
+    }
 
-  public void setProDesc(String proDesc) {
-    this.proDesc = proDesc;
-  }
+    public void setProCode(String proCode) {
+        this.proCode = proCode;
+    }
 
-  public String getProContact() {
-    return proContact;
-  }
+    public String getProName() {
+        return proName;
+    }
 
-  public void setProContact(String proContact) {
-    this.proContact = proContact;
-  }
+    public void setProName(String proName) {
+        this.proName = proName;
+    }
 
-  public String getProPhone() {
-    return proPhone;
-  }
+    public String getProDesc() {
+        return proDesc;
+    }
 
-  public void setProPhone(String proPhone) {
-    this.proPhone = proPhone;
-  }
+    public void setProDesc(String proDesc) {
+        this.proDesc = proDesc;
+    }
 
-  public String getProAddress() {
-    return proAddress;
-  }
+    public String getProContact() {
+        return proContact;
+    }
 
-  public void setProAddress(String proAddress) {
-    this.proAddress = proAddress;
-  }
+    public void setProContact(String proContact) {
+        this.proContact = proContact;
+    }
 
-  public String getProFax() {
-    return proFax;
-  }
+    public String getProPhone() {
+        return proPhone;
+    }
 
-  public void setProFax(String proFax) {
-    this.proFax = proFax;
-  }
+    public void setProPhone(String proPhone) {
+        this.proPhone = proPhone;
+    }
 
-  public Integer getCreateBy() {
-    return createBy;
-  }
+    public String getProAddress() {
+        return proAddress;
+    }
 
-  public void setCreateBy(Integer createBy) {
-    this.createBy = createBy;
-  }
+    public void setProAddress(String proAddress) {
+        this.proAddress = proAddress;
+    }
 
-  public Timestamp getCreationDate() {
-    return creationDate;
-  }
+    public String getProFax() {
+        return proFax;
+    }
 
-  public void setCreationDate(Timestamp creationDate) {
-    this.creationDate = creationDate;
-  }
+    public void setProFax(String proFax) {
+        this.proFax = proFax;
+    }
 
-  public Integer getModifyBy() {
-    return modifyBy;
-  }
+    public Integer getCreateBy() {
+        return createBy;
+    }
 
-  public void setModifyBy(Integer modifyBy) {
-    this.modifyBy = modifyBy;
-  }
+    public void setCreateBy(Integer createBy) {
+        this.createBy = createBy;
+    }
 
-  public Timestamp getModifyDate() {
-    return modifyDate;
-  }
+    public Date getCreationDate() {
+        return creationDate;
+    }
 
-  public void setModifyDate(Timestamp modifyDate) {
-    this.modifyDate = modifyDate;
-  }
+    public void setCreationDate(Date creationDate) {
+        this.creationDate = creationDate;
+    }
 
-  @Override
-  public String toString() {
-    return "SmbmsProvider{" +
-            "id=" + id +
-            ", proCode='" + proCode + '\'' +
-            ", proName='" + proName + '\'' +
-            ", proDesc='" + proDesc + '\'' +
-            ", proContact='" + proContact + '\'' +
-            ", proPhone='" + proPhone + '\'' +
-            ", proAddress='" + proAddress + '\'' +
-            ", proFax='" + proFax + '\'' +
-            ", createBy=" + createBy +
-            ", creationDate=" + creationDate +
-            ", modifyBy=" + modifyBy +
-            ", modifyDate=" + modifyDate +
-            '}';
-  }
+    public Integer getModifyBy() {
+        return modifyBy;
+    }
+
+    public void setModifyBy(Integer modifyBy) {
+        this.modifyBy = modifyBy;
+    }
+
+    public Date getModifyDate() {
+        return modifyDate;
+    }
+
+    public void setModifyDate(Date modifyDate) {
+        this.modifyDate = modifyDate;
+    }
+
+    @Override
+    public String toString() {
+        return "SmbmsProvider{" +
+                "id=" + id +
+                ", proCode='" + proCode + '\'' +
+                ", proName='" + proName + '\'' +
+                ", proDesc='" + proDesc + '\'' +
+                ", proContact='" + proContact + '\'' +
+                ", proPhone='" + proPhone + '\'' +
+                ", proAddress='" + proAddress + '\'' +
+                ", proFax='" + proFax + '\'' +
+                ", createBy=" + createBy +
+                ", creationDate=" + creationDate +
+                ", modifyBy=" + modifyBy +
+                ", modifyDate=" + modifyDate +
+                '}';
+    }
 }

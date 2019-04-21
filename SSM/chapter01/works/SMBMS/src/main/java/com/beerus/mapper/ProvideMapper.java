@@ -1,6 +1,7 @@
 package com.beerus.mapper;
 
 import com.beerus.entity.SmbmsProvider;
+import org.apache.ibatis.annotations.Param;
 
 import java.util.List;
 
@@ -24,8 +25,46 @@ public interface ProvideMapper {
 
     /**
      * 查询所有供应商
+     *
+     * @param currPageNo 当前页码
+     * @param pageSize   页大小
      * @return
      * @throws Exception
      */
-    List<SmbmsProvider> list_FindAll() throws  Exception;
+    List<SmbmsProvider> list_FindAll(
+            @Param("currPageNo") Integer currPageNo,
+            @Param("pageSize") Integer pageSize) throws Exception;
+
+    /**
+     * 添加订单
+     *
+     * @param smbmsProvider
+     * @return
+     */
+    int save_Prov(SmbmsProvider smbmsProvider) throws Exception;
+
+    /**
+     * 修改订单
+     *
+     * @param smbmsProvider
+     * @return
+     */
+    int update_Prov(SmbmsProvider smbmsProvider) throws Exception;
+
+    /**
+     * 删除
+     *
+     * @param id
+     * @return
+     */
+    int delete_Prov(@Param("id") Integer id) throws Exception;
+
+    /**
+     * 根据条件+choose查询供应商
+     *
+     * @param smbmsProvider 条件
+     * @return
+     * @throws Exception
+     */
+    List<SmbmsProvider> list_FindByFilter(SmbmsProvider smbmsProvider) throws Exception;
 }

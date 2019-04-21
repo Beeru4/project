@@ -1,77 +1,102 @@
 package com.beerus.entity;
 
 
-import java.sql.Timestamp;
+import java.util.Date;
 
 /**
  * 角色Bean
  */
 public class SmbmsRole {
 
-  private Integer id;
-  private String roleCode;
-  private String roleName;
-  private Integer createBy;
-  private Timestamp creationDate;
-  private Integer modifyBy;
-  private Timestamp modifyDate;
+    private Integer id;
+    private String roleCode;
+    private String roleName;
+    private Integer createBy;
+    private Date creationDate;
+    private Integer modifyBy;
+    private Date modifyDate;
 
-  public SmbmsRole() {
-  }
 
-  public Integer getId() {
-    return id;
-  }
+    private Integer totalCount;//总行数
 
-  public void setId(Integer id) {
-    this.id = id;
-  }
+    public Integer getTotalCount() {
+        return totalCount;
+    }
 
-  public String getRoleCode() {
-    return roleCode;
-  }
+    public void setTotalCount(Integer totalCount) {
+        this.totalCount = totalCount;
+    }
 
-  public void setRoleCode(String roleCode) {
-    this.roleCode = roleCode;
-  }
+    public SmbmsRole() {
+    }
 
-  public String getRoleName() {
-    return roleName;
-  }
+    public Integer getId() {
+        return id;
+    }
 
-  public void setRoleName(String roleName) {
-    this.roleName = roleName;
-  }
+    public void setId(Integer id) {
+        this.id = id;
+    }
 
-  public Integer getCreateBy() {
-    return createBy;
-  }
+    public String getRoleCode() {
+        return roleCode;
+    }
 
-  public void setCreateBy(Integer createBy) {
-    this.createBy = createBy;
-  }
+    public void setRoleCode(String roleCode) {
+        this.roleCode = roleCode;
+    }
 
-  public Timestamp getCreationDate() {
-    return creationDate;
-  }
+    public String getRoleName() {
+        return roleName;
+    }
 
-  public void setCreationDate(Timestamp creationDate) {
-    this.creationDate = creationDate;
-  }
+    public void setRoleName(String roleName) {
+        this.roleName = roleName;
+    }
 
-  public Integer getModifyBy() {
-    return modifyBy;
-  }
+    public Integer getCreateBy() {
+        return createBy;
+    }
 
-  public void setModifyBy(Integer modifyBy) {
-    this.modifyBy = modifyBy;
-  }
+    public void setCreateBy(Integer createBy) {
+        this.createBy = createBy;
+    }
 
-  public Timestamp getModifyDate() {
-    return modifyDate;
-  }
+    public Date getCreationDate() {
+        return creationDate;
+    }
 
-  public void setModifyDate(Timestamp modifyDate) {
-    this.modifyDate = modifyDate;
-  }
+    public void setCreationDate(Date creationDate) {
+        this.creationDate = creationDate;
+    }
+
+    public Integer getModifyBy() {
+        return modifyBy;
+    }
+
+    public void setModifyBy(Integer modifyBy) {
+        this.modifyBy = modifyBy;
+    }
+
+    public Date getModifyDate() {
+        return modifyDate;
+    }
+
+    public void setModifyDate(Date modifyDate) {
+        this.modifyDate = modifyDate;
+    }
+
+    @Override
+    public String toString() {
+        return "SmbmsRole{" +
+                "id=" + id +
+                ", roleCode='" + roleCode + '\'' +
+                ", roleName='" + roleName + '\'' +
+                ", createBy=" + createBy +
+                ", creationDate=" + creationDate +
+                ", modifyBy=" + modifyBy +
+                ", modifyDate=" + modifyDate +
+                ", totalCount=" + totalCount +
+                '}';
+    }
 }

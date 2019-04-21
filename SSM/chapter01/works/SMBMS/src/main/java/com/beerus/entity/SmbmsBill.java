@@ -3,23 +3,44 @@ package com.beerus.entity;
 import java.sql.Timestamp;
 
 /**
- *订单Bean
+ * 订单Bean
  */
 public class SmbmsBill {
 
-  private Integer id;
-  private String billCode;
-  private String productName;
-  private String productDesc;
-  private String productUnit;
-  private double productCount;
-  private double totalPrice;
-  private Integer isPayment;
-  private Integer createBy;
-  private Timestamp creationDate;
-  private Integer modifyBy;
-  private Timestamp modifyDate;
-  private Integer providerId;
+    private Integer id;
+    private String billCode;
+    private String productName;
+    private String productDesc;
+    private String productUnit;
+    private double productCount;
+    private double totalPrice;
+    private Integer isPayment;
+    private Integer createBy;
+    private Timestamp creationDate;
+    private Integer modifyBy;
+    private Timestamp modifyDate;
+    private Integer providerId;
+
+    //添加供应商Bean
+    private SmbmsProvider provider;
+
+    public SmbmsProvider getProvider() {
+        return provider;
+    }
+
+    public void setProvider(SmbmsProvider provider) {
+        this.provider = provider;
+    }
+
+/* private String providerName; //新增属性 供应商姓名
+    //上机一效果
+    public String getProviderName() {
+        return providerName;
+    }
+
+    public void setProviderName(String providerName) {
+        this.providerName = providerName;
+    }*/
 
     public SmbmsBill() {
     }
@@ -126,5 +147,25 @@ public class SmbmsBill {
 
     public void setProviderId(Integer providerId) {
         this.providerId = providerId;
+    }
+
+    @Override
+    public String toString() {
+        return "SmbmsBill{" +
+                "id=" + id +
+                ", billCode='" + billCode + '\'' +
+                ", productName='" + productName + '\'' +
+                ", productDesc='" + productDesc + '\'' +
+                ", productUnit='" + productUnit + '\'' +
+                ", productCount=" + productCount +
+                ", totalPrice=" + totalPrice +
+                ", isPayment=" + isPayment +
+                ", createBy=" + createBy +
+                ", creationDate=" + creationDate +
+                ", modifyBy=" + modifyBy +
+                ", modifyDate=" + modifyDate +
+                ", providerId=" + providerId +
+                ", provider=" + provider +
+                '}';
     }
 }

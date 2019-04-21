@@ -30,7 +30,8 @@ public class MyBatisUtil {
      * @return
      */
     public static SqlSession openSession() throws Exception {
-        return sqlSessionFactory.openSession();
+        //开启事务控制
+        return sqlSessionFactory.openSession(false);
     }
 
     /**

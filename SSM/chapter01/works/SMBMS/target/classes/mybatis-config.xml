@@ -3,9 +3,11 @@
         PUBLIC "-//mybatis.org//DTD Config 3.0//EN"
         "http://mybatis.org/dtd/mybatis-3-config.dtd">
 <configuration>
-    <!--设置日志实现-->
     <settings>
+        <!--设置日志实现-->
         <setting name="logImpl" value="LOG4J"/>
+        <!--关闭自动映射级别-->
+        <setting name="autoMappingBehavior" value="NONE"/>
     </settings>
     <!--设置别名-->
     <typeAliases>
@@ -25,5 +27,8 @@
     <!--配置映射-->
     <mappers>
         <mapper resource="xml/ProvideMapper.xml"/>
+        <mapper resource="xml/BillMapper.xml"/>
+        <mapper resource="xml/RoleMapper.xml"/>
+        <mapper resource="xml/UserMapper.xml"/>
     </mappers>
 </configuration>
