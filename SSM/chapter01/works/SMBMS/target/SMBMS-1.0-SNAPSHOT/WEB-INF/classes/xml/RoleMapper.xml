@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Config 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<!--角色SQL映射-->
+<mapper namespace="com.beerus.mapper.RoleMapper">
+    <insert id="save_Role" parameterType="SmbmsRole">
+        INSERT INTO `smbms_role` VALUES
+          (DEFAULT,
+           #{roleCode},
+           #{roleName},
+           #{createBy},
+           #{creationDate},
+           NULL,
+           NULL)
+    </insert>
+    <update id="update_Role" parameterType="SmbmsRole">
+        UPDATE `smbms_role`
+          SET `roleName` = #{roleName}
+            WHERE `id` = #{id}
+    </update>
+    <select id="get_Role" parameterType="Integer" resultMap="role_Count">
+        SELECT  r.id as r_id,COUNT(r.id) AS rot_count
+	      FROM `smbms_role` as r,`smbms_user` as u
+		    WHERE  r.id = u.userRole
+			  AND r.id = #{id};
+    </select>
+    <resultMap id="role_Count" type="SmbmsRole">
+        <id property="id" column="r_id"/>
+        <result property="totalCount" column="rot_count"/>
+    </resultMap>
+    <delete id="delete_Role" parameterType="Integer">
+        DELETE  FROM `smbms_role` WHERE `id` = #{id}
+    </delete>
+    <select id="list_findByName" parameterType="String" resultMap="list_Role">
+        SELECT
+             `id`,
+             `roleCode`,
+             `roleName`,
+             `createBy`,
+             `creationDate`,
+             `modifyBy`,
+             `modifyDate`
+        FROM `smbms_role`
+        WHERE `roleName` LIKE CONCAT('%',#{name},'%')
+    </select>
+    <resultMap id="list_Role" type="SmbmsRole">
+        <id property="id" column="id"/>
+        <result property="roleCode" column="roleCode"/>
+        <result property="roleName" column="roleName"/>
+        <result property="createBy" column="createBy"/>
+        <result property="creationDate" column="creationDate"/>
+        <result property="creationDate" column="creationDate"/>
+        <result property="modifyBy" column="modifyBy"/>
+        <result property="modifyDate" column="modifyDate"/>
+    </resultMap>
+</mapper>

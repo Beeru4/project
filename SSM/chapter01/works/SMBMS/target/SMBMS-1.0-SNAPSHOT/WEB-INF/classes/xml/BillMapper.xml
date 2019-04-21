@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Config 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<!--订单SQL映射-->
+<mapper namespace="com.beerus.mapper.BillMapper">
+    <!--加入where的适合会自动往前面追加where 如果有连表 可以把AND放在后面-->
+    <select id="list_ByFilter" parameterType="smbmsBill" resultMap="listByFilter">
+        SELECT b.id as b_id,`billCode`,`productName`,p.id as p_id,
+        p.proName,`proCode`,`proContact`,`proPhone`,`totalPrice`,`isPayment`,b.creationDate as b_createDate
+        FROM `smbms_bill` as b,`smbms_provider` as p
+        <where>
+            <if test="productName != null and productName != ''">
+                AND b.productName LIKE CONCAT('%',#{productName},'%')
+            </if>
+            <if test="null != providerId">
+                AND b.providerId = #{providerId}
+            </if>
+            <if test="null != isPayment">
+                AND b.isPayment = #{isPayment}
+            </if>
+        </where>
+        AND b.providerId = p.id
+    </select>
+    <!--查询结果映射-->
+    <resultMap id="listByFilter" type="SmbmsBill">
+        <id property="id" column="b_id"/>
+        <result property="billCode" column="billCode"/>
+        <result property="productName" column="productName"/>
+        <result property="totalPrice" column="totalPrice"/>
+        <result property="isPayment" column="isPayment"/>
+        <result property="creationDate" column="b_createDate"/>
+        <association property="provider" resultMap="provider" javaType="SmbmsProvider"/>
+    </resultMap>
+    <!--共享结果映射-->
+    <resultMap id="provider" type="SmbmsProvider">
+        <id property="id" column="p_id"/>
+        <result property="proName" column="proName"/>
+        <result property="proCode" column="proCode"/>
+        <result property="proContact" column="proContact"/>
+        <result property="proPhone" column="proPhone"/>
+        <!--一个供应商下有多条订单-->
+        <collection property="smbmsBills" resultMap="billList" ofType="SmbmsBill"/>
+    </resultMap>
+    <resultMap id="billList" type="SmbmsBill">
+        <id property="id" column="b_id"/>
+        <result property="billCode" column="billCode"/>
+        <result property="productName" column="productName"/>
+        <result property="totalPrice" column="totalPrice"/>
+        <result property="isPayment" column="isPayment"/>
+    </resultMap>
+    <select id="list_findByInAndArray" resultMap="listByFilter">
+        SELECT b.id as b_id,`billCode`,`productName`,p.id as p_id,
+        p.proName,`proCode`,`proContact`,`proPhone`,`totalPrice`,`isPayment`,b.creationDate as b_createDate
+        FROM `smbms_bill` as b,`smbms_provider` as p
+        WHERE b.providerId = p.id
+        AND p.id IN
+        <foreach collection="array" item="provId" open="(" separator="," close=")">
+            #{provId}
+        </foreach>
+    </select>
+    <select id="list_findByInAndList" resultMap="listByFilter">
+        SELECT b.id as b_id,`billCode`,`productName`,p.id as p_id,
+        p.proName,`proCode`,`proContact`,`proPhone`,`totalPrice`,`isPayment`,b.creationDate as b_createDate
+        FROM `smbms_bill` as b,`smbms_provider` as p
+        WHERE b.providerId = p.id
+        AND p.id IN
+        <foreach collection="list" item="provId" open="(" separator="," close=")">
+            #{provId}
+        </foreach>
+    </select>
+    <select id="list_findByInAdnMap" resultMap="listByFilter">
+        SELECT b.id as b_id,`billCode`,`productName`,p.id as p_id,
+        p.proName,`proCode`,`proContact`,`proPhone`,`totalPrice`,`isPayment`,b.creationDate as b_createDate
+        FROM `smbms_bill` as b,`smbms_provider` as p
+        <where>
+            <if test="null !=productName and '' != productName">
+                AND `productName` LIKE CONCAT('%',#{productName},'%')
+            </if>
+        </where>
+        AND p.id IN
+        <foreach collection="provIds" item="id" open="(" separator="," close=")">
+            #{id}
+        </foreach>
+    </select>
+</mapper>

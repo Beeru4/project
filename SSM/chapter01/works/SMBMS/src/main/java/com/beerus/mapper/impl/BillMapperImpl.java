@@ -31,6 +31,16 @@ public class BillMapperImpl implements BillMapper {
     }
 
     @Override
+    public int cout_Row() {
+        return 0;
+    }
+
+    @Override
+    public List<SmbmsBill> list_findByFilterOrPage(Map<String, Object> params) {
+        return null;
+    }
+
+    @Override
     public List<SmbmsBill> list_findByInAndArray(Integer[] provIds) throws Exception {
         SqlSession sqlSession = null;
         try {

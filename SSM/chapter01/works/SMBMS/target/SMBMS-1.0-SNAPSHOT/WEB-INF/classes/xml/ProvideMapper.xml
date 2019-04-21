@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Config 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<!--供应商SQL映射-->
+<mapper namespace="com.beerus.mapper.ProvideMapper">
+    <select id="count_TotalRow" resultType="int">
+      SELECT COUNT(id) FROM smbms_provider
+    </select>
+    <select id="list_FindAll"  resultMap="listProvider">
+      SELECT  * FROM smbms_provider LIMIT #{currPageNo},#{pageSize}
+    </select>
+    <insert id="save_Prov" parameterType="SmbmsProvider">
+        INSERT INTO `smbms_provider` VALUES
+          (DEFAULT,
+          #{proCode},
+          #{proName},
+          #{proDesc},
+          #{proContact},
+          #{proPhone},
+          #{proAddress},
+          #{proFax},
+          #{createBy},
+          #{creationDate},
+          NULL,
+          NULL)
+    </insert>
+    <update id="update_Prov" parameterType="SmbmsProvider">
+        UPDATE `smbms_provider`
+        <set>
+            <if test="null != proName">`proName` = #{proName},</if>
+            <if test="null!= proDesc">`proDesc` = #{proDesc},</if>
+            <if test="null!= proContact">`proContact` = #{proContact},</if>
+            <if test="null!= proAddress">`proAddress` = #{proAddress},</if>
+        </set>
+        WHERE `id` = #{id}
+    </update>
+    <delete id="delete_Prov" parameterType="Integer">
+         DELETE FROM `smbms_provider`
+           WHERE `id` = #{id}
+     </delete>
+    <select id="list_FindByFilter" resultMap="listProvider">
+        SELECT `id`,`proCode`,`proName`,`proContact`,`creationDate`
+        FROM `smbms_provider` WHERE 1 = 1
+        <choose>
+            <when test="null != proCode and '' != proCode">AND `proCode` LIKE CONCAT('%',#{proCode},'%')</when>
+            <when test="null != proName and '' != proName">AND `proName` LIKE CONCAT('%',#{proName},'%')</when>
+            <when test="null != proContact and '' != proContact">AND `proContact` LIKE CONCAT('%',#{proContact},'%')</when>
+            <otherwise>AND `creationDate` = #{creationDate}</otherwise>
+        </choose>
+    </select>
+    <resultMap id="listProvider" type="SmbmsProvider">
+        <id property="id" column="id"/>
+        <result property="proCode" column="proCode"/>
+        <result property="proName" column="proName"/>
+        <result property="proContact" column="proContact"/>
+        <result property="creationDate" column="creationDate"/>
+    </resultMap>
+</mapper>
