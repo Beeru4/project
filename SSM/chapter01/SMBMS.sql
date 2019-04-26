@@ -70,13 +70,13 @@ CREATE TABLE `smbms_role`(
 DROP DATABASE IF EXISTS `smbms_provider`;
 CREATE TABLE `smbms_provider`(
 	`id` BIGINT(20) PRIMARY KEY AUTO_INCREMENT,	#主键ID
-    `proCode` VARCHAR(20),						#供应商编码
-    `proName` VARCHAR(20),						#供应商名称
-    `proDesc` VARCHAR(20),						#供应商详细地址
-    `proContact` VARCHAR(20),					#供应商联系人
-    `proPhone` VARCHAR(20),						#联系电话
-    `proAddress` VARCHAR(20),					#地址	
-    `proFax` VARCHAR(20),						#传真
+    `proCode` VARCHAR(50),						#供应商编码
+    `proName` VARCHAR(50),						#供应商名称
+    `proDesc` VARCHAR(50),						#供应商详细地址
+    `proContact` VARCHAR(50),					#供应商联系人
+    `proPhone` VARCHAR(50),						#联系电话
+    `proAddress` VARCHAR(50),					#地址	
+    `proFax` VARCHAR(50),						#传真
     `createBy` BIGINT(20),						#创建者(userID)
     `creationDate` DATETIME,					#创建数据
     `modifyBy` BIGINT,							#修改者

@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:p="http://www.springframework.org/schema/p"
+       xmlns:context="http://www.springframework.org/schema/context"
+       xmlns:aop="http://www.springframework.org/schema/aop"
+       xmlns:tx="http://www.springframework.org/schema/tx"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+    http://www.springframework.org/schema/beans/spring-beans-3.0.xsd
+    http://www.springframework.org/schema/context
+    http://www.springframework.org/schema/context/spring-context-3.0.xsd
+    http://www.springframework.org/schema/tx
+    http://www.springframework.org/schema/tx/spring-tx-3.0.xsd
+    http://www.springframework.org/schema/aop
+    http://www.springframework.org/schema/aop/spring-aop-3.0.xsd">
+    <!--work01-->
+    <bean id="zhang" class="com.beerus.test.Greeting">
+        <property name="userName" value="张嘎"/>
+        <property name="context" value="三天不打小鬼子,手都痒痒!"/>
+    </bean>
+    <bean id="rod" class="com.beerus.test.Greeting">
+        <property name="userName" value="Rod"/>
+        <property name="context" value="世界上有10种人,认识二进制的和不认识二进制的."/>
+    </bean>
+
+    <!--work02-->
+    <!--彩色墨盒-->
+    <bean id="colorInk" class="com.beerus.ink.ColorInk"></bean>
+    <bean id="greyInk" class="com.beerus.ink.GreyInk"></bean>
+    <!--纸张-->
+    <bean id="textPaper" class="com.beerus.print.TextPaper">
+        <property name="charPerLine" value="4"/>
+        <property name="linePerPage" value="6"/>
+    </bean>
+    <!--打印机-->
+    <bean id="printer" class="com.beerus.print.Printer">
+        <!--装配打印机-->
+        <property name="ink" ref="colorInk"/>
+        <property name="paper" ref="textPaper"/>
+    </bean>
+
+
+    <!--work03-->
+    <bean id="daoImpl" class="com.beerus.dao.impl.UserDaoImpl"></bean>
+    <bean id="serviceLogger" class="com.beerus.aop.ServiceLogger"></bean>
+    <bean id="userServiceIMpl" class="com.beerus.service.impl.UserServiceImpl">
+        <property name="userDao" ref="daoImpl"></property>
+    </bean>
+
+    <!--定义切入点-->
+    <aop:config>
+        <aop:pointcut id="userService" expression="execution(int add(com.beerus.entiy.User))"/>
+        <aop:aspect ref="serviceLogger">
+            <aop:before method="before" pointcut-ref="userService"></aop:before>
+            <aop:after-returning method="afterReturning" pointcut-ref="userService" returning="result"/>
+        </aop:aspect>
+    </aop:config>
+</beans>

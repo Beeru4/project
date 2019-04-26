@@ -65,6 +65,7 @@
         FROM `smbms_bill` as b,`smbms_provider` as p
         WHERE b.providerId = p.id
         AND p.id IN
+      /*#{list}*/
         <foreach collection="list" item="provId" open="(" separator="," close=")">
             #{provId}
         </foreach>

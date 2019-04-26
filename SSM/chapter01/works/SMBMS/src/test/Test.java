@@ -45,7 +45,7 @@ public class Test {
     @org.junit.Test
     public void testList_FindAll() throws Exception {
         //修改为分页查询
-        new ProvideServiceImpl().list_FindAll(2, 5).getPages().forEach(prov -> logger.debug(prov));
+        new ProvideServiceImpl().list_FindAll(1, 5).getPages().forEach(prov -> logger.debug(prov));
 
     }
 
@@ -97,9 +97,9 @@ public class Test {
     public void testUpdate_Prove() throws Exception {
         SmbmsProvider smbmsProvider = new SmbmsProvider();
         smbmsProvider.setId(4415);
-        //smbmsProvider.setProName("testUpdateProName");
-        smbmsProvider.setProAddress("testSetUpdateAddress");
-        smbmsProvider.setProContact("testSetUpdateContact");
+        smbmsProvider.setProName("2");
+        smbmsProvider.setProAddress("2");
+        smbmsProvider.setProContact("2");
         logger.debug(new ProvideServiceImpl().update_Prov(smbmsProvider));
     }
 

@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:p="http://www.springframework.org/schema/p"
+       xmlns:context="http://www.springframework.org/schema/context"
+       xmlns:aop="http://www.springframework.org/schema/aop"
+       xmlns:tx="http://www.springframework.org/schema/tx"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+    http://www.springframework.org/schema/beans/spring-beans-3.0.xsd
+    http://www.springframework.org/schema/context
+    http://www.springframework.org/schema/context/spring-context-3.0.xsd
+    http://www.springframework.org/schema/tx
+    http://www.springframework.org/schema/tx/spring-tx-3.0.xsd
+    http://www.springframework.org/schema/aop
+    http://www.springframework.org/schema/aop/spring-aop-3.0.xsd">
+    <!--work1-->
+    <!--构造方法注入-->
+    <bean id="zhang" class="com.beerus.test.Greeting">
+        <!--设置第一个参数-->
+        <constructor-arg index="0">
+            <value>张嘎</value>
+        </constructor-arg>
+        <!--设置第二个参数-->
+        <constructor-arg index="1">
+            <value>三天不打小鬼,手都痒痒!</value>
+        </constructor-arg>
+    </bean>
+    <bean id="rod" class="com.beerus.test.Greeting">
+        <constructor-arg index="0">
+            <value>Rod</value>
+        </constructor-arg>
+        <constructor-arg index="1">
+            <value>世界上有10种人,认识二进制的和不认识二进制的.</value>
+        </constructor-arg>
+    </bean>
+
+    <!--work2-->
+    <!--p命名空间注入  xmlns:p="http://www.springframework.org/schema/p 要引入这个才可以用-->
+    <bean id="zhang2" class="com.beerus.test.Greeting2" p:userName="张嘎" p:context="三天不打小鬼,手都痒痒!"></bean>
+    <bean id="rod2" class="com.beerus.test.Greeting2" p:userName="Rod" p:context="世界上有10种人,认识二进制的和不认识二进制的."></bean>
+
+    <!--work3-->
+    <!--userDaoBean-->
+    <bean id="userDao" class="com.beerus.dao.impl.UserDaoImpl"></bean>
+    <!--使用p命名空间注入UserDao-->
+    <bean id="userService" class="com.beerus.service.impl.UserServiceImpl" p:userDao-ref="userDao"></bean>
+
+
+    <!--测试事务增强-->
+    <bean id="serviceLogger" class="com.beerus.aop.ServiceLogger"></bean>
+    <!--配置切入点和环绕增强-->
+    <aop:config>
+        <aop:pointcut id="pointcut" expression="execution(int add(com.beerus.entiy.User))"></aop:pointcut>
+        <aop:aspect ref="serviceLogger">
+            <aop:around method="around" pointcut-ref="pointcut"/>
+        </aop:aspect>
+    </aop:config>
+</beans>

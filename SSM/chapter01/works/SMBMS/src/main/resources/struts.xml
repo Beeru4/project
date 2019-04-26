@@ -7,5 +7,9 @@
             <result name="success" type="redirect">jsp/frame.jsp</result>
             <result name="error">login.jsp</result>
         </action>
+
+        <action name="*Bill" class="com.beerus.action.BillAction" method="*_Bill">
+            <result name="success">${nextPage}.jsp</result>
+        </action>
     </package>
 </struts>
