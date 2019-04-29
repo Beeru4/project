@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Config 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<!--角色SQL映射-->
+<mapper namespace="com.beerus.mapper.RoleMapper">
+    <select id="list_Role" resultMap="listRole">
+        SELECT  `id`,`roleName`
+        FROM `smbms_role`
+    </select>
+    <resultMap id="listRole" type="Role">
+        <id property="id" column="id"/>
+        <result property="roleName" column="roleName"/>
+    </resultMap>
+</mapper>

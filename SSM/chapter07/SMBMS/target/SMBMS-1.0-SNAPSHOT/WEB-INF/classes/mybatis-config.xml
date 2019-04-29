@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE configuration
+        PUBLIC "-//mybatis.org//DTD Config 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-config.dtd">
+<configuration>
+    <!--引入外部数据库链接字符串-->
+    <properties resource="database.properties"/>
+    <!--运行设置-->
+    <settings>
+        <setting name="logImpl" value="STDOUT_LOGGING"/>
+        <setting name="autoMappingBehavior" value="NONE"/>
+    </settings>
+    <!--别名-->
+    <typeAliases>
+        <package name="com.beerus.entity"/>
+    </typeAliases>
+    <!--配置环境-->
+    <environments default="default">
+        <environment id="default">
+            <transactionManager type="JDBC"></transactionManager>
+            <dataSource type="POOLED">
+                <property name="url" value="${url}"/>
+                <property name="driver" value="${driver}"/>
+                <property name="username" value="${username}"/>
+                <property name="password" value="${password}"/>
+            </dataSource>
+        </environment>
+    </environments>
+    <!--配置SQL映射文件-->
+    <mappers>
+        <mapper resource="xml/UserMapper.xml"/>
+        <mapper resource="xml/ProvideMapper.xml"/>
+        <mapper resource="xml/BillMapper.xml"/>
+        <mapper resource="xml/RoleMapper.xml"/>
+    </mappers>
+</configuration>

@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:p="http://www.springframework.org/schema/p"
+       xmlns:context="http://www.springframework.org/schema/context"
+       xmlns:aop="http://www.springframework.org/schema/aop"
+       xmlns:tx="http://www.springframework.org/schema/tx"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+    http://www.springframework.org/schema/beans/spring-beans-3.0.xsd
+    http://www.springframework.org/schema/context
+    http://www.springframework.org/schema/context/spring-context-3.0.xsd
+    http://www.springframework.org/schema/tx
+    http://www.springframework.org/schema/tx/spring-tx-3.0.xsd
+    http://www.springframework.org/schema/aop
+    http://www.springframework.org/schema/aop/spring-aop-3.0.xsd">
+    <!--配置数据源  (destroy-method="close)当数据库连接不使用的时候,就把该连接重新放到数据池中,方便下次使用调用-->
+    <bean id="dataSource" class="org.apache.commons.dbcp.BasicDataSource" destroy-method="close">
+        <property name="driverClassName" value="com.mysql.jdbc.Driver"/>
+        <property name="url" value="jdbc:mysql://localhost:3306/SMBMS?useUnicode=true&amp;characterEncoding=UTF-8"/>
+        <property name="username" value="root"/>
+        <property name="password" value="12345678"/>
+    </bean>
+    <!--配置sessionFactoryBean-->
+    <bean id="sqlSessionFactory" class="org.mybatis.spring.SqlSessionFactoryBean">
+        <!--引用数据源-->
+        <property name="dataSource" ref="dataSource"/>
+        <!--如果想保留MyBatis配置文件 可指定的位置-->
+        <property name="configLocation" value="mybatis-config.xml"/>
+        <!--配置SQL映射文件-->
+        <property name="mapperLocations">
+            <list>
+                <!-- <value>xml/BillMapper.xml</value>
+                 <value>xml/ProvideMapper.xml</value>
+                 <value>xml/RoleMapper.xml</value>
+                 <value>xml/UserMapper.xml</value>-->
+                <!--通配符指定-->
+                <value>xml/*Mapper.xml</value>
+            </list>
+        </property>
+        <!--别名-->
+        <property name="typeAliasesPackage" value="com.beerus.entity"/>
+    </bean>
+    <!--第一种方式得到SqlSession-->
+    <!--配置SqlSessionTemplate代替SqlSeesion-->
+    <bean id="sqlSessionTemplate" class="org.mybatis.spring.SqlSessionTemplate">
+        <!--使用构造函数注入-->
+        <constructor-arg name="sqlSessionFactory" ref="sqlSessionFactory"></constructor-arg>
+    </bean>
+    <!--配置BillMapperImpl 注入配置SqlSessionTemplate-->
+    <bean id="billMapper" class="com.beerus.mapper.impl.BillMapperImpl">
+        <property name="sqlSessionTemplate" ref="sqlSessionTemplate"/>
+    </bean>
+
+
+    <!--第二种方式得到SqlSession-->
+    <!--使用SqlSessionDaoSupport创建SqlSession-->
+    <bean id="provideMapper" class="com.beerus.mapper.impl.ProvideMapperImpl">
+        <!--配置父类的sqlSessionFactory-->
+        <property name="sqlSessionFactory" ref="sqlSessionFactory"/>
+    </bean>
+
+
+    <!--01:使用MapperFactoryBean注入映射器-->
+    <bean id="roleMapper" class="org.mybatis.spring.mapper.MapperFactoryBean">
+        <!--此处只可以指定接口-->
+        <property name="mapperInterface" value="com.beerus.mapper.RoleMapper"/>
+        <property name="sqlSessionFactory" ref="sqlSessionFactory"/>
+    </bean>
+
+
+    <!--02:使用MapperScannerConfigurer-->
+    <bean class="org.mybatis.spring.mapper.MapperScannerConfigurer">
+        <!--扫描的基准包-->
+        <property name="basePackage" value="com.beerus.mapper"/>
+        <!--配置SqlSqlSessionFactory实例-->
+        <property name="sqlSessionFactoryBeanName" value="sqlSessionFactory"/>
+    </bean>
+    <bean id="userService" class="com.beerus.service.impl.UserServiceImpl">
+        <property name="userMapper" ref="userMapper"/>
+    </bean>
+
+
+    <bean id="userMaaper" class="com.beerus.mapper.impl.UserMapperImpl">
+        <property name="sqlSessionFactory" ref="sqlSessionFactory"/>
+    </bean>
+
+
+    <!--1.配置事务管理器-->
+    <bean id="txManager" class="org.springframework.jdbc.datasource.DataSourceTransactionManager">
+        <!--指定数据源-->
+        <property name="dataSource" ref="dataSource"/>
+    </bean>
+
+<!--
+   &lt;!&ndash;  2.配置事务增强&ndash;&gt;
+     <tx:advice id="txAdvice" transaction-manager="txManager">
+         &lt;!&ndash;定义属性 声明事务规则&ndash;&gt;
+         <tx:attributes>
+             <tx:method name="save*,delete*,update*"/>
+             &lt;!&ndash;为查询开启只读 提高性能&ndash;&gt;
+             <tx:method name="list*,get*,count*" read-only="true"/>
+         </tx:attributes>
+     </tx:advice>
+
+     &lt;!&ndash;3.配置切面&ndash;&gt;
+     <aop:config>
+         <aop:pointcut id="serviceAop" expression="execution(* com.beerus.service..*.*(..))"/>
+         &lt;!&ndash;集合事务增强&ndash;&gt;
+         <aop:advisor advice-ref="txAdvice" pointcut-ref="serviceAop"/>
+     </aop:config>
+-->
+
+
+    <!--使用注解声明事务-->
+    <tx:annotation-driven transaction-manager="txManager"/>
+</beans>
