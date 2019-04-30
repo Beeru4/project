@@ -107,7 +107,7 @@ public class UserMgrAction extends ActionSupport {
                 result = "{\"delResult\":\"true\"}";
             } else {
                 //删除失败
-                result = "{\"delResult\":\"true\"}";
+                result = "{\"delResult\":\"false\"}";
             }
         }
         writer.print(result);

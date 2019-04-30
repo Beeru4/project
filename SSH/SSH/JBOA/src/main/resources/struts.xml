@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE struts PUBLIC "-//Apache Software Foundation//DTD Struts Configuration 2.3//EN"
+        "http://struts.apache.org/dtds/struts-2.3.dtd">
+<struts>
+    <package name="default" extends="struts-default" namespace="/">
+        <global-results>
+            <result name="input">/error.jsp</result>
+        </global-results>
+        <action name="login" class="com.beerus.action.EmpAction" method="login">
+            <result name="input">/login.jsp</result>
+            <result name="login">/login.jsp</result>
+            <result name="success" type="redirect">/index.jsp</result>
+        </action>
+        <action name="*Voucher" method="{1}_Voucher" class="com.beerus.action.CVoucherAction">
+            <result>${nextPage}.jsp</result>
+        </action>
+    </package>
+</struts>

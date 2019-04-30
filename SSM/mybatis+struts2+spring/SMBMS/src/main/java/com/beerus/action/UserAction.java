@@ -23,13 +23,30 @@ import java.io.PrintWriter;
 public class UserAction extends ActionSupport {
 
     @Resource(name = "userService")
-    private UserService userService;//用户业务层
-
-    private String userCode;//用户编码
-    private String userPassword;//用户密码
-    private String oldpassword;//旧密码
-    private String rnewpassword;//新密码
-    private String method;//标示变量
+    /**
+     * 用户业务层
+     */
+    private UserService userService;
+    /**
+     * 用户编码
+     */
+    private String userCode;
+    /**
+     * 用户密码
+     */
+    private String userPassword;
+    /**
+     * 旧密码
+     */
+    private String oldpassword;
+    /**
+     * 新密码
+     */
+    private String rnewpassword;
+    /**
+     * 标示变量
+     */
+    private String method;
 
     @Override
     public String execute() throws Exception {
@@ -51,7 +68,8 @@ public class UserAction extends ActionSupport {
     public String checkPwd() throws Exception {
         PrintWriter writer = ServletActionContext.getResponse().getWriter();
         Object user = ServletActionContext.getRequest().getSession().getAttribute("user");
-        String result = null;//结果
+        //结果
+        String result = null;
         if (null == oldpassword) {
             //密码为空
             result = "error";
@@ -95,11 +113,12 @@ public class UserAction extends ActionSupport {
 
     @Override
     public void validate() {
-        if (null != method && "login".equals(method.trim()))
+        if (null != method && "login".equals(method.trim())){
             //验证账号和密码是否为空
             if (null == userCode || "".equals(userCode.trim()) || null == userPassword || "".equals(userPassword.trim())) {
                 this.addActionMessage("账号密码不能为空!");
             }
+        }
     }
 
 

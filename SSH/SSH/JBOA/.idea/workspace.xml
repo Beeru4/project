@@ -1,0 +1,375 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="d88b8b97-080d-44a2-9a86-9595f281f276" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../../../SSM/chapter06/Spring/.idea/Spring.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../SSM/chapter06/Spring/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../SSM/chapter06/Spring/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../SSM/chapter06/annotation/Spring/.idea/Spring.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../SSM/chapter06/annotation/Spring/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../SSM/mybatis+struts2+spring/SMBMS/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../SSM/mybatis+struts2+spring/SMBMS/src/main/resources/database.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../chapter14/JBOA/.idea/dataSources.local.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../chapter14/JBOA/.idea/dataSources.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../chapter14/JBOA/.idea/dataSources/f81a670e-a153-44d6-9d1c-76f1a6bf3447.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../chapter14/JBOA/.idea/uiDesigner.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../chapter14/JBOA/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../chapter14/JBOA/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../chapter14/JBOA/src/main/webapp/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../chapter14/JBOA/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../chapter14/JBOA/src/main/webapp/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../../chapter14/JBOA/src/main/webapp/index.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../chapter14/JBOA/src/main/webapp/jsp/claim/claim_voucher_check.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../../chapter14/JBOA/src/main/webapp/jsp/claim/claim_voucher_check.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../chapter14/JBOA/src/main/webapp/jsp/claim/claim_voucher_edit.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../../chapter14/JBOA/src/main/webapp/jsp/claim/claim_voucher_edit.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../chapter14/JBOA/src/main/webapp/jsp/claim/claim_voucher_list.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../../chapter14/JBOA/src/main/webapp/jsp/claim/claim_voucher_list.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../chapter14/JBOA/src/main/webapp/jsp/claim/claim_voucher_update.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../../chapter14/JBOA/src/main/webapp/jsp/claim/claim_voucher_update.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../chapter14/JBOA/src/main/webapp/jsp/claim/claim_voucher_view.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../../chapter14/JBOA/src/main/webapp/jsp/claim/claim_voucher_view.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../chapter14/JBOA/target/JBOA-1.0-SNAPSHOT/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../chapter14/JBOA/target/JBOA-1.0-SNAPSHOT/WEB-INF/web.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../chapter14/JBOA/target/JBOA-1.0-SNAPSHOT/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../../chapter14/JBOA/target/JBOA-1.0-SNAPSHOT/index.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../chapter14/JBOA/target/JBOA-1.0-SNAPSHOT/jsp/claim/claim_voucher_check.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../../chapter14/JBOA/target/JBOA-1.0-SNAPSHOT/jsp/claim/claim_voucher_check.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../chapter14/JBOA/target/JBOA-1.0-SNAPSHOT/jsp/claim/claim_voucher_edit.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../../chapter14/JBOA/target/JBOA-1.0-SNAPSHOT/jsp/claim/claim_voucher_edit.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../chapter14/JBOA/target/JBOA-1.0-SNAPSHOT/jsp/claim/claim_voucher_list.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../../chapter14/JBOA/target/JBOA-1.0-SNAPSHOT/jsp/claim/claim_voucher_list.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../chapter14/JBOA/target/JBOA-1.0-SNAPSHOT/jsp/claim/claim_voucher_update.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../../chapter14/JBOA/target/JBOA-1.0-SNAPSHOT/jsp/claim/claim_voucher_update.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../chapter14/JBOA/target/JBOA-1.0-SNAPSHOT/jsp/claim/claim_voucher_view.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../../chapter14/JBOA/target/JBOA-1.0-SNAPSHOT/jsp/claim/claim_voucher_view.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../chapter14/JBOA/target/classes/com/beerus/entity/SysEmployee 2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../chapter14/Untitled.sql" beforeDir="false" afterPath="$PROJECT_DIR$/../../chapter14/Untitled.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../SSM/chapter06/Spring/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../SSM/chapter06/Spring/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../SSM/chapter06/Spring/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../SSM/chapter06/Spring/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../SSM/chapter06/annotation/Spring/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../SSM/chapter06/annotation/Spring/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../SSM/chapter06/annotation/Spring/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../SSM/chapter06/annotation/Spring/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../SSM/mybatis+struts2+spring/SMBMS/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../SSM/mybatis+struts2+spring/SMBMS/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../SSM/mybatis+struts2+spring/SMBMS/src/main/java/com/beerus/action/UserAction.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../SSM/mybatis+struts2+spring/SMBMS/src/main/java/com/beerus/action/UserAction.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../SSM/mybatis+struts2+spring/SMBMS/src/main/java/com/beerus/action/UserMgrAction.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../SSM/mybatis+struts2+spring/SMBMS/src/main/java/com/beerus/action/UserMgrAction.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../SSM/mybatis+struts2+spring/SMBMS/src/main/resources/spring-config.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../SSM/mybatis+struts2+spring/SMBMS/src/main/resources/spring-config.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../SSM/mybatis+struts2+spring/SMBMS/src/main/resources/xml/UserMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../SSM/mybatis+struts2+spring/SMBMS/src/main/resources/xml/UserMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../SSM/mybatis+struts2+spring/SMBMS/src/main/webapp/jsp/userview.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../../../SSM/mybatis+struts2+spring/SMBMS/src/main/webapp/jsp/userview.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../SSM/mybatis+struts2+spring/SMBMS/target/SMBMS-1.0-SNAPSHOT/WEB-INF/classes/com/beerus/action/UserAction.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../../SSM/mybatis+struts2+spring/SMBMS/target/SMBMS-1.0-SNAPSHOT/WEB-INF/classes/com/beerus/action/UserAction.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../SSM/mybatis+struts2+spring/SMBMS/target/SMBMS-1.0-SNAPSHOT/WEB-INF/classes/com/beerus/action/UserMgrAction.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../../SSM/mybatis+struts2+spring/SMBMS/target/SMBMS-1.0-SNAPSHOT/WEB-INF/classes/com/beerus/action/UserMgrAction.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../SSM/mybatis+struts2+spring/SMBMS/target/SMBMS-1.0-SNAPSHOT/WEB-INF/classes/database.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../../../SSM/mybatis+struts2+spring/SMBMS/target/SMBMS-1.0-SNAPSHOT/WEB-INF/classes/database.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../SSM/mybatis+struts2+spring/SMBMS/target/SMBMS-1.0-SNAPSHOT/WEB-INF/classes/spring-config.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../SSM/mybatis+struts2+spring/SMBMS/target/SMBMS-1.0-SNAPSHOT/WEB-INF/classes/spring-config.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../SSM/mybatis+struts2+spring/SMBMS/target/SMBMS-1.0-SNAPSHOT/WEB-INF/classes/xml/UserMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../SSM/mybatis+struts2+spring/SMBMS/target/SMBMS-1.0-SNAPSHOT/WEB-INF/classes/xml/UserMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../SSM/mybatis+struts2+spring/SMBMS/target/SMBMS-1.0-SNAPSHOT/jsp/userview.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../../../SSM/mybatis+struts2+spring/SMBMS/target/SMBMS-1.0-SNAPSHOT/jsp/userview.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../SSM/mybatis+struts2+spring/SMBMS/target/classes/com/beerus/action/UserAction.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../../SSM/mybatis+struts2+spring/SMBMS/target/classes/com/beerus/action/UserAction.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../SSM/mybatis+struts2+spring/SMBMS/target/classes/com/beerus/action/UserMgrAction.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../../SSM/mybatis+struts2+spring/SMBMS/target/classes/com/beerus/action/UserMgrAction.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../SSM/mybatis+struts2+spring/SMBMS/target/classes/spring-config.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../SSM/mybatis+struts2+spring/SMBMS/target/classes/spring-config.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../SSM/mybatis+struts2+spring/SMBMS/target/classes/xml/UserMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../SSM/mybatis+struts2+spring/SMBMS/target/classes/xml/UserMapper.xml" afterDir="false" />
+    </list>
+    <ignored path="$PROJECT_DIR$/out/" />
+    <ignored path="$PROJECT_DIR$/target/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="ROOT_SYNC" value="DONT_SYNC" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../.." />
+    <option name="UPDATE_BRANCHES_INFO" value="false" />
+  </component>
+  <component name="JsFlowSettings">
+    <service-enabled>true</service-enabled>
+    <exe-path />
+    <other-services-enabled>true</other-services-enabled>
+    <auto-save>true</auto-save>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="localRepository" value="$PROJECT_DIR$/../../../../../maven/maven_jar" />
+        <option name="mavenHome" value="$PROJECT_DIR$/../../../../../maven/apache-maven-3.6.0" />
+        <option name="userSettingsFile" value="$PROJECT_DIR$/../../../../../maven/apache-maven-3.6.0/conf/settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="y" value="23" />
+    <option name="width" value="1440" />
+    <option name="height" value="842" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
+      <pane id="ProjectPane" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="settings.github" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager">
+    <configuration name="Tomcat 8.5.3819" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 8.5.3819" ALTERNATIVE_JRE_ENABLED="false" nameIsGenerated="true">
+      <option name="UPDATE_ON_FRAME_DEACTIVATION" value="true" />
+      <option name="UPDATE_CLASSES_ON_FRAME_DEACTIVATION" value="true" />
+      <deployment>
+        <artifact name="JBOA:war exploded">
+          <settings>
+            <option name="CONTEXT_PATH" value="/JBOA_war_exploded" />
+          </settings>
+        </artifact>
+      </deployment>
+      <server-settings>
+        <option name="BASE_DIRECTORY_NAME" value="Tomcat_8_5_3819_JBOA" />
+      </server-settings>
+      <predefined_log_file enabled="true" id="Tomcat" />
+      <predefined_log_file enabled="true" id="Tomcat Catalina" />
+      <predefined_log_file id="Tomcat Manager" />
+      <predefined_log_file id="Tomcat Host Manager" />
+      <predefined_log_file id="Tomcat Localhost Access" />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="58134" />
+      </RunnerSettings>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Cover">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Debug">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Run">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <method v="2">
+        <option name="Make" enabled="true" />
+        <option name="BuildArtifacts" enabled="true">
+          <artifact name="JBOA:war exploded" />
+        </option>
+      </method>
+    </configuration>
+    <configuration default="true" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 8.5.3819" ALTERNATIVE_JRE_ENABLED="false">
+      <option name="OPEN_IN_BROWSER_URL" value="http://localhost:8080/JBOA_war_exploded/" />
+      <option name="UPDATE_ON_FRAME_DEACTIVATION" value="true" />
+      <option name="UPDATE_CLASSES_ON_FRAME_DEACTIVATION" value="true" />
+      <deployment>
+        <artifact name="JBOA:war exploded">
+          <settings>
+            <option name="CONTEXT_PATH" value="/JBOA_war_exploded" />
+          </settings>
+        </artifact>
+      </deployment>
+      <server-settings>
+        <option name="BASE_DIRECTORY_NAME" value="_JBOA" />
+      </server-settings>
+      <predefined_log_file enabled="true" id="Tomcat" />
+      <predefined_log_file enabled="true" id="Tomcat Catalina" />
+      <predefined_log_file id="Tomcat Manager" />
+      <predefined_log_file id="Tomcat Host Manager" />
+      <predefined_log_file id="Tomcat Localhost Access" />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="58134" />
+      </RunnerSettings>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Cover">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Debug">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Run">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <method v="2">
+        <option name="Make" enabled="true" />
+        <option name="BuildArtifacts" enabled="true">
+          <artifact name="JBOA:war exploded" />
+        </option>
+      </method>
+    </configuration>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration>$USER_HOME$/.subversion</configuration>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="d88b8b97-080d-44a2-9a86-9595f281f276" name="Default Changelist" comment="" />
+      <created>1556607667127</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1556607667127</updated>
+      <workItem from="1556607669104" duration="54000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="54000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="0" y="23" width="1440" height="842" extended-state="0" />
+    <layout>
+      <window_info id="Designer" />
+      <window_info id="Image Layers" />
+      <window_info id="Capture Tool" />
+      <window_info id="UI Designer" />
+      <window_info id="Favorites" side_tool="true" />
+      <window_info id="Web" side_tool="true" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24964234" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info anchor="bottom" id="FindBugs-IDEA" />
+      <window_info anchor="bottom" id="Terminal" />
+      <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Event Log" side_tool="true" />
+      <window_info anchor="bottom" id="Java Enterprise" />
+      <window_info anchor="bottom" id="Database Changes" />
+      <window_info anchor="bottom" id="Version Control" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="right" id="Maven" />
+      <window_info anchor="right" id="Palette" />
+      <window_info anchor="right" id="Capture Analysis" />
+      <window_info anchor="right" id="Database" />
+      <window_info anchor="right" id="Palette&#9;" />
+      <window_info anchor="right" id="Theme Preview" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>
