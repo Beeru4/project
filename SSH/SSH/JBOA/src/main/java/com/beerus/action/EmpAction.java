@@ -6,6 +6,9 @@ import com.beerus.service.impl.SysEmployeeServiceImpl;
 import com.beerus.utils.MD5Util;
 import com.opensymphony.xwork2.ActionSupport;
 import org.apache.struts2.ServletActionContext;
+import org.springframework.context.annotation.Scope;
+import org.springframework.stereotype.Component;
+import org.springframework.stereotype.Controller;
 
 import java.io.UnsupportedEncodingException;
 import java.security.NoSuchAlgorithmException;
@@ -15,6 +18,9 @@ import java.security.NoSuchAlgorithmException;
  * @Description 员工Action
  * @Date 2019/4/15
  **/
+@Controller
+@Scope("prototype")
+@Component("empAction")
 public class EmpAction extends ActionSupport {
     private SysEmployeeService empBiz = new SysEmployeeServiceImpl();
     //账号
@@ -23,29 +29,7 @@ public class EmpAction extends ActionSupport {
     private String password;
     //错误信息
     private String msg;
-    public String getSn() {
-        return sn;
-    }
 
-    public void setSn(String sn) {
-        this.sn = sn;
-    }
-
-    public String getPassword() {
-        return password;
-    }
-
-    public void setPassword(String password) {
-        this.password = password;
-    }
-
-    public String getMsg() {
-        return msg;
-    }
-
-    public void setMsg(String msg) {
-        this.msg = msg;
-    }
 
     /**
      * 登录
@@ -75,5 +59,28 @@ public class EmpAction extends ActionSupport {
             addFieldError("", "");
             msg = "请输入账号或密码";
         }
+    }
+    public String getSn() {
+        return sn;
+    }
+
+    public void setSn(String sn) {
+        this.sn = sn;
+    }
+
+    public String getPassword() {
+        return password;
+    }
+
+    public void setPassword(String password) {
+        this.password = password;
+    }
+
+    public String getMsg() {
+        return msg;
+    }
+
+    public void setMsg(String msg) {
+        this.msg = msg;
     }
 }

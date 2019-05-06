@@ -10,6 +10,9 @@ import com.beerus.utils.HibernateUtils;
 import com.beerus.utils.Page;
 import com.opensymphony.xwork2.ActionSupport;
 import org.apache.struts2.ServletActionContext;
+import org.springframework.context.annotation.Scope;
+import org.springframework.stereotype.Component;
+import org.springframework.stereotype.Controller;
 
 import java.util.*;
 
@@ -18,6 +21,9 @@ import java.util.*;
  * @Description 报销单
  * @Date 2019/4/15
  **/
+@Controller
+@Scope("prototype")
+@Component("cVoucherAction")
 public class CVoucherAction extends ActionSupport {
     //业务层
     private CVoucherService cVoucherService = new CVoucherServiceImpl();
@@ -46,101 +52,6 @@ public class CVoucherAction extends ActionSupport {
     //报销单核对
     private BizCheckResult checkResult;
 
-    public BizCheckResult getCheckResult() {
-        return checkResult;
-    }
-
-    public void setCheckResult(BizCheckResult checkResult) {
-        this.checkResult = checkResult;
-    }
-
-    public int getTotalPage() {
-        return totalPage;
-    }
-
-    public void setTotalPage(int totalPage) {
-        this.totalPage = totalPage;
-    }
-
-    public int getTotalRow() {
-        return totalRow;
-    }
-
-    public void setTotalRow(int totalRow) {
-        this.totalRow = totalRow;
-    }
-
-    public Page<BizClaimVoucher> getBizClaimVoucherPage() {
-        return param;
-    }
-
-    public void setBizClaimVoucherPage(Page<BizClaimVoucher> param) {
-        this.param = param;
-    }
-
-    public int getCurrPageNo() {
-        return currPageNo;
-    }
-
-    public void setCurrPageNo(int currPageNo) {
-        this.currPageNo = currPageNo;
-    }
-
-    public int getPageSize() {
-        return pageSize;
-    }
-
-    public void setPageSize(int pageSize) {
-        this.pageSize = pageSize;
-    }
-
-    public SysEmployee getEmployee() {
-        return employee;
-    }
-
-    public int getId() {
-        return id;
-    }
-
-    public void setId(int id) {
-        this.id = id;
-    }
-
-    public Set<BizClaimVoucher> getItems() {
-        return items;
-    }
-
-    public void setItems(Set<BizClaimVoucher> items) {
-        this.items = items;
-    }
-
-    public void setEmployee(SysEmployee employee) {
-        this.employee = employee;
-    }
-
-    public String getNextPage() {
-        return nextPage;
-    }
-
-    public void setNextPage(String nextPage) {
-        this.nextPage = nextPage;
-    }
-
-    public BizClaimVoucher getVoucher() {
-        return voucher;
-    }
-
-    public void setVoucher(BizClaimVoucher voucher) {
-        this.voucher = voucher;
-    }
-
-    public List<BizClaimVoucherDetall> getDetailList() {
-        return detailList;
-    }
-
-    public void setDetailList(List<BizClaimVoucherDetall> detailList) {
-        this.detailList = detailList;
-    }
 
     /**
      * 添加报销单详情信息
@@ -331,6 +242,101 @@ public class CVoucherAction extends ActionSupport {
             //添加失败
             return LOGIN;
         }
+    }
+    public BizCheckResult getCheckResult() {
+        return checkResult;
+    }
+
+    public void setCheckResult(BizCheckResult checkResult) {
+        this.checkResult = checkResult;
+    }
+
+    public int getTotalPage() {
+        return totalPage;
+    }
+
+    public void setTotalPage(int totalPage) {
+        this.totalPage = totalPage;
+    }
+
+    public int getTotalRow() {
+        return totalRow;
+    }
+
+    public void setTotalRow(int totalRow) {
+        this.totalRow = totalRow;
+    }
+
+    public Page<BizClaimVoucher> getBizClaimVoucherPage() {
+        return param;
+    }
+
+    public void setBizClaimVoucherPage(Page<BizClaimVoucher> param) {
+        this.param = param;
+    }
+
+    public int getCurrPageNo() {
+        return currPageNo;
+    }
+
+    public void setCurrPageNo(int currPageNo) {
+        this.currPageNo = currPageNo;
+    }
+
+    public int getPageSize() {
+        return pageSize;
+    }
+
+    public void setPageSize(int pageSize) {
+        this.pageSize = pageSize;
+    }
+
+    public SysEmployee getEmployee() {
+        return employee;
+    }
+
+    public int getId() {
+        return id;
+    }
+
+    public void setId(int id) {
+        this.id = id;
+    }
+
+    public Set<BizClaimVoucher> getItems() {
+        return items;
+    }
+
+    public void setItems(Set<BizClaimVoucher> items) {
+        this.items = items;
+    }
+
+    public void setEmployee(SysEmployee employee) {
+        this.employee = employee;
+    }
+
+    public String getNextPage() {
+        return nextPage;
+    }
+
+    public void setNextPage(String nextPage) {
+        this.nextPage = nextPage;
+    }
+
+    public BizClaimVoucher getVoucher() {
+        return voucher;
+    }
+
+    public void setVoucher(BizClaimVoucher voucher) {
+        this.voucher = voucher;
+    }
+
+    public List<BizClaimVoucherDetall> getDetailList() {
+        return detailList;
+    }
+
+    public void setDetailList(List<BizClaimVoucherDetall> detailList) {
+        this.detailList = detailList;
     }
 
 }

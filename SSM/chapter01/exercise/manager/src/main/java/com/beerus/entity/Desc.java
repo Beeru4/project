@@ -3,6 +3,9 @@ package com.beerus.entity;
 
 import java.util.Date;
 
+/**
+ * pojo
+ */
 public class Desc {
 
   private Integer id;

@@ -27,9 +27,9 @@ public class Test {
     public void testLeaveRing() throws Exception {
         Equip equip = null;
         //得到靴子对象
-        equip = (Equip) SpringUtil.getBean("boShiBoot");
+       /* equip = (Equip) SpringUtil.getBean("boShiBoot");*/
         //得到指环对象
-        //equip = (Equip) SpringUtil.getBean("lanMoRing");
+        equip = (Equip) SpringUtil.getBean("lanMoRing");
         try {
             ((EquipService) SpringUtil.getBean("equipService")).leave_Ring(equip);
             //更新成功

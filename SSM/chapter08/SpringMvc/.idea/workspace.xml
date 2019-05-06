@@ -1,0 +1,727 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ArtifactsWorkspaceSettings">
+    <artifacts-to-build>
+      <artifact name="SpringMvc:war exploded" />
+    </artifacts-to-build>
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="08b7ebe0-04b8-4eba-93c0-43ef36e6c18c" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../../../SSH/SSH/JBOA/JBOA.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../chapter01/exercise/manager/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../chapter05/exercise/Game/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../SSH/SSH/JBOA/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../SSH/SSH/JBOA/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../SSH/SSH/JBOA/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../SSH/SSH/JBOA/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../SSH/SSH/JBOA/src/main/java/com/beerus/action/CVoucherAction.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../SSH/SSH/JBOA/src/main/java/com/beerus/action/CVoucherAction.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../SSH/SSH/JBOA/src/main/java/com/beerus/action/EmpAction.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../SSH/SSH/JBOA/src/main/java/com/beerus/action/EmpAction.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../SSH/SSH/JBOA/src/main/resources/hibernate.cfg.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../SSH/SSH/JBOA/src/main/resources/hibernate.cfg.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../SSH/SSH/JBOA/src/main/resources/struts.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../SSH/SSH/JBOA/src/main/resources/struts.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../SSH/SSH/JBOA/src/main/webapp/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../SSH/SSH/JBOA/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../SSH/SSH/JBOA/target/JBOA-1.0-SNAPSHOT/WEB-INF/classes/com/beerus/action/CVoucherAction.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../../SSH/SSH/JBOA/target/JBOA-1.0-SNAPSHOT/WEB-INF/classes/com/beerus/action/CVoucherAction.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../SSH/SSH/JBOA/target/JBOA-1.0-SNAPSHOT/WEB-INF/classes/com/beerus/action/EmpAction.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../../SSH/SSH/JBOA/target/JBOA-1.0-SNAPSHOT/WEB-INF/classes/com/beerus/action/EmpAction.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../SSH/SSH/JBOA/target/JBOA-1.0-SNAPSHOT/WEB-INF/classes/struts.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../SSH/SSH/JBOA/target/JBOA-1.0-SNAPSHOT/WEB-INF/classes/struts.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../SSH/SSH/JBOA/target/JBOA-1.0-SNAPSHOT/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../SSH/SSH/JBOA/target/JBOA-1.0-SNAPSHOT/WEB-INF/web.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../SSH/SSH/JBOA/target/classes/com/beerus/action/CVoucherAction.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../SSH/SSH/JBOA/target/classes/com/beerus/action/EmpAction.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../SSH/SSH/JBOA/target/classes/com/beerus/dao/CVoucherDao.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../SSH/SSH/JBOA/target/classes/com/beerus/dao/SysEmployeeDao.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../SSH/SSH/JBOA/target/classes/com/beerus/dao/impl/CVoucherDaoImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../SSH/SSH/JBOA/target/classes/com/beerus/dao/impl/SysEmployeeDaoImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../SSH/SSH/JBOA/target/classes/com/beerus/entity/BizCheckResult.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../SSH/SSH/JBOA/target/classes/com/beerus/entity/BizClaimVoucher.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../SSH/SSH/JBOA/target/classes/com/beerus/entity/BizClaimVoucherDetall.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../SSH/SSH/JBOA/target/classes/com/beerus/entity/SysDepartment.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../SSH/SSH/JBOA/target/classes/com/beerus/entity/SysEmployee.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../SSH/SSH/JBOA/target/classes/com/beerus/entity/SysPosition.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../SSH/SSH/JBOA/target/classes/com/beerus/filter/EncodingFilter.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../SSH/SSH/JBOA/target/classes/com/beerus/filter/OpenSessionViewFilter.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../SSH/SSH/JBOA/target/classes/com/beerus/service/CVoucherService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../SSH/SSH/JBOA/target/classes/com/beerus/service/SysEmployeeService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../SSH/SSH/JBOA/target/classes/com/beerus/service/impl/CVoucherServiceImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../SSH/SSH/JBOA/target/classes/com/beerus/service/impl/SysEmployeeServiceImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../SSH/SSH/JBOA/target/classes/com/beerus/utils/HibernateUtils.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../SSH/SSH/JBOA/target/classes/com/beerus/utils/MD5Util.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../SSH/SSH/JBOA/target/classes/com/beerus/utils/Page.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../SSH/SSH/JBOA/target/classes/com/beerus/utils/Result.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../SSH/SSH/JBOA/target/classes/struts.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../SSH/SSH/JBOA/target/classes/struts.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../chapter01/exercise/manager/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../chapter01/exercise/manager/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../chapter01/exercise/manager/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../chapter01/exercise/manager/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../chapter01/exercise/manager/src/main/java/com/beerus/dao/DescDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../chapter01/exercise/manager/src/main/java/com/beerus/mapper/DescMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../chapter01/exercise/manager/src/main/java/com/beerus/dao/impl/DescDaoImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../chapter01/exercise/manager/src/main/java/com/beerus/entity/Desc.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../chapter01/exercise/manager/src/main/java/com/beerus/entity/Desc.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../chapter01/exercise/manager/src/main/java/com/beerus/utils/MyBatisUtil.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../chapter01/exercise/manager/src/main/resources/mybatis-config.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../chapter01/exercise/manager/src/main/resources/xml/DescMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../chapter01/exercise/manager/src/main/resources/xml/DescMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../chapter01/exercise/manager/src/main/webapp/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../chapter01/exercise/manager/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../chapter01/exercise/manager/src/test/Test.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../chapter01/exercise/manager/target/classes/com/beerus/dao/DescDao.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../chapter01/exercise/manager/target/classes/com/beerus/dao/impl/DescDaoImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../chapter01/exercise/manager/target/classes/com/beerus/entity/Desc.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../chapter01/exercise/manager/target/classes/com/beerus/entity/Desc.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../chapter01/exercise/manager/target/classes/com/beerus/utils/MyBatisUtil.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../chapter01/exercise/manager/target/classes/mybatis-config.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../chapter01/exercise/manager/target/classes/xml/DescMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../chapter01/exercise/manager/target/classes/xml/DescMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../chapter01/exercise/manager/target/test-classes/Test.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../chapter05/exercise/Game/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../chapter05/exercise/Game/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../chapter05/exercise/Game/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../chapter05/exercise/Game/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../chapter05/exercise/Game/src/test/java/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../chapter05/exercise/Game/src/test/java/Test.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../chapter05/exercise/Game/target/classes/com/beerus/aop/Pointcut.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../chapter05/exercise/Game/target/classes/com/beerus/aop/Pointcut.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../chapter05/exercise/Game/target/test-classes/Test.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../chapter05/exercise/Game/target/test-classes/Test.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../chapter05/work/Spring/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../chapter05/work/Spring/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../chapter05/work/Spring/target/classes/com/beerus/service/impl/UserServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../chapter05/work/Spring/target/classes/com/beerus/service/impl/UserServiceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../chapter05/work/Spring/target/classes/spring-config.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../chapter05/work/Spring/target/classes/spring-config.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../chapter05/work/Spring/target/test-classes/Test.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../chapter05/work/Spring/target/test-classes/Test.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../chapter06/Spring/.idea/Spring.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../../chapter06/Spring/.idea/Spring.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../chapter06/Spring/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../chapter06/Spring/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../chapter06/Spring/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../chapter06/annotation/Spring/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../chapter06/annotation/Spring/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../mybatis+struts2+spring/SMBMS/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../mybatis+struts2+spring/SMBMS/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../mybatis+struts2+spring/SMBMS/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../mybatis+struts2+spring/SMBMS/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../mybatis+struts2+spring/SMBMS/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../mybatis+struts2+spring/SMBMS/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../mybatis+struts2+spring/SMBMS/src/main/java/com/beerus/action/BillAction.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../mybatis+struts2+spring/SMBMS/src/main/java/com/beerus/action/BillAction.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../mybatis+struts2+spring/SMBMS/src/main/java/com/beerus/action/UserMgrAction.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../mybatis+struts2+spring/SMBMS/src/main/java/com/beerus/action/UserMgrAction.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../mybatis+struts2+spring/SMBMS/src/main/resources/spring-config.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../mybatis+struts2+spring/SMBMS/src/main/resources/spring-config.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../mybatis+struts2+spring/SMBMS/target/SMBMS-1.0-SNAPSHOT/WEB-INF/classes/spring-config.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../mybatis+struts2+spring/SMBMS/target/SMBMS-1.0-SNAPSHOT/WEB-INF/classes/spring-config.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../mybatis+struts2+spring/SMBMS/target/classes/com/beerus/action/UserMgrAction$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../mybatis+struts2+spring/SMBMS/target/classes/com/beerus/action/UserMgrAction$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../mybatis+struts2+spring/SMBMS/target/classes/com/beerus/action/UserMgrAction.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../mybatis+struts2+spring/SMBMS/target/classes/com/beerus/action/UserMgrAction.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../mybatis+struts2+spring/SMBMS/target/classes/spring-config.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../mybatis+struts2+spring/SMBMS/target/classes/spring-config.xml" afterDir="false" />
+    </list>
+    <ignored path="$PROJECT_DIR$/out/" />
+    <ignored path="$PROJECT_DIR$/target/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DefaultGradleProjectSettings">
+    <option name="isMigrated" value="true" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="673">
+              <caret line="117" column="16" selection-start-line="117" selection-start-column="16" selection-end-line="117" selection-end-column="16" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="300">
+              <caret line="20" column="10" lean-forward="true" selection-start-line="20" selection-start-column="10" selection-end-line="20" selection-end-column="10" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/springmvc-config.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="135">
+              <caret line="9" column="23" selection-start-line="9" selection-start-column="23" selection-end-line="9" selection-end-column="23" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/controller/IndexController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="270">
+              <caret line="18" column="21" selection-start-line="18" selection-start-column="21" selection-end-line="18" selection-end-column="21" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/controller/UserController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="165">
+              <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/controller/SubmitController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="270">
+              <caret line="18" column="4" lean-forward="true" selection-start-line="18" selection-start-column="4" selection-end-line="18" selection-end-column="4" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/submit.jsp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="150">
+              <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="MyBatis-Config" />
+        <option value="Spring-Config" />
+        <option value="Class" />
+        <option value="Jsp File" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>mvc</find>
+    </findStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="ROOT_SYNC" value="DONT_SYNC" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../.." />
+    <option name="UPDATE_BRANCHES_INFO" value="false" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/src/main/webapp/index.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/index2.jsp" />
+        <option value="$PROJECT_DIR$/src/main/resources/springmvc-servlet.xml" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/controller/IndexContoller.java" />
+        <option value="$PROJECT_DIR$/src/main/webapp/jsp/index.jsp" />
+        <option value="$PROJECT_DIR$/src/main/resources/springmvc-config.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/controller/IndexController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/controller/UserController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/controller/SubmitControlle.java" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/index2.jsp" />
+        <option value="$PROJECT_DIR$/src/main/java/controller/SubmitController.java" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/test.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/submit.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/index.jsp" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+      </list>
+    </option>
+  </component>
+  <component name="JsFlowSettings">
+    <service-enabled>true</service-enabled>
+    <exe-path />
+    <other-services-enabled>true</other-services-enabled>
+    <auto-save>true</auto-save>
+  </component>
+  <component name="LogFilters">
+    <option name="FILTER_ERRORS" value="false" />
+    <option name="FILTER_WARNINGS" value="false" />
+    <option name="FILTER_INFO" value="true" />
+    <option name="FILTER_DEBUG" value="true" />
+    <option name="CUSTOM_FILTER" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="localRepository" value="$PROJECT_DIR$/../../../../../maven/maven_jar" />
+        <option name="mavenHome" value="$PROJECT_DIR$/../../../../../maven/apache-maven-3.6.0" />
+        <option name="userSettingsFile" value="$PROJECT_DIR$/../../../../../maven/apache-maven-3.6.0/conf/settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="MavenProjectNavigator">
+    <treeState>
+      <expand>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="SpringMVC" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="SpringMVC" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Plugins" type="7aea1407:MavenProjectsStructure$PluginsNode" />
+        </path>
+      </expand>
+      <select />
+    </treeState>
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="y" value="23" />
+    <option name="width" value="1440" />
+    <option name="height" value="842" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="SpringMVC" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SpringMvc" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SpringMVC" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SpringMvc" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SpringMVC" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SpringMvc" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SpringMVC" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SpringMvc" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SpringMVC" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SpringMvc" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="controller" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SpringMVC" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SpringMvc" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SpringMVC" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SpringMvc" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="webapp" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SpringMVC" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SpringMvc" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="webapp" type="462c0819:PsiDirectoryNode" />
+              <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SpringMVC" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SpringMvc" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="webapp" type="462c0819:PsiDirectoryNode" />
+              <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
+              <item name="jsp" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="editor.config.ad.shown" value="true" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="spring" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/webapp/WEB-INF" />
+      <recent name="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp" />
+      <recent name="$PROJECT_DIR$/src/main/webapp/jsp" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager">
+    <configuration name="Tomcat 8.5.3823" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 8.5.3823" ALTERNATIVE_JRE_ENABLED="false" nameIsGenerated="true">
+      <option name="UPDATE_ON_FRAME_DEACTIVATION" value="true" />
+      <option name="UPDATE_CLASSES_ON_FRAME_DEACTIVATION" value="true" />
+      <deployment>
+        <artifact name="SpringMvc:war exploded">
+          <settings>
+            <option name="CONTEXT_PATH" value="/SpringMvc_war_exploded" />
+          </settings>
+        </artifact>
+      </deployment>
+      <server-settings>
+        <option name="BASE_DIRECTORY_NAME" value="Tomcat_8_5_3823_SpringMVC" />
+      </server-settings>
+      <predefined_log_file enabled="true" id="Tomcat" />
+      <predefined_log_file enabled="true" id="Tomcat Catalina" />
+      <predefined_log_file id="Tomcat Manager" />
+      <predefined_log_file id="Tomcat Host Manager" />
+      <predefined_log_file id="Tomcat Localhost Access" />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="65210" />
+      </RunnerSettings>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Cover">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Debug">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Run">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <method v="2">
+        <option name="Make" enabled="true" />
+        <option name="BuildArtifacts" enabled="true">
+          <artifact name="SpringMvc:war exploded" />
+        </option>
+      </method>
+    </configuration>
+    <configuration default="true" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 8.5.3823" ALTERNATIVE_JRE_ENABLED="false">
+      <option name="OPEN_IN_BROWSER_URL" value="http://localhost:8080/SpringMvc_war_exploded/" />
+      <option name="UPDATE_ON_FRAME_DEACTIVATION" value="true" />
+      <option name="UPDATE_CLASSES_ON_FRAME_DEACTIVATION" value="true" />
+      <deployment>
+        <artifact name="SpringMvc:war exploded">
+          <settings>
+            <option name="CONTEXT_PATH" value="/SpringMvc_war_exploded" />
+          </settings>
+        </artifact>
+      </deployment>
+      <server-settings>
+        <option name="BASE_DIRECTORY_NAME" value="_SpringMVC" />
+      </server-settings>
+      <predefined_log_file enabled="true" id="Tomcat" />
+      <predefined_log_file enabled="true" id="Tomcat Catalina" />
+      <predefined_log_file id="Tomcat Manager" />
+      <predefined_log_file id="Tomcat Host Manager" />
+      <predefined_log_file id="Tomcat Localhost Access" />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="65210" />
+      </RunnerSettings>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Cover">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Debug">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Run">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <method v="2">
+        <option name="Make" enabled="true" />
+        <option name="BuildArtifacts" enabled="true">
+          <artifact name="SpringMvc:war exploded" />
+        </option>
+      </method>
+    </configuration>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration>$USER_HOME$/.subversion</configuration>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="08b7ebe0-04b8-4eba-93c0-43ef36e6c18c" name="Default Changelist" comment="" />
+      <created>1557017784753</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1557017784753</updated>
+      <workItem from="1557017786684" duration="7837000" />
+      <workItem from="1557041068680" duration="5388000" />
+      <workItem from="1557047131246" duration="9000" />
+      <workItem from="1557057235310" duration="1626000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="14860000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="0" y="23" width="1440" height="842" extended-state="0" />
+    <editor active="true" />
+    <layout>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.26037195" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Designer" order="2" />
+      <window_info id="Image Layers" order="3" />
+      <window_info id="Capture Tool" order="4" />
+      <window_info id="UI Designer" order="5" />
+      <window_info id="Favorites" order="6" side_tool="true" />
+      <window_info id="Web" order="7" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32933334" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32933334" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="FindBugs-IDEA" order="7" />
+      <window_info anchor="bottom" id="Application Servers" order="8" weight="0.32933334" />
+      <window_info anchor="bottom" id="Spring" order="9" />
+      <window_info anchor="bottom" id="Terminal" order="10" />
+      <window_info anchor="bottom" id="Docker" order="11" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Event Log" order="12" side_tool="true" />
+      <window_info anchor="bottom" id="Messages" order="13" weight="0.32933334" />
+      <window_info anchor="bottom" id="Java Enterprise" order="14" />
+      <window_info anchor="bottom" id="Database Changes" order="15" />
+      <window_info anchor="bottom" id="Version Control" order="16" />
+      <window_info anchor="bottom" id="Tail" order="17" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Maven" order="3" weight="0.3297568" />
+      <window_info anchor="right" id="Palette" order="4" />
+      <window_info anchor="right" id="Capture Analysis" order="5" />
+      <window_info anchor="right" id="Database" order="6" />
+      <window_info anchor="right" id="Palette&#9;" order="7" />
+      <window_info anchor="right" id="Theme Preview" order="8" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="jar://$APPLICATION_HOME_DIR$/plugins/JavaEE/lib/javaee-impl.jar!/standardSchemas/web-app_2_4.xsd">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="241">
+          <caret line="937" column="6" selection-start-line="937" selection-start-column="6" selection-end-line="937" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/a.xml" />
+    <entry file="jar://$PROJECT_DIR$/../../../../../maven/maven_jar/org/springframework/spring-webmvc/4.3.8.RELEASE/spring-webmvc-4.3.8.RELEASE.jar!/org/springframework/web/servlet/DispatcherServlet.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="63" column="44" selection-start-line="63" selection-start-column="44" selection-end-line="63" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/springmvc-servlet.xml" />
+    <entry file="file://$PROJECT_DIR$/SpringMvc.iml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/index.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/test.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" column="19" selection-start-line="10" selection-start-column="19" selection-end-line="10" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="673">
+          <caret line="117" column="16" selection-start-line="117" selection-start-column="16" selection-end-line="117" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="20" column="10" lean-forward="true" selection-start-line="20" selection-start-column="10" selection-end-line="20" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/springmvc-config.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" column="23" selection-start-line="9" selection-start-column="23" selection-end-line="9" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/controller/UserController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/submit.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/controller/IndexController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="18" column="21" selection-start-line="18" selection-start-column="21" selection-end-line="18" selection-end-column="21" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/controller/SubmitController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="18" column="4" lean-forward="true" selection-start-line="18" selection-start-column="4" selection-end-line="18" selection-end-column="4" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>
