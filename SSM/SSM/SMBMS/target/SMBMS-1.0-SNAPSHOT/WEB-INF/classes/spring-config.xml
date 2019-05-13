@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:context="http://www.springframework.org/schema/context"
+       xmlns:tx="http://www.springframework.org/schema/tx"
+       xmlns:aop="http://www.springframework.org/schema/aop"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+    http://www.springframework.org/schema/beans/spring-beans.xsd
+    http://www.springframework.org/schema/context
+    http://www.springframework.org/schema/context/spring-context.xsd
+    http://www.springframework.org/schema/tx
+    http://www.springframework.org/schema/tx/spring-tx.xsd
+    http://www.springframework.org/schema/aop
+    http://www.springframework.org/schema/aop/spring-aop.xsd">
+
+    <!--加载属性文件-->
+    <context:property-placeholder location="classpath:db.properties"/>
+    <!--扫描注解类-->
+    <context:component-scan base-package="com.beerus.service,com.beerus.controller,com.beerus.mapper"/>
+    <!--声明使用注解配置事务-->
+    <tx:annotation-driven transaction-manager="transactionManager"/>
+    <!--数据源-->
+    <bean id="dataSource" class="com.alibaba.druid.pool.DruidDataSource">
+        <!--链接数据库URL-->
+        <property name="url" value="${url}"/>
+        <!--数据库驱动-->
+        <property name="driverClassName" value="${driver}"/>
+        <!--数据库用户名-->
+        <property name="username" value="${username}"/>
+        <!--数据库密码-->
+        <property name="password" value="${password}"/>
+        <!--初始化链接个数大小 默认:0-->
+        <property name="initialSize" value="${initialSize}"/>
+        <!--最大链接数 默认:8-->
+        <property name="maxActive" value="${maxActive}"/>
+        <!--最小链接数 默认:8-->
+        <property name="minIdle" value="${minIdle}"/>
+        <!--获取连接时最大等待时间 单位:ms-->
+        <property name="maxWait" value="${maxWait}"/>
+        <!--是否缓存preparedStatement-->
+        <property name="poolPreparedStatements" value="${poolPreparedStatements}"/>
+        <!--要启用PSCache 默认:-1,必须配置大于0-->
+        <property name="maxOpenPreparedStatements" value="${maxOpenPreparedStatements}"/>
+
+        <!--SQL心跳-->
+        <!--用来检测连接是否有效的sql-->
+        <property name="validationQuery" value="${validationQuery}"/>
+        <!--申请连接时执行validationQuery检测连接是否有效-->
+        <property name="testOnBorrow" value="${testOnBorrow}"/>
+        <!--归还连接时执行validationQuery检测连接是否有效-->
+        <property name="testOnReturn" value="${testOnReturn}"/>
+        <!--申请连接的时候检测，如果空闲时间大于timeBetweenEvictionRunsMillis，执行validationQuery检测连接是否有效-->
+        <property name="testWhileIdle" value="${testWhileIdle}"/>
+        <!--有两个含义： 1) Destroy线程会检测连接的间隔时间2) testWhileIdle的判断依据-->
+        <property name="timeBetweenEvictionRunsMillis" value="${timeBetweenEvictionRunsMillis}"/>
+        <!--此项不配置页面监听不到SQL-->
+        <property name="filters" value="stat,wall"/>
+    </bean>
+
+    <!--会话工厂-->
+    <bean id="sqlSessionFactory" class="org.mybatis.spring.SqlSessionFactoryBean">
+        <property name="configLocation" value="classpath:mybatis-config.xml"/>
+        <property name="mapperLocations" value="classpath:xml/*Mapper.xml"/>
+        <property name="typeAliasesPackage" value="com.beerus.entity"/>
+        <property name="dataSource" ref="dataSource"/>
+    </bean>
+
+    <!--注入映射器实现-->
+    <bean class="org.mybatis.spring.mapper.MapperScannerConfigurer">
+        <property name="basePackage" value="com.beerus.mapper"/>
+        <property name="sqlSessionFactoryBeanName" value="sqlSessionFactory"/>
+    </bean>
+
+    <!--事务管理-->
+    <bean id="transactionManager" class="org.springframework.jdbc.datasource.DataSourceTransactionManager">
+        <property name="dataSource" ref="dataSource"/>
+    </bean>
+
+    <!-- 配置druid监控spring jdbc -->
+    <bean id="druid-stat-interceptor"
+          class="com.alibaba.druid.support.spring.stat.DruidStatInterceptor">
+    </bean>
+    <bean id="druid-stat-pointcut" class="org.springframework.aop.support.JdkRegexpMethodPointcut"
+          scope="prototype">
+        <property name="patterns">
+            <list>
+                <value>com.beerus.*</value>
+            </list>
+        </property>
+    </bean>
+    <aop:config>
+        <aop:advisor advice-ref="druid-stat-interceptor" pointcut-ref="druid-stat-pointcut"/>
+    </aop:config>
+
+
+    <!--导入其他spring配置文件-->
+    <import resource="classpath:springmvc-servlet.xml"/>
+</beans>

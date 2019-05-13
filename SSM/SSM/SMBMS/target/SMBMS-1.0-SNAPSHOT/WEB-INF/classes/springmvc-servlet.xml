@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:mvc="http://www.springframework.org/schema/mvc"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+    http://www.springframework.org/schema/beans/spring-beans-3.0.xsd
+    http://www.springframework.org/schema/mvc
+    http://www.springframework.org/schema/mvc/spring-mvc.xsd">
+
+    <!--多视图解析器-->
+    <bean id="contentNegotiationManager" class="org.springframework.web.accept.ContentNegotiationManagerFactoryBean">
+        <property name="mediaTypes">
+            <value>
+                html=text/html
+                json=application/json
+            </value>
+        </property>
+        <property name="defaultContentType" value="text/html"/>
+    </bean>
+    <bean class="org.springframework.web.servlet.view.ContentNegotiatingViewResolver">
+        <property name="order" value="0"/>
+        <property name="contentNegotiationManager" ref="contentNegotiationManager"/>
+        <property name="viewResolvers">
+            <list>
+                <bean class="org.springframework.web.servlet.view.InternalResourceViewResolver">
+                    <property name="viewClass" value="org.springframework.web.servlet.view.JstlView"/>
+                    <property name="prefix" value="/WEB-INF/jsp/"/>
+                    <property name="suffix" value=".jsp"/>
+                </bean>
+            </list>
+        </property>
+        <property name="defaultViews">
+            <list>
+                <bean class="com.alibaba.fastjson.support.spring.FastJsonJsonView">
+                    <property name="charset" value="UTF-8"/>
+                </bean>
+            </list>
+        </property>
+    </bean>
+    <bean class="com.alibaba.fastjson.support.spring.FastJsonHttpMessageConverter"/>
+
+
+    <!--定义日期转换自定义日期转换器-->
+    <bean id="dataConversion" class="org.springframework.context.support.ConversionServiceFactoryBean">
+        <property name="converters">
+            <list>
+                <bean class="com.beerus.converter.StringToDateConverter">
+                    <!--注入日期转换格式-->
+                    <constructor-arg value="yyyy-MM-dd,yyyy.MM.dd,yyyy/MM/dd"/>
+                </bean>
+            </list>
+        </property>
+    </bean>
+
+    <!--自定义全局异常-->
+    <bean class="org.springframework.web.servlet.handler.SimpleMappingExceptionResolver">
+        <property name="exceptionMappings">
+            <props>
+                <prop key="java.lang.Exception">error404</prop>
+            </props>
+        </property>
+    </bean>
+
+    <!--定义自定义拦截器-->
+    <mvc:interceptors>
+        <mvc:interceptor>
+            <!--请求/sys路径拦截,进入自定义拦截器-->
+            <mvc:mapping path="/sys/**"/>
+            <!--不拦截路径-->
+            <mvc:exclude-mapping path="/error/**"/>
+            <mvc:exclude-mapping path="/sys/login/**"/>
+            <bean class="com.beerus.interceptor.SysInterceptor"/>
+        </mvc:interceptor>
+    </mvc:interceptors>
+
+    <!--加载静态资源-->
+    <mvc:resources mapping="/statics/**" location="/statics/"/>
+    <!--MVC一键配置-->
+    <mvc:annotation-driven content-negotiation-manager="contentNegotiationManager" conversion-service="dataConversion"/>
+</beans>

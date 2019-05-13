@@ -61,7 +61,7 @@
             <if test="null != userName and '' != userName">AND userName LIKE CONCAT('%',#{userName},'%')</if>
             <if test="null != userRole and 0 != userRole">AND userRole = #{userRole}</if>
         </trim>
-        ORDER BY u.creationDate DESC
+        ORDER BY u.id DESC
         LIMIT #{currPageNo},#{pageSize}
     </select>
     <resultMap id="list_User" type="User">

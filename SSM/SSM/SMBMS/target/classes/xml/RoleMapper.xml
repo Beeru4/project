@@ -4,12 +4,43 @@
         "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
 <!--角色SQL映射-->
 <mapper namespace="com.beerus.mapper.RoleMapper">
+
+    <delete id="delete_Role" parameterType="Integer">
+        DELETE FROM `smbms_role` WHERE `id` = #{id}
+    </delete>
+    <update id="update_Role" parameterType="role">
+        UPDATE `smbms_role`
+        SET `roleName` = #{roleName}
+        WHERE `id` = #{id}
+    </update>
+    <insert id="save_Role" parameterType="role">
+    INSERT INTO `smbms_role`(`id`,`roleCode`,`roleName`,`createBy`,`creationDate`)
+      VALUES(DEFAULT,
+            #{roleCode},
+            #{roleName},
+            #{createBy},
+            NOW())
+    </insert>
+
+    <select id="get_Role" parameterType="Integer"  resultMap="listRole">
+        SELECT  `id`,`roleName`,`roleCode`
+        FROM `smbms_role`
+        WHERE  `id` = #{id}
+    </select>
+    <select id="count_role" parameterType="string" resultType="Integer">
+        SELECT COUNT(1) FROM `smbms_role` WHERE  `roleCode` = #{roleCode}
+    </select>
+    <select id="count_roleByDel" parameterType="Integer" resultType="Integer">
+        SELECT COUNT(1) FROM `smbms_role` AS r,`smbms_user`  AS u WHERE r.id = u.userRole AND r.id = #{rId}
+    </select>
     <select id="list_Role" resultMap="listRole">
-        SELECT  `id`,`roleName`
+        SELECT  `id`,`roleName`,`roleCode`,`creationDate`
         FROM `smbms_role`
     </select>
     <resultMap id="listRole" type="Role">
         <id property="id" column="id"/>
         <result property="roleName" column="roleName"/>
+        <result property="roleCode" column="roleCode"/>
+        <result property="creationDate" column="creationDate"/>
     </resultMap>
 </mapper>

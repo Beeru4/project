@@ -1,0 +1,1422 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ArtifactsWorkspaceSettings">
+    <artifacts-to-build>
+      <artifact name="FileUpLoad:war exploded" />
+    </artifacts-to-build>
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="188b0b6f-ca02-4c67-8912-b64ac51e71b7" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Reflex/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../Reflex/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/.name" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/compiler.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/cn/action/DownAction.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/cn/action/ManyAction.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/cn/action/OneAction.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/resources/struts.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/webapp/WEB-INF/web.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/webapp/down.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/webapp/images/renting_room.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/webapp/index.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/webapp/many.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../target/classes/cn/action/DownAction.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../target/classes/cn/action/ManyAction.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../target/classes/cn/action/OneAction.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../target/classes/struts.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../target/testFileUpload-1.0-SNAPSHOT/META-INF/MANIFEST.MF" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../target/testFileUpload-1.0-SNAPSHOT/WEB-INF/classes/cn/action/DownAction.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../target/testFileUpload-1.0-SNAPSHOT/WEB-INF/classes/cn/action/ManyAction.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../target/testFileUpload-1.0-SNAPSHOT/WEB-INF/classes/cn/action/OneAction.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../target/testFileUpload-1.0-SNAPSHOT/WEB-INF/classes/struts.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../target/testFileUpload-1.0-SNAPSHOT/WEB-INF/lib/asm-3.3.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../target/testFileUpload-1.0-SNAPSHOT/WEB-INF/lib/asm-commons-3.3.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../target/testFileUpload-1.0-SNAPSHOT/WEB-INF/lib/asm-tree-3.3.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../target/testFileUpload-1.0-SNAPSHOT/WEB-INF/lib/commons-fileupload-1.3.1.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../target/testFileUpload-1.0-SNAPSHOT/WEB-INF/lib/commons-io-2.2.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../target/testFileUpload-1.0-SNAPSHOT/WEB-INF/lib/commons-lang3-3.1.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../target/testFileUpload-1.0-SNAPSHOT/WEB-INF/lib/freemarker-2.3.19.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../target/testFileUpload-1.0-SNAPSHOT/WEB-INF/lib/javassist-3.11.0.GA.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../target/testFileUpload-1.0-SNAPSHOT/WEB-INF/lib/jstl-1.2.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../target/testFileUpload-1.0-SNAPSHOT/WEB-INF/lib/ognl-3.0.6.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../target/testFileUpload-1.0-SNAPSHOT/WEB-INF/lib/struts2-core-2.3.16.3.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../target/testFileUpload-1.0-SNAPSHOT/WEB-INF/lib/xwork-core-2.3.16.3.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../target/testFileUpload-1.0-SNAPSHOT/WEB-INF/web.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../target/testFileUpload-1.0-SNAPSHOT/down.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../target/testFileUpload-1.0-SNAPSHOT/images/renting_room.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../target/testFileUpload-1.0-SNAPSHOT/images/屏幕快照 2019-03-25 下午6.13.36.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../target/testFileUpload-1.0-SNAPSHOT/images/屏幕快照 2019-04-09 下午10.09.11.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../target/testFileUpload-1.0-SNAPSHOT/index.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../target/testFileUpload-1.0-SNAPSHOT/many.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../testFIleUpload.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../SSM/SSM/SMBMS 2/.idea/compiler.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../SSM/SSM/SMBMS 2/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../SSM/SSM/SMBMS 2/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../SSM/SSM/SMBMS 2/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../SSM/SSM/SMBMS 2/SMBMS.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../SSM/SSM/SMBMS 2/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../SSM/SSM/SMBMS 2/src/main/java/com/beerus/action/BillAction.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../SSM/SSM/SMBMS 2/src/main/java/com/beerus/action/ExitAction.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../SSM/SSM/SMBMS 2/src/main/java/com/beerus/action/ProviderAction.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../SSM/SSM/SMBMS 2/src/main/java/com/beerus/action/UserAction.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../SSM/SSM/SMBMS 2/src/main/java/com/beerus/action/UserMgrAction.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../SSM/SSM/SMBMS 2/src/main/java/com/beerus/common/Mark.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../SSM/SSM/SMBMS 2/src/main/java/com/beerus/entity/Address.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../SSM/SSM/SMBMS 2/src/main/java/com/beerus/entity/Bill.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../SSM/SSM/SMBMS 2/src/main/java/com/beerus/entity/Provider.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../SSM/SSM/SMBMS 2/src/main/java/com/beerus/entity/Role.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../SSM/SSM/SMBMS 2/src/main/java/com/beerus/entity/User.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../SSM/SSM/SMBMS 2/src/main/java/com/beerus/filter/EncodingFilter.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../SSM/SSM/SMBMS 2/src/main/java/com/beerus/mapper/BillMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../SSM/SSM/SMBMS 2/src/main/java/com/beerus/mapper/ProvideMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../SSM/SSM/SMBMS 2/src/main/java/com/beerus/mapper/RoleMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../SSM/SSM/SMBMS 2/src/main/java/com/beerus/mapper/UserMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../SSM/SSM/SMBMS 2/src/main/java/com/beerus/mapper/impl/BillMapperImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../SSM/SSM/SMBMS 2/src/main/java/com/beerus/mapper/impl/ProvideMapperImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../SSM/SSM/SMBMS 2/src/main/java/com/beerus/mapper/impl/RoleMapperImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../SSM/SSM/SMBMS 2/src/main/java/com/beerus/mapper/impl/UserMapperImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../SSM/SSM/SMBMS 2/src/main/java/com/beerus/service/BillService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../SSM/SSM/SMBMS 2/src/main/java/com/beerus/service/ProvideService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../SSM/SSM/SMBMS 2/src/main/java/com/beerus/service/RoleService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../SSM/SSM/SMBMS 2/src/main/java/com/beerus/service/UserService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../SSM/SSM/SMBMS 2/src/main/java/com/beerus/service/impl/BillServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../SSM/SSM/SMBMS 2/src/main/java/com/beerus/service/impl/ProvideServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../SSM/SSM/SMBMS 2/src/main/java/com/beerus/service/impl/RoleServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../SSM/SSM/SMBMS 2/src/main/java/com/beerus/service/impl/UserServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../SSM/SSM/SMBMS 2/src/main/java/com/beerus/utils/MyBatisUtil.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../SSM/SSM/SMBMS 2/src/main/java/com/beerus/utils/Page.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../SSM/SSM/SMBMS 2/src/main/java/com/beerus/utils/Result.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../SSM/SSM/SMBMS 2/src/main/resources/database.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../SSM/SSM/SMBMS 2/src/main/resources/log4j.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../SSM/SSM/SMBMS 2/src/main/resources/mybatis-config.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../SSM/SSM/SMBMS 2/src/main/resources/spring-config.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../SSM/SSM/SMBMS 2/src/main/resources/struts.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../SSM/SSM/SMBMS 2/src/main/resources/xml/BillMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../SSM/SSM/SMBMS 2/src/main/resources/xml/ProvideMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../SSM/SSM/SMBMS 2/src/main/resources/xml/RoleMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../SSM/SSM/SMBMS 2/src/main/resources/xml/UserMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../SSM/SSM/SMBMS 2/src/main/webapp/WEB-INF/web.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../SSM/SSM/SMBMS 2/src/main/webapp/calendar/My97DatePicker.htm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../SSM/SSM/SMBMS 2/src/main/webapp/calendar/WdatePicker.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../SSM/SSM/SMBMS 2/src/main/webapp/calendar/calendar.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../SSM/SSM/SMBMS 2/src/main/webapp/calendar/config.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../SSM/SSM/SMBMS 2/src/main/webapp/calendar/lang/en.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../SSM/SSM/SMBMS 2/src/main/webapp/calendar/lang/zh-cn.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../SSM/SSM/SMBMS 2/src/main/webapp/calendar/lang/zh-tw.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../SSM/SSM/SMBMS 2/src/main/webapp/calendar/skin/WdatePicker.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../SSM/SSM/SMBMS 2/src/main/webapp/calendar/skin/datePicker.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../SSM/SSM/SMBMS 2/src/main/webapp/calendar/skin/default/datepicker.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../SSM/SSM/SMBMS 2/src/main/webapp/calendar/skin/default/img.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../SSM/SSM/SMBMS 2/src/main/webapp/calendar/skin/whyGreen/bg.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../SSM/SSM/SMBMS 2/src/main/webapp/calendar/skin/whyGreen/datepicker.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../SSM/SSM/SMBMS 2/src/main/webapp/calendar/skin/whyGreen/img.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../SSM/SSM/SMBMS 2/src/main/webapp/css/public.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../SSM/SSM/SMBMS 2/src/main/webapp/css/style.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../SSM/SSM/SMBMS 2/src/main/webapp/error.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../SSM/SSM/SMBMS 2/src/main/webapp/images/buy.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../SSM/SSM/SMBMS 2/src/main/webapp/images/clock.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../SSM/SSM/SMBMS 2/src/main/webapp/images/formBg.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../SSM/SSM/SMBMS 2/src/main/webapp/images/gys.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../SSM/SSM/SMBMS 2/src/main/webapp/images/home.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../SSM/SSM/SMBMS 2/src/main/webapp/images/leftBg.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../SSM/SSM/SMBMS 2/src/main/webapp/images/loginBg.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../SSM/SSM/SMBMS 2/src/main/webapp/images/login_bg.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../SSM/SSM/SMBMS 2/src/main/webapp/images/login_img.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../SSM/SSM/SMBMS 2/src/main/webapp/images/mm.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../SSM/SSM/SMBMS 2/src/main/webapp/images/n.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../SSM/SSM/SMBMS 2/src/main/webapp/images/read.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../SSM/SSM/SMBMS 2/src/main/webapp/images/schu.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../SSM/SSM/SMBMS 2/src/main/webapp/images/search.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../SSM/SSM/SMBMS 2/src/main/webapp/images/tc.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../SSM/SSM/SMBMS 2/src/main/webapp/images/tianjia.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../SSM/SSM/SMBMS 2/src/main/webapp/images/time.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../SSM/SSM/SMBMS 2/src/main/webapp/images/xiugai.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../SSM/SSM/SMBMS 2/src/main/webapp/images/y.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../SSM/SSM/SMBMS 2/src/main/webapp/images/yh.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../SSM/SSM/SMBMS 2/src/main/webapp/images/zd.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../SSM/SSM/SMBMS 2/src/main/webapp/index.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../SSM/SSM/SMBMS 2/src/main/webapp/js/billadd.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../SSM/SSM/SMBMS 2/src/main/webapp/js/billlist.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../SSM/SSM/SMBMS 2/src/main/webapp/js/billmodify.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../SSM/SSM/SMBMS 2/src/main/webapp/js/billview.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../SSM/SSM/SMBMS 2/src/main/webapp/js/common.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../SSM/SSM/SMBMS 2/src/main/webapp/js/jquery-1.8.3.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../SSM/SSM/SMBMS 2/src/main/webapp/js/provideradd.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../SSM/SSM/SMBMS 2/src/main/webapp/js/providerlist.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../SSM/SSM/SMBMS 2/src/main/webapp/js/providermodify.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../SSM/SSM/SMBMS 2/src/main/webapp/js/providerview.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../SSM/SSM/SMBMS 2/src/main/webapp/js/pwdmodify.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../SSM/SSM/SMBMS 2/src/main/webapp/js/rollpage.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../SSM/SSM/SMBMS 2/src/main/webapp/js/time.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../SSM/SSM/SMBMS 2/src/main/webapp/js/useradd.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../SSM/SSM/SMBMS 2/src/main/webapp/js/userlist.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../SSM/SSM/SMBMS 2/src/main/webapp/js/usermodify.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../SSM/SSM/SMBMS 2/src/main/webapp/js/userview.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../SSM/SSM/SMBMS 2/src/main/webapp/jsp/billadd.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../SSM/SSM/SMBMS 2/src/main/webapp/jsp/billlist.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../SSM/SSM/SMBMS 2/src/main/webapp/jsp/billmodify.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../SSM/SSM/SMBMS 2/src/main/webapp/jsp/billview.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../SSM/SSM/SMBMS 2/src/main/webapp/jsp/common/foot.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../SSM/SSM/SMBMS 2/src/main/webapp/jsp/common/head.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../SSM/SSM/SMBMS 2/src/main/webapp/jsp/error.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../SSM/SSM/SMBMS 2/src/main/webapp/jsp/frame.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../SSM/SSM/SMBMS 2/src/main/webapp/jsp/provideradd.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../SSM/SSM/SMBMS 2/src/main/webapp/jsp/providerlist.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../SSM/SSM/SMBMS 2/src/main/webapp/jsp/providermodify.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../SSM/SSM/SMBMS 2/src/main/webapp/jsp/providerview.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../SSM/SSM/SMBMS 2/src/main/webapp/jsp/pwdmodify.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../SSM/SSM/SMBMS 2/src/main/webapp/jsp/rollpage.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../SSM/SSM/SMBMS 2/src/main/webapp/jsp/useradd.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../SSM/SSM/SMBMS 2/src/main/webapp/jsp/userlist.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../SSM/SSM/SMBMS 2/src/main/webapp/jsp/usermodify.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../SSM/SSM/SMBMS 2/src/main/webapp/jsp/userview.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../SSM/SSM/SMBMS 2/src/main/webapp/login.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../SSM/SSM/SMBMS 2/target/SMBMS-1.0-SNAPSHOT/META-INF/MANIFEST.MF" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../SSM/SSM/SMBMS 2/target/SMBMS-1.0-SNAPSHOT/WEB-INF/classes/META-INF/SMBMS.kotlin_module" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../SSM/SSM/SMBMS 2/target/SMBMS-1.0-SNAPSHOT/WEB-INF/classes/com/beerus/action/BillAction$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../SSM/SSM/SMBMS 2/target/SMBMS-1.0-SNAPSHOT/WEB-INF/classes/com/beerus/action/BillAction.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../SSM/SSM/SMBMS 2/target/SMBMS-1.0-SNAPSHOT/WEB-INF/classes/com/beerus/action/ExitAction.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../SSM/SSM/SMBMS 2/target/SMBMS-1.0-SNAPSHOT/WEB-INF/classes/com/beerus/action/ProviderAction$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../SSM/SSM/SMBMS 2/target/SMBMS-1.0-SNAPSHOT/WEB-INF/classes/com/beerus/action/ProviderAction.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../SSM/SSM/SMBMS 2/target/SMBMS-1.0-SNAPSHOT/WEB-INF/classes/com/beerus/action/UserAction.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../SSM/SSM/SMBMS 2/target/SMBMS-1.0-SNAPSHOT/WEB-INF/classes/com/beerus/action/UserMgrAction$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../SSM/SSM/SMBMS 2/target/SMBMS-1.0-SNAPSHOT/WEB-INF/classes/com/beerus/action/UserMgrAction.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../SSM/SSM/SMBMS 2/target/SMBMS-1.0-SNAPSHOT/WEB-INF/classes/com/beerus/common/Mark.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../SSM/SSM/SMBMS 2/target/SMBMS-1.0-SNAPSHOT/WEB-INF/classes/com/beerus/entity/Address.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../SSM/SSM/SMBMS 2/target/SMBMS-1.0-SNAPSHOT/WEB-INF/classes/com/beerus/entity/Bill.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../SSM/SSM/SMBMS 2/target/SMBMS-1.0-SNAPSHOT/WEB-INF/classes/com/beerus/entity/Provider.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../SSM/SSM/SMBMS 2/target/SMBMS-1.0-SNAPSHOT/WEB-INF/classes/com/beerus/entity/Role.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../SSM/SSM/SMBMS 2/target/SMBMS-1.0-SNAPSHOT/WEB-INF/classes/com/beerus/entity/User.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../SSM/SSM/SMBMS 2/target/SMBMS-1.0-SNAPSHOT/WEB-INF/classes/com/beerus/filter/EncodingFilter.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../SSM/SSM/SMBMS 2/target/SMBMS-1.0-SNAPSHOT/WEB-INF/classes/com/beerus/mapper/BillMapper.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../SSM/SSM/SMBMS 2/target/SMBMS-1.0-SNAPSHOT/WEB-INF/classes/com/beerus/mapper/ProvideMapper.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../SSM/SSM/SMBMS 2/target/SMBMS-1.0-SNAPSHOT/WEB-INF/classes/com/beerus/mapper/RoleMapper.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../SSM/SSM/SMBMS 2/target/SMBMS-1.0-SNAPSHOT/WEB-INF/classes/com/beerus/mapper/UserMapper.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../SSM/SSM/SMBMS 2/target/SMBMS-1.0-SNAPSHOT/WEB-INF/classes/com/beerus/mapper/impl/BillMapperImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../SSM/SSM/SMBMS 2/target/SMBMS-1.0-SNAPSHOT/WEB-INF/classes/com/beerus/mapper/impl/ProvideMapperImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../SSM/SSM/SMBMS 2/target/SMBMS-1.0-SNAPSHOT/WEB-INF/classes/com/beerus/mapper/impl/RoleMapperImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../SSM/SSM/SMBMS 2/target/SMBMS-1.0-SNAPSHOT/WEB-INF/classes/com/beerus/mapper/impl/UserMapperImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../SSM/SSM/SMBMS 2/target/SMBMS-1.0-SNAPSHOT/WEB-INF/classes/com/beerus/service/BillService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../SSM/SSM/SMBMS 2/target/SMBMS-1.0-SNAPSHOT/WEB-INF/classes/com/beerus/service/ProvideService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../SSM/SSM/SMBMS 2/target/SMBMS-1.0-SNAPSHOT/WEB-INF/classes/com/beerus/service/RoleService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../SSM/SSM/SMBMS 2/target/SMBMS-1.0-SNAPSHOT/WEB-INF/classes/com/beerus/service/UserService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../SSM/SSM/SMBMS 2/target/SMBMS-1.0-SNAPSHOT/WEB-INF/classes/com/beerus/service/impl/BillServiceImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../SSM/SSM/SMBMS 2/target/SMBMS-1.0-SNAPSHOT/WEB-INF/classes/com/beerus/service/impl/ProvideServiceImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../SSM/SSM/SMBMS 2/target/SMBMS-1.0-SNAPSHOT/WEB-INF/classes/com/beerus/service/impl/RoleServiceImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../SSM/SSM/SMBMS 2/target/SMBMS-1.0-SNAPSHOT/WEB-INF/classes/com/beerus/service/impl/UserServiceImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../SSM/SSM/SMBMS 2/target/SMBMS-1.0-SNAPSHOT/WEB-INF/classes/com/beerus/utils/MyBatisUtil.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../SSM/SSM/SMBMS 2/target/SMBMS-1.0-SNAPSHOT/WEB-INF/classes/com/beerus/utils/Page.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../SSM/SSM/SMBMS 2/target/SMBMS-1.0-SNAPSHOT/WEB-INF/classes/com/beerus/utils/Result.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../SSM/SSM/SMBMS 2/target/SMBMS-1.0-SNAPSHOT/WEB-INF/classes/database.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../SSM/SSM/SMBMS 2/target/SMBMS-1.0-SNAPSHOT/WEB-INF/classes/log4j.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../SSM/SSM/SMBMS 2/target/SMBMS-1.0-SNAPSHOT/WEB-INF/classes/mybatis-config.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../SSM/SSM/SMBMS 2/target/SMBMS-1.0-SNAPSHOT/WEB-INF/classes/spring-config.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../SSM/SSM/SMBMS 2/target/SMBMS-1.0-SNAPSHOT/WEB-INF/classes/struts.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../SSM/SSM/SMBMS 2/target/SMBMS-1.0-SNAPSHOT/WEB-INF/classes/xml/BillMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../SSM/SSM/SMBMS 2/target/SMBMS-1.0-SNAPSHOT/WEB-INF/classes/xml/ProvideMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../SSM/SSM/SMBMS 2/target/SMBMS-1.0-SNAPSHOT/WEB-INF/classes/xml/RoleMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../SSM/SSM/SMBMS 2/target/SMBMS-1.0-SNAPSHOT/WEB-INF/classes/xml/UserMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../SSM/SSM/SMBMS 2/target/SMBMS-1.0-SNAPSHOT/WEB-INF/lib/asm-3.3.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../SSM/SSM/SMBMS 2/target/SMBMS-1.0-SNAPSHOT/WEB-INF/lib/asm-commons-3.3.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../SSM/SSM/SMBMS 2/target/SMBMS-1.0-SNAPSHOT/WEB-INF/lib/asm-tree-3.3.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../SSM/SSM/SMBMS 2/target/SMBMS-1.0-SNAPSHOT/WEB-INF/lib/commons-fileupload-1.3.1.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../SSM/SSM/SMBMS 2/target/SMBMS-1.0-SNAPSHOT/WEB-INF/lib/commons-io-2.2.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../SSM/SSM/SMBMS 2/target/SMBMS-1.0-SNAPSHOT/WEB-INF/lib/commons-lang3-3.1.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../SSM/SSM/SMBMS 2/target/SMBMS-1.0-SNAPSHOT/WEB-INF/lib/fastjson-1.2.47.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../SSM/SSM/SMBMS 2/target/SMBMS-1.0-SNAPSHOT/WEB-INF/lib/freemarker-2.3.19.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../SSM/SSM/SMBMS 2/target/SMBMS-1.0-SNAPSHOT/WEB-INF/lib/javassist-3.11.0.GA.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../SSM/SSM/SMBMS 2/target/SMBMS-1.0-SNAPSHOT/WEB-INF/lib/jstl-1.2.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../SSM/SSM/SMBMS 2/target/SMBMS-1.0-SNAPSHOT/WEB-INF/lib/log4j-1.2.17.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../SSM/SSM/SMBMS 2/target/SMBMS-1.0-SNAPSHOT/WEB-INF/lib/mybatis-3.4.6.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../SSM/SSM/SMBMS 2/target/SMBMS-1.0-SNAPSHOT/WEB-INF/lib/mysql-connector-java-5.1.47.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../SSM/SSM/SMBMS 2/target/SMBMS-1.0-SNAPSHOT/WEB-INF/lib/ognl-3.0.6.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../SSM/SSM/SMBMS 2/target/SMBMS-1.0-SNAPSHOT/WEB-INF/lib/struts2-core-2.3.16.3.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../SSM/SSM/SMBMS 2/target/SMBMS-1.0-SNAPSHOT/WEB-INF/lib/xwork-core-2.3.16.3.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../SSM/SSM/SMBMS 2/target/SMBMS-1.0-SNAPSHOT/WEB-INF/web.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../SSM/SSM/SMBMS 2/target/SMBMS-1.0-SNAPSHOT/calendar/My97DatePicker.htm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../SSM/SSM/SMBMS 2/target/SMBMS-1.0-SNAPSHOT/calendar/WdatePicker.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../SSM/SSM/SMBMS 2/target/SMBMS-1.0-SNAPSHOT/calendar/calendar.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../SSM/SSM/SMBMS 2/target/SMBMS-1.0-SNAPSHOT/calendar/config.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../SSM/SSM/SMBMS 2/target/SMBMS-1.0-SNAPSHOT/calendar/lang/en.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../SSM/SSM/SMBMS 2/target/SMBMS-1.0-SNAPSHOT/calendar/lang/zh-cn.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../SSM/SSM/SMBMS 2/target/SMBMS-1.0-SNAPSHOT/calendar/lang/zh-tw.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../SSM/SSM/SMBMS 2/target/SMBMS-1.0-SNAPSHOT/calendar/skin/WdatePicker.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../SSM/SSM/SMBMS 2/target/SMBMS-1.0-SNAPSHOT/calendar/skin/datePicker.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../SSM/SSM/SMBMS 2/target/SMBMS-1.0-SNAPSHOT/calendar/skin/default/datepicker.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../SSM/SSM/SMBMS 2/target/SMBMS-1.0-SNAPSHOT/calendar/skin/default/img.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../SSM/SSM/SMBMS 2/target/SMBMS-1.0-SNAPSHOT/calendar/skin/whyGreen/bg.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../SSM/SSM/SMBMS 2/target/SMBMS-1.0-SNAPSHOT/calendar/skin/whyGreen/datepicker.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../SSM/SSM/SMBMS 2/target/SMBMS-1.0-SNAPSHOT/calendar/skin/whyGreen/img.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../SSM/SSM/SMBMS 2/target/SMBMS-1.0-SNAPSHOT/css/public.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../SSM/SSM/SMBMS 2/target/SMBMS-1.0-SNAPSHOT/css/style.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../SSM/SSM/SMBMS 2/target/SMBMS-1.0-SNAPSHOT/error.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../SSM/SSM/SMBMS 2/target/SMBMS-1.0-SNAPSHOT/images/buy.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../SSM/SSM/SMBMS 2/target/SMBMS-1.0-SNAPSHOT/images/clock.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../SSM/SSM/SMBMS 2/target/SMBMS-1.0-SNAPSHOT/images/formBg.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../SSM/SSM/SMBMS 2/target/SMBMS-1.0-SNAPSHOT/images/gys.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../SSM/SSM/SMBMS 2/target/SMBMS-1.0-SNAPSHOT/images/home.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../SSM/SSM/SMBMS 2/target/SMBMS-1.0-SNAPSHOT/images/leftBg.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../SSM/SSM/SMBMS 2/target/SMBMS-1.0-SNAPSHOT/images/loginBg.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../SSM/SSM/SMBMS 2/target/SMBMS-1.0-SNAPSHOT/images/login_bg.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../SSM/SSM/SMBMS 2/target/SMBMS-1.0-SNAPSHOT/images/login_img.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../SSM/SSM/SMBMS 2/target/SMBMS-1.0-SNAPSHOT/images/mm.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../SSM/SSM/SMBMS 2/target/SMBMS-1.0-SNAPSHOT/images/n.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../SSM/SSM/SMBMS 2/target/SMBMS-1.0-SNAPSHOT/images/read.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../SSM/SSM/SMBMS 2/target/SMBMS-1.0-SNAPSHOT/images/schu.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../SSM/SSM/SMBMS 2/target/SMBMS-1.0-SNAPSHOT/images/search.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../SSM/SSM/SMBMS 2/target/SMBMS-1.0-SNAPSHOT/images/tc.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../SSM/SSM/SMBMS 2/target/SMBMS-1.0-SNAPSHOT/images/tianjia.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../SSM/SSM/SMBMS 2/target/SMBMS-1.0-SNAPSHOT/images/time.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../SSM/SSM/SMBMS 2/target/SMBMS-1.0-SNAPSHOT/images/xiugai.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../SSM/SSM/SMBMS 2/target/SMBMS-1.0-SNAPSHOT/images/y.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../SSM/SSM/SMBMS 2/target/SMBMS-1.0-SNAPSHOT/images/yh.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../SSM/SSM/SMBMS 2/target/SMBMS-1.0-SNAPSHOT/images/zd.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../SSM/SSM/SMBMS 2/target/SMBMS-1.0-SNAPSHOT/index.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../SSM/SSM/SMBMS 2/target/SMBMS-1.0-SNAPSHOT/js/billadd.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../SSM/SSM/SMBMS 2/target/SMBMS-1.0-SNAPSHOT/js/billlist.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../SSM/SSM/SMBMS 2/target/SMBMS-1.0-SNAPSHOT/js/billmodify.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../SSM/SSM/SMBMS 2/target/SMBMS-1.0-SNAPSHOT/js/billview.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../SSM/SSM/SMBMS 2/target/SMBMS-1.0-SNAPSHOT/js/common.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../SSM/SSM/SMBMS 2/target/SMBMS-1.0-SNAPSHOT/js/jquery-1.8.3.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../SSM/SSM/SMBMS 2/target/SMBMS-1.0-SNAPSHOT/js/provideradd.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../SSM/SSM/SMBMS 2/target/SMBMS-1.0-SNAPSHOT/js/providerlist.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../SSM/SSM/SMBMS 2/target/SMBMS-1.0-SNAPSHOT/js/providermodify.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../SSM/SSM/SMBMS 2/target/SMBMS-1.0-SNAPSHOT/js/providerview.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../SSM/SSM/SMBMS 2/target/SMBMS-1.0-SNAPSHOT/js/pwdmodify.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../SSM/SSM/SMBMS 2/target/SMBMS-1.0-SNAPSHOT/js/rollpage.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../SSM/SSM/SMBMS 2/target/SMBMS-1.0-SNAPSHOT/js/time.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../SSM/SSM/SMBMS 2/target/SMBMS-1.0-SNAPSHOT/js/useradd.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../SSM/SSM/SMBMS 2/target/SMBMS-1.0-SNAPSHOT/js/userlist.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../SSM/SSM/SMBMS 2/target/SMBMS-1.0-SNAPSHOT/js/usermodify.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../SSM/SSM/SMBMS 2/target/SMBMS-1.0-SNAPSHOT/js/userview.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../SSM/SSM/SMBMS 2/target/SMBMS-1.0-SNAPSHOT/jsp/billadd.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../SSM/SSM/SMBMS 2/target/SMBMS-1.0-SNAPSHOT/jsp/billlist.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../SSM/SSM/SMBMS 2/target/SMBMS-1.0-SNAPSHOT/jsp/billmodify.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../SSM/SSM/SMBMS 2/target/SMBMS-1.0-SNAPSHOT/jsp/billview.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../SSM/SSM/SMBMS 2/target/SMBMS-1.0-SNAPSHOT/jsp/common/foot.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../SSM/SSM/SMBMS 2/target/SMBMS-1.0-SNAPSHOT/jsp/common/head.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../SSM/SSM/SMBMS 2/target/SMBMS-1.0-SNAPSHOT/jsp/error.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../SSM/SSM/SMBMS 2/target/SMBMS-1.0-SNAPSHOT/jsp/frame.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../SSM/SSM/SMBMS 2/target/SMBMS-1.0-SNAPSHOT/jsp/provideradd.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../SSM/SSM/SMBMS 2/target/SMBMS-1.0-SNAPSHOT/jsp/providerlist.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../SSM/SSM/SMBMS 2/target/SMBMS-1.0-SNAPSHOT/jsp/providermodify.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../SSM/SSM/SMBMS 2/target/SMBMS-1.0-SNAPSHOT/jsp/providerview.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../SSM/SSM/SMBMS 2/target/SMBMS-1.0-SNAPSHOT/jsp/pwdmodify.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../SSM/SSM/SMBMS 2/target/SMBMS-1.0-SNAPSHOT/jsp/rollpage.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../SSM/SSM/SMBMS 2/target/SMBMS-1.0-SNAPSHOT/jsp/useradd.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../SSM/SSM/SMBMS 2/target/SMBMS-1.0-SNAPSHOT/jsp/userlist.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../SSM/SSM/SMBMS 2/target/SMBMS-1.0-SNAPSHOT/jsp/usermodify.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../SSM/SSM/SMBMS 2/target/SMBMS-1.0-SNAPSHOT/jsp/userview.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../SSM/SSM/SMBMS 2/target/SMBMS-1.0-SNAPSHOT/login.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../SSM/SSM/SMBMS 2/target/classes/META-INF/SMBMS.kotlin_module" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../SSM/SSM/SMBMS 2/target/classes/com/beerus/action/BillAction$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../SSM/SSM/SMBMS 2/target/classes/com/beerus/action/BillAction.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../SSM/SSM/SMBMS 2/target/classes/com/beerus/action/ExitAction.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../SSM/SSM/SMBMS 2/target/classes/com/beerus/action/ProviderAction$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../SSM/SSM/SMBMS 2/target/classes/com/beerus/action/ProviderAction.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../SSM/SSM/SMBMS 2/target/classes/com/beerus/action/UserAction.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../SSM/SSM/SMBMS 2/target/classes/com/beerus/action/UserMgrAction$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../SSM/SSM/SMBMS 2/target/classes/com/beerus/action/UserMgrAction.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../SSM/SSM/SMBMS 2/target/classes/com/beerus/common/Mark.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../SSM/SSM/SMBMS 2/target/classes/com/beerus/entity/Address.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../SSM/SSM/SMBMS 2/target/classes/com/beerus/entity/Bill.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../SSM/SSM/SMBMS 2/target/classes/com/beerus/entity/Provider.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../SSM/SSM/SMBMS 2/target/classes/com/beerus/entity/Role.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../SSM/SSM/SMBMS 2/target/classes/com/beerus/entity/User.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../SSM/SSM/SMBMS 2/target/classes/com/beerus/filter/EncodingFilter.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../SSM/SSM/SMBMS 2/target/classes/com/beerus/mapper/BillMapper.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../SSM/SSM/SMBMS 2/target/classes/com/beerus/mapper/ProvideMapper.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../SSM/SSM/SMBMS 2/target/classes/com/beerus/mapper/RoleMapper.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../SSM/SSM/SMBMS 2/target/classes/com/beerus/mapper/UserMapper.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../SSM/SSM/SMBMS 2/target/classes/com/beerus/mapper/impl/BillMapperImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../SSM/SSM/SMBMS 2/target/classes/com/beerus/mapper/impl/ProvideMapperImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../SSM/SSM/SMBMS 2/target/classes/com/beerus/mapper/impl/RoleMapperImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../SSM/SSM/SMBMS 2/target/classes/com/beerus/mapper/impl/UserMapperImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../SSM/SSM/SMBMS 2/target/classes/com/beerus/service/BillService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../SSM/SSM/SMBMS 2/target/classes/com/beerus/service/ProvideService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../SSM/SSM/SMBMS 2/target/classes/com/beerus/service/RoleService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../SSM/SSM/SMBMS 2/target/classes/com/beerus/service/UserService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../SSM/SSM/SMBMS 2/target/classes/com/beerus/service/impl/BillServiceImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../SSM/SSM/SMBMS 2/target/classes/com/beerus/service/impl/ProvideServiceImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../SSM/SSM/SMBMS 2/target/classes/com/beerus/service/impl/RoleServiceImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../SSM/SSM/SMBMS 2/target/classes/com/beerus/service/impl/UserServiceImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../SSM/SSM/SMBMS 2/target/classes/com/beerus/utils/MyBatisUtil.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../SSM/SSM/SMBMS 2/target/classes/com/beerus/utils/Page.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../SSM/SSM/SMBMS 2/target/classes/com/beerus/utils/Result.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../SSM/SSM/SMBMS 2/target/classes/database.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../SSM/SSM/SMBMS 2/target/classes/log4j.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../SSM/SSM/SMBMS 2/target/classes/mybatis-config.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../SSM/SSM/SMBMS 2/target/classes/spring-config.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../SSM/SSM/SMBMS 2/target/classes/struts.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../SSM/SSM/SMBMS 2/target/classes/xml/BillMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../SSM/SSM/SMBMS 2/target/classes/xml/ProvideMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../SSM/SSM/SMBMS 2/target/classes/xml/RoleMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../SSM/SSM/SMBMS 2/target/classes/xml/UserMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../SSM/SSM/SMBMS 2/target/test-classes/META-INF/SMBMS.kotlin_module" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../SSM/SSM/SMBMS/.idea/dataSources.local.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../SSM/SSM/SMBMS/.idea/dataSources.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../SSM/SSM/SMBMS/.idea/dataSources/5e9d52fb-dbfa-4dc8-9704-181d8fdace4a.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../SSM/SSM/SMBMS/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../SSM/SSM/SMBMS/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../SSM/SSM/SMBMS/.idea/uiDesigner.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../SSM/SSM/SMBMS/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../SSM/SSM/SMBMS/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../SSM/SSM/SMBMS/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../SSM/SSM/SMBMS/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../SSM/SSM/SMBMS/src/main/java/com/beerus/action/BillAction.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../SSM/SSM/SMBMS/src/main/java/com/beerus/action/BillAction.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../SSM/SSM/SMBMS/src/main/java/com/beerus/action/ExitAction.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../SSM/SSM/SMBMS/src/main/java/com/beerus/action/ExitAction.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../SSM/SSM/SMBMS/src/main/java/com/beerus/action/ProviderAction.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../SSM/SSM/SMBMS/src/main/java/com/beerus/action/ProviderAction.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../SSM/SSM/SMBMS/src/main/java/com/beerus/action/UserAction.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../SSM/SSM/SMBMS/src/main/java/com/beerus/action/UserAction.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../SSM/SSM/SMBMS/src/main/java/com/beerus/action/UserMgrAction.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../SSM/SSM/SMBMS/src/main/java/com/beerus/action/UserMgrAction.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../SSM/SSM/SMBMS/src/main/java/com/beerus/filter/EncodingFilter.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../SSM/SSM/SMBMS/src/main/java/com/beerus/filter/EncodingFilter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../SSM/SSM/SMBMS/src/main/java/com/beerus/mapper/UserMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../SSM/SSM/SMBMS/src/main/java/com/beerus/mapper/UserMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../SSM/SSM/SMBMS/src/main/java/com/beerus/mapper/impl/BillMapperImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../SSM/SSM/SMBMS/src/main/java/com/beerus/mapper/impl/ProvideMapperImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../SSM/SSM/SMBMS/src/main/java/com/beerus/mapper/impl/RoleMapperImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../SSM/SSM/SMBMS/src/main/java/com/beerus/mapper/impl/UserMapperImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../SSM/SSM/SMBMS/src/main/java/com/beerus/service/impl/BillServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../SSM/SSM/SMBMS/src/main/java/com/beerus/service/impl/BillServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../SSM/SSM/SMBMS/src/main/java/com/beerus/service/impl/ProvideServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../SSM/SSM/SMBMS/src/main/java/com/beerus/service/impl/ProvideServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../SSM/SSM/SMBMS/src/main/java/com/beerus/service/impl/RoleServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../SSM/SSM/SMBMS/src/main/java/com/beerus/service/impl/RoleServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../SSM/SSM/SMBMS/src/main/java/com/beerus/service/impl/UserServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../SSM/SSM/SMBMS/src/main/java/com/beerus/service/impl/UserServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../SSM/SSM/SMBMS/src/main/resources/database.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../SSM/SSM/SMBMS/src/main/resources/database.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../SSM/SSM/SMBMS/src/main/resources/mybatis-config.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../SSM/SSM/SMBMS/src/main/resources/mybatis-config.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../SSM/SSM/SMBMS/src/main/resources/struts.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../SSM/SSM/SMBMS/src/main/resources/struts.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../SSM/SSM/SMBMS/src/main/resources/xml/UserMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../SSM/SSM/SMBMS/src/main/resources/xml/UserMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../SSM/SSM/SMBMS/src/main/webapp/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../SSM/SSM/SMBMS/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../SSM/SSM/SMBMS/src/main/webapp/css/public.css" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../SSM/SSM/SMBMS/src/main/webapp/css/public.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../SSM/SSM/SMBMS/src/main/webapp/js/billlist.js" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../SSM/SSM/SMBMS/src/main/webapp/js/billlist.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../SSM/SSM/SMBMS/src/main/webapp/js/providerlist.js" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../SSM/SSM/SMBMS/src/main/webapp/js/providerlist.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../SSM/SSM/SMBMS/src/main/webapp/js/userlist.js" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../SSM/SSM/SMBMS/src/main/webapp/js/userlist.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../SSM/SSM/SMBMS/src/main/webapp/jsp/common/head.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../SSM/SSM/SMBMS/src/main/webapp/jsp/common/head.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../SSM/SSM/SMBMS/src/main/webapp/jsp/userview.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../SSM/SSM/SMBMS/src/main/webapp/jsp/userview.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../SSM/SSM/SMBMS/target/SMBMS-1.0-SNAPSHOT/WEB-INF/classes/com/beerus/action/BillAction$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../SSM/SSM/SMBMS/target/SMBMS-1.0-SNAPSHOT/WEB-INF/classes/com/beerus/action/BillAction$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../SSM/SSM/SMBMS/target/SMBMS-1.0-SNAPSHOT/WEB-INF/classes/com/beerus/action/BillAction.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../SSM/SSM/SMBMS/target/SMBMS-1.0-SNAPSHOT/WEB-INF/classes/com/beerus/action/BillAction.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../SSM/SSM/SMBMS/target/SMBMS-1.0-SNAPSHOT/WEB-INF/classes/com/beerus/action/ExitAction.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../SSM/SSM/SMBMS/target/SMBMS-1.0-SNAPSHOT/WEB-INF/classes/com/beerus/action/ExitAction.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../SSM/SSM/SMBMS/target/SMBMS-1.0-SNAPSHOT/WEB-INF/classes/com/beerus/action/ProviderAction$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../SSM/SSM/SMBMS/target/SMBMS-1.0-SNAPSHOT/WEB-INF/classes/com/beerus/action/ProviderAction$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../SSM/SSM/SMBMS/target/SMBMS-1.0-SNAPSHOT/WEB-INF/classes/com/beerus/action/ProviderAction.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../SSM/SSM/SMBMS/target/SMBMS-1.0-SNAPSHOT/WEB-INF/classes/com/beerus/action/ProviderAction.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../SSM/SSM/SMBMS/target/SMBMS-1.0-SNAPSHOT/WEB-INF/classes/com/beerus/action/UserAction.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../SSM/SSM/SMBMS/target/SMBMS-1.0-SNAPSHOT/WEB-INF/classes/com/beerus/action/UserAction.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../SSM/SSM/SMBMS/target/SMBMS-1.0-SNAPSHOT/WEB-INF/classes/com/beerus/action/UserMgrAction$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../SSM/SSM/SMBMS/target/SMBMS-1.0-SNAPSHOT/WEB-INF/classes/com/beerus/action/UserMgrAction$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../SSM/SSM/SMBMS/target/SMBMS-1.0-SNAPSHOT/WEB-INF/classes/com/beerus/action/UserMgrAction.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../SSM/SSM/SMBMS/target/SMBMS-1.0-SNAPSHOT/WEB-INF/classes/com/beerus/action/UserMgrAction.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../SSM/SSM/SMBMS/target/SMBMS-1.0-SNAPSHOT/WEB-INF/classes/com/beerus/filter/EncodingFilter.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../SSM/SSM/SMBMS/target/SMBMS-1.0-SNAPSHOT/WEB-INF/classes/com/beerus/filter/EncodingFilter.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../SSM/SSM/SMBMS/target/SMBMS-1.0-SNAPSHOT/WEB-INF/classes/com/beerus/mapper/UserMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../SSM/SSM/SMBMS/target/SMBMS-1.0-SNAPSHOT/WEB-INF/classes/com/beerus/mapper/UserMapper.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../SSM/SSM/SMBMS/target/SMBMS-1.0-SNAPSHOT/WEB-INF/classes/com/beerus/mapper/impl/BillMapperImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../SSM/SSM/SMBMS/target/SMBMS-1.0-SNAPSHOT/WEB-INF/classes/com/beerus/mapper/impl/ProvideMapperImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../SSM/SSM/SMBMS/target/SMBMS-1.0-SNAPSHOT/WEB-INF/classes/com/beerus/mapper/impl/RoleMapperImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../SSM/SSM/SMBMS/target/SMBMS-1.0-SNAPSHOT/WEB-INF/classes/com/beerus/mapper/impl/UserMapperImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../SSM/SSM/SMBMS/target/SMBMS-1.0-SNAPSHOT/WEB-INF/classes/com/beerus/service/impl/BillServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../SSM/SSM/SMBMS/target/SMBMS-1.0-SNAPSHOT/WEB-INF/classes/com/beerus/service/impl/BillServiceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../SSM/SSM/SMBMS/target/SMBMS-1.0-SNAPSHOT/WEB-INF/classes/com/beerus/service/impl/ProvideServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../SSM/SSM/SMBMS/target/SMBMS-1.0-SNAPSHOT/WEB-INF/classes/com/beerus/service/impl/ProvideServiceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../SSM/SSM/SMBMS/target/SMBMS-1.0-SNAPSHOT/WEB-INF/classes/com/beerus/service/impl/RoleServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../SSM/SSM/SMBMS/target/SMBMS-1.0-SNAPSHOT/WEB-INF/classes/com/beerus/service/impl/RoleServiceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../SSM/SSM/SMBMS/target/SMBMS-1.0-SNAPSHOT/WEB-INF/classes/com/beerus/service/impl/UserServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../SSM/SSM/SMBMS/target/SMBMS-1.0-SNAPSHOT/WEB-INF/classes/com/beerus/service/impl/UserServiceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../SSM/SSM/SMBMS/target/SMBMS-1.0-SNAPSHOT/WEB-INF/classes/database.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../SSM/SSM/SMBMS/target/SMBMS-1.0-SNAPSHOT/WEB-INF/classes/database.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../SSM/SSM/SMBMS/target/SMBMS-1.0-SNAPSHOT/WEB-INF/classes/mybatis-config.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../SSM/SSM/SMBMS/target/SMBMS-1.0-SNAPSHOT/WEB-INF/classes/mybatis-config.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../SSM/SSM/SMBMS/target/SMBMS-1.0-SNAPSHOT/WEB-INF/classes/struts.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../SSM/SSM/SMBMS/target/SMBMS-1.0-SNAPSHOT/WEB-INF/classes/struts.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../SSM/SSM/SMBMS/target/SMBMS-1.0-SNAPSHOT/WEB-INF/classes/xml/UserMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../SSM/SSM/SMBMS/target/SMBMS-1.0-SNAPSHOT/WEB-INF/classes/xml/UserMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../SSM/SSM/SMBMS/target/SMBMS-1.0-SNAPSHOT/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../SSM/SSM/SMBMS/target/SMBMS-1.0-SNAPSHOT/WEB-INF/web.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../SSM/SSM/SMBMS/target/SMBMS-1.0-SNAPSHOT/css/public.css" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../SSM/SSM/SMBMS/target/SMBMS-1.0-SNAPSHOT/css/public.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../SSM/SSM/SMBMS/target/SMBMS-1.0-SNAPSHOT/js/billlist.js" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../SSM/SSM/SMBMS/target/SMBMS-1.0-SNAPSHOT/js/billlist.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../SSM/SSM/SMBMS/target/SMBMS-1.0-SNAPSHOT/js/providerlist.js" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../SSM/SSM/SMBMS/target/SMBMS-1.0-SNAPSHOT/js/providerlist.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../SSM/SSM/SMBMS/target/SMBMS-1.0-SNAPSHOT/js/userlist.js" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../SSM/SSM/SMBMS/target/SMBMS-1.0-SNAPSHOT/js/userlist.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../SSM/SSM/SMBMS/target/SMBMS-1.0-SNAPSHOT/jsp/common/head.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../SSM/SSM/SMBMS/target/SMBMS-1.0-SNAPSHOT/jsp/common/head.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../SSM/SSM/SMBMS/target/SMBMS-1.0-SNAPSHOT/jsp/userview.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../SSM/SSM/SMBMS/target/SMBMS-1.0-SNAPSHOT/jsp/userview.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../SSM/SSM/SMBMS/target/classes/com/beerus/action/BillAction$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../SSM/SSM/SMBMS/target/classes/com/beerus/action/BillAction$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../SSM/SSM/SMBMS/target/classes/com/beerus/action/BillAction.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../SSM/SSM/SMBMS/target/classes/com/beerus/action/BillAction.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../SSM/SSM/SMBMS/target/classes/com/beerus/action/ExitAction.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../SSM/SSM/SMBMS/target/classes/com/beerus/action/ExitAction.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../SSM/SSM/SMBMS/target/classes/com/beerus/action/ProviderAction$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../SSM/SSM/SMBMS/target/classes/com/beerus/action/ProviderAction$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../SSM/SSM/SMBMS/target/classes/com/beerus/action/ProviderAction.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../SSM/SSM/SMBMS/target/classes/com/beerus/action/ProviderAction.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../SSM/SSM/SMBMS/target/classes/com/beerus/action/UserAction.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../SSM/SSM/SMBMS/target/classes/com/beerus/action/UserAction.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../SSM/SSM/SMBMS/target/classes/com/beerus/action/UserMgrAction$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../SSM/SSM/SMBMS/target/classes/com/beerus/action/UserMgrAction$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../SSM/SSM/SMBMS/target/classes/com/beerus/action/UserMgrAction.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../SSM/SSM/SMBMS/target/classes/com/beerus/action/UserMgrAction.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../SSM/SSM/SMBMS/target/classes/com/beerus/filter/EncodingFilter.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../SSM/SSM/SMBMS/target/classes/com/beerus/filter/EncodingFilter.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../SSM/SSM/SMBMS/target/classes/com/beerus/mapper/UserMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../SSM/SSM/SMBMS/target/classes/com/beerus/mapper/UserMapper.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../SSM/SSM/SMBMS/target/classes/com/beerus/mapper/impl/BillMapperImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../SSM/SSM/SMBMS/target/classes/com/beerus/mapper/impl/ProvideMapperImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../SSM/SSM/SMBMS/target/classes/com/beerus/mapper/impl/RoleMapperImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../SSM/SSM/SMBMS/target/classes/com/beerus/mapper/impl/UserMapperImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../SSM/SSM/SMBMS/target/classes/com/beerus/service/impl/BillServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../SSM/SSM/SMBMS/target/classes/com/beerus/service/impl/BillServiceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../SSM/SSM/SMBMS/target/classes/com/beerus/service/impl/ProvideServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../SSM/SSM/SMBMS/target/classes/com/beerus/service/impl/ProvideServiceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../SSM/SSM/SMBMS/target/classes/com/beerus/service/impl/RoleServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../SSM/SSM/SMBMS/target/classes/com/beerus/service/impl/RoleServiceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../SSM/SSM/SMBMS/target/classes/com/beerus/service/impl/UserServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../SSM/SSM/SMBMS/target/classes/com/beerus/service/impl/UserServiceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../SSM/SSM/SMBMS/target/classes/database.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../SSM/SSM/SMBMS/target/classes/database.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../SSM/SSM/SMBMS/target/classes/mybatis-config.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../SSM/SSM/SMBMS/target/classes/mybatis-config.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../SSM/SSM/SMBMS/target/classes/struts.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../SSM/SSM/SMBMS/target/classes/struts.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../SSM/SSM/SMBMS/target/classes/xml/UserMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../SSM/SSM/SMBMS/target/classes/xml/UserMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../SSM/SSM/SSM/SMBMS/.idea/compiler.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../SSM/SSM/SSM/SMBMS/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../SSM/SSM/SSM/SMBMS/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../SSM/SSM/SSM/SMBMS/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../SSM/SSM/SSM/SMBMS/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../SSM/SSM/SSM/SMBMS/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../SSM/SSM/SSM/SMBMS/src/main/java/com/beerus/common/Mark.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../SSM/SSM/SSM/SMBMS/src/main/java/com/beerus/controller/BillAction.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../SSM/SSM/SSM/SMBMS/src/main/java/com/beerus/controller/ExitAction.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../SSM/SSM/SSM/SMBMS/src/main/java/com/beerus/controller/ProviderAction.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../SSM/SSM/SSM/SMBMS/src/main/java/com/beerus/controller/UserController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../SSM/SSM/SSM/SMBMS/src/main/java/com/beerus/controller/UserMgrAction.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../SSM/SSM/SSM/SMBMS/src/main/java/com/beerus/entity/Address.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../SSM/SSM/SSM/SMBMS/src/main/java/com/beerus/entity/Bill.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../SSM/SSM/SSM/SMBMS/src/main/java/com/beerus/entity/Provider.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../SSM/SSM/SSM/SMBMS/src/main/java/com/beerus/entity/Role.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../SSM/SSM/SSM/SMBMS/src/main/java/com/beerus/entity/User.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../SSM/SSM/SSM/SMBMS/src/main/java/com/beerus/filter/EncodingFilter.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../SSM/SSM/SSM/SMBMS/src/main/java/com/beerus/mapper/BillMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../SSM/SSM/SSM/SMBMS/src/main/java/com/beerus/mapper/ProvideMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../SSM/SSM/SSM/SMBMS/src/main/java/com/beerus/mapper/RoleMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../SSM/SSM/SSM/SMBMS/src/main/java/com/beerus/mapper/UserMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../SSM/SSM/SSM/SMBMS/src/main/java/com/beerus/service/BillService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../SSM/SSM/SSM/SMBMS/src/main/java/com/beerus/service/ProvideService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../SSM/SSM/SSM/SMBMS/src/main/java/com/beerus/service/RoleService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../SSM/SSM/SSM/SMBMS/src/main/java/com/beerus/service/UserService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../SSM/SSM/SSM/SMBMS/src/main/java/com/beerus/service/impl/BillServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../SSM/SSM/SSM/SMBMS/src/main/java/com/beerus/service/impl/ProvideServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../SSM/SSM/SSM/SMBMS/src/main/java/com/beerus/service/impl/RoleServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../SSM/SSM/SSM/SMBMS/src/main/java/com/beerus/service/impl/UserServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../SSM/SSM/SSM/SMBMS/src/main/java/com/beerus/utils/MyBatisUtil.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../SSM/SSM/SSM/SMBMS/src/main/java/com/beerus/utils/Page.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../SSM/SSM/SSM/SMBMS/src/main/java/com/beerus/utils/Result.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../SSM/SSM/SSM/SMBMS/src/main/java/com/beerus/utils/SpringUtil.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../SSM/SSM/SSM/SMBMS/src/main/resources/database.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../SSM/SSM/SSM/SMBMS/src/main/resources/log4j.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../SSM/SSM/SSM/SMBMS/src/main/resources/mybatis-config.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../SSM/SSM/SSM/SMBMS/src/main/resources/spring-config-dao.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../SSM/SSM/SSM/SMBMS/src/main/resources/spring-config.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../SSM/SSM/SSM/SMBMS/src/main/resources/struts.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../SSM/SSM/SSM/SMBMS/src/main/resources/xml/BillMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../SSM/SSM/SSM/SMBMS/src/main/resources/xml/ProvideMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../SSM/SSM/SSM/SMBMS/src/main/resources/xml/RoleMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../SSM/SSM/SSM/SMBMS/src/main/resources/xml/UserMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../SSM/SSM/SSM/SMBMS/src/main/webapp/WEB-INF/jsp/billadd.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../SSM/SSM/SSM/SMBMS/src/main/webapp/WEB-INF/jsp/billlist.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../SSM/SSM/SSM/SMBMS/src/main/webapp/WEB-INF/jsp/billmodify.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../SSM/SSM/SSM/SMBMS/src/main/webapp/WEB-INF/jsp/billview.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../SSM/SSM/SSM/SMBMS/src/main/webapp/WEB-INF/jsp/common/foot.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../SSM/SSM/SSM/SMBMS/src/main/webapp/WEB-INF/jsp/common/head.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../SSM/SSM/SSM/SMBMS/src/main/webapp/WEB-INF/jsp/error.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../SSM/SSM/SSM/SMBMS/src/main/webapp/WEB-INF/jsp/frame.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../SSM/SSM/SSM/SMBMS/src/main/webapp/WEB-INF/jsp/index.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../SSM/SSM/SSM/SMBMS/src/main/webapp/WEB-INF/jsp/login.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../SSM/SSM/SSM/SMBMS/src/main/webapp/WEB-INF/jsp/provideradd.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../SSM/SSM/SSM/SMBMS/src/main/webapp/WEB-INF/jsp/providerlist.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../SSM/SSM/SSM/SMBMS/src/main/webapp/WEB-INF/jsp/providermodify.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../SSM/SSM/SSM/SMBMS/src/main/webapp/WEB-INF/jsp/providerview.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../SSM/SSM/SSM/SMBMS/src/main/webapp/WEB-INF/jsp/pwdmodify.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../SSM/SSM/SSM/SMBMS/src/main/webapp/WEB-INF/jsp/rollpage.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../SSM/SSM/SSM/SMBMS/src/main/webapp/WEB-INF/jsp/useradd.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../SSM/SSM/SSM/SMBMS/src/main/webapp/WEB-INF/jsp/userlist.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../SSM/SSM/SSM/SMBMS/src/main/webapp/WEB-INF/jsp/usermodify.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../SSM/SSM/SSM/SMBMS/src/main/webapp/WEB-INF/jsp/userview.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../SSM/SSM/SSM/SMBMS/src/main/webapp/WEB-INF/web.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../SSM/SSM/SSM/SMBMS/src/main/webapp/jsp/error.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../SSM/SSM/SSM/SMBMS/src/main/webapp/statics/calendar/My97DatePicker.htm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../SSM/SSM/SSM/SMBMS/src/main/webapp/statics/calendar/WdatePicker.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../SSM/SSM/SSM/SMBMS/src/main/webapp/statics/calendar/calendar.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../SSM/SSM/SSM/SMBMS/src/main/webapp/statics/calendar/config.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../SSM/SSM/SSM/SMBMS/src/main/webapp/statics/calendar/lang/en.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../SSM/SSM/SSM/SMBMS/src/main/webapp/statics/calendar/lang/zh-cn.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../SSM/SSM/SSM/SMBMS/src/main/webapp/statics/calendar/lang/zh-tw.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../SSM/SSM/SSM/SMBMS/src/main/webapp/statics/calendar/skin/WdatePicker.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../SSM/SSM/SSM/SMBMS/src/main/webapp/statics/calendar/skin/datePicker.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../SSM/SSM/SSM/SMBMS/src/main/webapp/statics/calendar/skin/default/datepicker.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../SSM/SSM/SSM/SMBMS/src/main/webapp/statics/calendar/skin/default/img.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../SSM/SSM/SSM/SMBMS/src/main/webapp/statics/calendar/skin/whyGreen/bg.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../SSM/SSM/SSM/SMBMS/src/main/webapp/statics/calendar/skin/whyGreen/datepicker.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../SSM/SSM/SSM/SMBMS/src/main/webapp/statics/calendar/skin/whyGreen/img.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../SSM/SSM/SSM/SMBMS/src/main/webapp/statics/css/public.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../SSM/SSM/SSM/SMBMS/src/main/webapp/statics/css/style.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../SSM/SSM/SSM/SMBMS/src/main/webapp/statics/images/buy.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../SSM/SSM/SSM/SMBMS/src/main/webapp/statics/images/clock.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../SSM/SSM/SSM/SMBMS/src/main/webapp/statics/images/formBg.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../SSM/SSM/SSM/SMBMS/src/main/webapp/statics/images/gys.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../SSM/SSM/SSM/SMBMS/src/main/webapp/statics/images/home.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../SSM/SSM/SSM/SMBMS/src/main/webapp/statics/images/leftBg.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../SSM/SSM/SSM/SMBMS/src/main/webapp/statics/images/loginBg.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../SSM/SSM/SSM/SMBMS/src/main/webapp/statics/images/login_bg.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../SSM/SSM/SSM/SMBMS/src/main/webapp/statics/images/login_img.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../SSM/SSM/SSM/SMBMS/src/main/webapp/statics/images/mm.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../SSM/SSM/SSM/SMBMS/src/main/webapp/statics/images/n.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../SSM/SSM/SSM/SMBMS/src/main/webapp/statics/images/read.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../SSM/SSM/SSM/SMBMS/src/main/webapp/statics/images/schu.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../SSM/SSM/SSM/SMBMS/src/main/webapp/statics/images/search.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../SSM/SSM/SSM/SMBMS/src/main/webapp/statics/images/tc.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../SSM/SSM/SSM/SMBMS/src/main/webapp/statics/images/tianjia.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../SSM/SSM/SSM/SMBMS/src/main/webapp/statics/images/time.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../SSM/SSM/SSM/SMBMS/src/main/webapp/statics/images/xiugai.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../SSM/SSM/SSM/SMBMS/src/main/webapp/statics/images/y.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../SSM/SSM/SSM/SMBMS/src/main/webapp/statics/images/yh.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../SSM/SSM/SSM/SMBMS/src/main/webapp/statics/images/zd.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../SSM/SSM/SSM/SMBMS/src/main/webapp/statics/js/billadd.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../SSM/SSM/SSM/SMBMS/src/main/webapp/statics/js/billlist.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../SSM/SSM/SSM/SMBMS/src/main/webapp/statics/js/billmodify.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../SSM/SSM/SSM/SMBMS/src/main/webapp/statics/js/billview.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../SSM/SSM/SSM/SMBMS/src/main/webapp/statics/js/common.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../SSM/SSM/SSM/SMBMS/src/main/webapp/statics/js/jquery-1.8.3.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../SSM/SSM/SSM/SMBMS/src/main/webapp/statics/js/provideradd.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../SSM/SSM/SSM/SMBMS/src/main/webapp/statics/js/providerlist.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../SSM/SSM/SSM/SMBMS/src/main/webapp/statics/js/providermodify.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../SSM/SSM/SSM/SMBMS/src/main/webapp/statics/js/providerview.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../SSM/SSM/SSM/SMBMS/src/main/webapp/statics/js/pwdmodify.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../SSM/SSM/SSM/SMBMS/src/main/webapp/statics/js/rollpage.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../SSM/SSM/SSM/SMBMS/src/main/webapp/statics/js/time.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../SSM/SSM/SSM/SMBMS/src/main/webapp/statics/js/useradd.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../SSM/SSM/SSM/SMBMS/src/main/webapp/statics/js/userlist.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../SSM/SSM/SSM/SMBMS/src/main/webapp/statics/js/usermodify.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../SSM/SSM/SSM/SMBMS/src/main/webapp/statics/js/userview.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../SSM/SSM/SSM/SMBMS/target/SMBMS-1.0-SNAPSHOT/META-INF/MANIFEST.MF" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../SSM/SSM/SSM/SMBMS/target/SMBMS-1.0-SNAPSHOT/WEB-INF/classes/META-INF/SMBMS.kotlin_module" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../SSM/SSM/SSM/SMBMS/target/SMBMS-1.0-SNAPSHOT/WEB-INF/classes/com/beerus/action/BillAction$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../SSM/SSM/SSM/SMBMS/target/SMBMS-1.0-SNAPSHOT/WEB-INF/classes/com/beerus/action/BillAction.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../SSM/SSM/SSM/SMBMS/target/SMBMS-1.0-SNAPSHOT/WEB-INF/classes/com/beerus/action/ExitAction.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../SSM/SSM/SSM/SMBMS/target/SMBMS-1.0-SNAPSHOT/WEB-INF/classes/com/beerus/action/ProviderAction$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../SSM/SSM/SSM/SMBMS/target/SMBMS-1.0-SNAPSHOT/WEB-INF/classes/com/beerus/action/ProviderAction.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../SSM/SSM/SSM/SMBMS/target/SMBMS-1.0-SNAPSHOT/WEB-INF/classes/com/beerus/action/UserAction.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../SSM/SSM/SSM/SMBMS/target/SMBMS-1.0-SNAPSHOT/WEB-INF/classes/com/beerus/action/UserMgrAction$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../SSM/SSM/SSM/SMBMS/target/SMBMS-1.0-SNAPSHOT/WEB-INF/classes/com/beerus/action/UserMgrAction.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../SSM/SSM/SSM/SMBMS/target/SMBMS-1.0-SNAPSHOT/WEB-INF/classes/com/beerus/common/Mark.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../SSM/SSM/SSM/SMBMS/target/SMBMS-1.0-SNAPSHOT/WEB-INF/classes/com/beerus/entity/Address.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../SSM/SSM/SSM/SMBMS/target/SMBMS-1.0-SNAPSHOT/WEB-INF/classes/com/beerus/entity/Bill.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../SSM/SSM/SSM/SMBMS/target/SMBMS-1.0-SNAPSHOT/WEB-INF/classes/com/beerus/entity/Provider.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../SSM/SSM/SSM/SMBMS/target/SMBMS-1.0-SNAPSHOT/WEB-INF/classes/com/beerus/entity/Role.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../SSM/SSM/SSM/SMBMS/target/SMBMS-1.0-SNAPSHOT/WEB-INF/classes/com/beerus/entity/User.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../SSM/SSM/SSM/SMBMS/target/SMBMS-1.0-SNAPSHOT/WEB-INF/classes/com/beerus/filter/EncodingFilter.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../SSM/SSM/SSM/SMBMS/target/SMBMS-1.0-SNAPSHOT/WEB-INF/classes/com/beerus/mapper/BillMapper.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../SSM/SSM/SSM/SMBMS/target/SMBMS-1.0-SNAPSHOT/WEB-INF/classes/com/beerus/mapper/ProvideMapper.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../SSM/SSM/SSM/SMBMS/target/SMBMS-1.0-SNAPSHOT/WEB-INF/classes/com/beerus/mapper/RoleMapper.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../SSM/SSM/SSM/SMBMS/target/SMBMS-1.0-SNAPSHOT/WEB-INF/classes/com/beerus/mapper/UserMapper.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../SSM/SSM/SSM/SMBMS/target/SMBMS-1.0-SNAPSHOT/WEB-INF/classes/com/beerus/service/BillService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../SSM/SSM/SSM/SMBMS/target/SMBMS-1.0-SNAPSHOT/WEB-INF/classes/com/beerus/service/ProvideService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../SSM/SSM/SSM/SMBMS/target/SMBMS-1.0-SNAPSHOT/WEB-INF/classes/com/beerus/service/RoleService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../SSM/SSM/SSM/SMBMS/target/SMBMS-1.0-SNAPSHOT/WEB-INF/classes/com/beerus/service/UserService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../SSM/SSM/SSM/SMBMS/target/SMBMS-1.0-SNAPSHOT/WEB-INF/classes/com/beerus/service/impl/BillServiceImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../SSM/SSM/SSM/SMBMS/target/SMBMS-1.0-SNAPSHOT/WEB-INF/classes/com/beerus/service/impl/ProvideServiceImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../SSM/SSM/SSM/SMBMS/target/SMBMS-1.0-SNAPSHOT/WEB-INF/classes/com/beerus/service/impl/RoleServiceImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../SSM/SSM/SSM/SMBMS/target/SMBMS-1.0-SNAPSHOT/WEB-INF/classes/com/beerus/service/impl/UserServiceImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../SSM/SSM/SSM/SMBMS/target/SMBMS-1.0-SNAPSHOT/WEB-INF/classes/com/beerus/utils/MyBatisUtil.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../SSM/SSM/SSM/SMBMS/target/SMBMS-1.0-SNAPSHOT/WEB-INF/classes/com/beerus/utils/Page.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../SSM/SSM/SSM/SMBMS/target/SMBMS-1.0-SNAPSHOT/WEB-INF/classes/com/beerus/utils/Result.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../SSM/SSM/SSM/SMBMS/target/SMBMS-1.0-SNAPSHOT/WEB-INF/classes/com/beerus/utils/SpringUtil.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../SSM/SSM/SSM/SMBMS/target/SMBMS-1.0-SNAPSHOT/WEB-INF/classes/database.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../SSM/SSM/SSM/SMBMS/target/SMBMS-1.0-SNAPSHOT/WEB-INF/classes/log4j.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../SSM/SSM/SSM/SMBMS/target/SMBMS-1.0-SNAPSHOT/WEB-INF/classes/mybatis-config.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../SSM/SSM/SSM/SMBMS/target/SMBMS-1.0-SNAPSHOT/WEB-INF/classes/spring-config-dao.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../SSM/SSM/SSM/SMBMS/target/SMBMS-1.0-SNAPSHOT/WEB-INF/classes/spring-config.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../SSM/SSM/SSM/SMBMS/target/SMBMS-1.0-SNAPSHOT/WEB-INF/classes/struts.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../SSM/SSM/SSM/SMBMS/target/SMBMS-1.0-SNAPSHOT/WEB-INF/classes/xml/BillMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../SSM/SSM/SSM/SMBMS/target/SMBMS-1.0-SNAPSHOT/WEB-INF/classes/xml/ProvideMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../SSM/SSM/SSM/SMBMS/target/SMBMS-1.0-SNAPSHOT/WEB-INF/classes/xml/RoleMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../SSM/SSM/SSM/SMBMS/target/SMBMS-1.0-SNAPSHOT/WEB-INF/classes/xml/UserMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../SSM/SSM/SSM/SMBMS/target/SMBMS-1.0-SNAPSHOT/WEB-INF/lib/asm-3.3.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../SSM/SSM/SSM/SMBMS/target/SMBMS-1.0-SNAPSHOT/WEB-INF/lib/asm-commons-3.3.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../SSM/SSM/SSM/SMBMS/target/SMBMS-1.0-SNAPSHOT/WEB-INF/lib/asm-tree-3.3.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../SSM/SSM/SSM/SMBMS/target/SMBMS-1.0-SNAPSHOT/WEB-INF/lib/aspectjweaver-1.8.9.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../SSM/SSM/SSM/SMBMS/target/SMBMS-1.0-SNAPSHOT/WEB-INF/lib/commons-dbcp-1.4.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../SSM/SSM/SSM/SMBMS/target/SMBMS-1.0-SNAPSHOT/WEB-INF/lib/commons-fileupload-1.3.1.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../SSM/SSM/SSM/SMBMS/target/SMBMS-1.0-SNAPSHOT/WEB-INF/lib/commons-io-2.2.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../SSM/SSM/SSM/SMBMS/target/SMBMS-1.0-SNAPSHOT/WEB-INF/lib/commons-lang-2.5.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../SSM/SSM/SSM/SMBMS/target/SMBMS-1.0-SNAPSHOT/WEB-INF/lib/commons-lang3-3.1.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../SSM/SSM/SSM/SMBMS/target/SMBMS-1.0-SNAPSHOT/WEB-INF/lib/commons-logging-1.2.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../SSM/SSM/SSM/SMBMS/target/SMBMS-1.0-SNAPSHOT/WEB-INF/lib/commons-pool-1.6.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../SSM/SSM/SSM/SMBMS/target/SMBMS-1.0-SNAPSHOT/WEB-INF/lib/fastjson-1.2.47.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../SSM/SSM/SSM/SMBMS/target/SMBMS-1.0-SNAPSHOT/WEB-INF/lib/freemarker-2.3.19.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../SSM/SSM/SSM/SMBMS/target/SMBMS-1.0-SNAPSHOT/WEB-INF/lib/javassist-3.11.0.GA.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../SSM/SSM/SSM/SMBMS/target/SMBMS-1.0-SNAPSHOT/WEB-INF/lib/jstl-1.2.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../SSM/SSM/SSM/SMBMS/target/SMBMS-1.0-SNAPSHOT/WEB-INF/lib/log4j-1.2.17.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../SSM/SSM/SSM/SMBMS/target/SMBMS-1.0-SNAPSHOT/WEB-INF/lib/mybatis-3.4.6.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../SSM/SSM/SSM/SMBMS/target/SMBMS-1.0-SNAPSHOT/WEB-INF/lib/mybatis-spring-1.3.2.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../SSM/SSM/SSM/SMBMS/target/SMBMS-1.0-SNAPSHOT/WEB-INF/lib/mysql-connector-java-5.1.47.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../SSM/SSM/SSM/SMBMS/target/SMBMS-1.0-SNAPSHOT/WEB-INF/lib/ognl-3.0.6.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../SSM/SSM/SSM/SMBMS/target/SMBMS-1.0-SNAPSHOT/WEB-INF/lib/slf4j-api-1.7.25.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../SSM/SSM/SSM/SMBMS/target/SMBMS-1.0-SNAPSHOT/WEB-INF/lib/slf4j-log4j12-1.7.25.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../SSM/SSM/SSM/SMBMS/target/SMBMS-1.0-SNAPSHOT/WEB-INF/lib/spring-aop-4.3.8.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../SSM/SSM/SSM/SMBMS/target/SMBMS-1.0-SNAPSHOT/WEB-INF/lib/spring-aspects-4.3.8.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../SSM/SSM/SSM/SMBMS/target/SMBMS-1.0-SNAPSHOT/WEB-INF/lib/spring-beans-4.3.8.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../SSM/SSM/SSM/SMBMS/target/SMBMS-1.0-SNAPSHOT/WEB-INF/lib/spring-context-4.3.8.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../SSM/SSM/SSM/SMBMS/target/SMBMS-1.0-SNAPSHOT/WEB-INF/lib/spring-core-4.3.8.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../SSM/SSM/SSM/SMBMS/target/SMBMS-1.0-SNAPSHOT/WEB-INF/lib/spring-expression-4.3.8.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../SSM/SSM/SSM/SMBMS/target/SMBMS-1.0-SNAPSHOT/WEB-INF/lib/spring-jdbc-4.3.8.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../SSM/SSM/SSM/SMBMS/target/SMBMS-1.0-SNAPSHOT/WEB-INF/lib/spring-tx-4.3.8.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../SSM/SSM/SSM/SMBMS/target/SMBMS-1.0-SNAPSHOT/WEB-INF/lib/spring-web-4.3.8.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../SSM/SSM/SSM/SMBMS/target/SMBMS-1.0-SNAPSHOT/WEB-INF/lib/spring-webmvc-4.3.8.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../SSM/SSM/SSM/SMBMS/target/SMBMS-1.0-SNAPSHOT/WEB-INF/lib/struts2-core-2.3.16.3.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../SSM/SSM/SSM/SMBMS/target/SMBMS-1.0-SNAPSHOT/WEB-INF/lib/struts2-spring-plugin-2.2.3.1.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../SSM/SSM/SSM/SMBMS/target/SMBMS-1.0-SNAPSHOT/WEB-INF/lib/xwork-core-2.3.16.3.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../SSM/SSM/SSM/SMBMS/target/SMBMS-1.0-SNAPSHOT/WEB-INF/web.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../SSM/SSM/SSM/SMBMS/target/SMBMS-1.0-SNAPSHOT/calendar/My97DatePicker.htm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../SSM/SSM/SSM/SMBMS/target/SMBMS-1.0-SNAPSHOT/calendar/WdatePicker.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../SSM/SSM/SSM/SMBMS/target/SMBMS-1.0-SNAPSHOT/calendar/calendar.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../SSM/SSM/SSM/SMBMS/target/SMBMS-1.0-SNAPSHOT/calendar/config.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../SSM/SSM/SSM/SMBMS/target/SMBMS-1.0-SNAPSHOT/calendar/lang/en.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../SSM/SSM/SSM/SMBMS/target/SMBMS-1.0-SNAPSHOT/calendar/lang/zh-cn.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../SSM/SSM/SSM/SMBMS/target/SMBMS-1.0-SNAPSHOT/calendar/lang/zh-tw.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../SSM/SSM/SSM/SMBMS/target/SMBMS-1.0-SNAPSHOT/calendar/skin/WdatePicker.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../SSM/SSM/SSM/SMBMS/target/SMBMS-1.0-SNAPSHOT/calendar/skin/datePicker.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../SSM/SSM/SSM/SMBMS/target/SMBMS-1.0-SNAPSHOT/calendar/skin/default/datepicker.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../SSM/SSM/SSM/SMBMS/target/SMBMS-1.0-SNAPSHOT/calendar/skin/default/img.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../SSM/SSM/SSM/SMBMS/target/SMBMS-1.0-SNAPSHOT/calendar/skin/whyGreen/bg.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../SSM/SSM/SSM/SMBMS/target/SMBMS-1.0-SNAPSHOT/calendar/skin/whyGreen/datepicker.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../SSM/SSM/SSM/SMBMS/target/SMBMS-1.0-SNAPSHOT/calendar/skin/whyGreen/img.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../SSM/SSM/SSM/SMBMS/target/SMBMS-1.0-SNAPSHOT/css/public.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../SSM/SSM/SSM/SMBMS/target/SMBMS-1.0-SNAPSHOT/css/style.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../SSM/SSM/SSM/SMBMS/target/SMBMS-1.0-SNAPSHOT/error.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../SSM/SSM/SSM/SMBMS/target/SMBMS-1.0-SNAPSHOT/images/buy.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../SSM/SSM/SSM/SMBMS/target/SMBMS-1.0-SNAPSHOT/images/clock.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../SSM/SSM/SSM/SMBMS/target/SMBMS-1.0-SNAPSHOT/images/formBg.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../SSM/SSM/SSM/SMBMS/target/SMBMS-1.0-SNAPSHOT/images/gys.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../SSM/SSM/SSM/SMBMS/target/SMBMS-1.0-SNAPSHOT/images/home.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../SSM/SSM/SSM/SMBMS/target/SMBMS-1.0-SNAPSHOT/images/leftBg.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../SSM/SSM/SSM/SMBMS/target/SMBMS-1.0-SNAPSHOT/images/loginBg.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../SSM/SSM/SSM/SMBMS/target/SMBMS-1.0-SNAPSHOT/images/login_bg.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../SSM/SSM/SSM/SMBMS/target/SMBMS-1.0-SNAPSHOT/images/login_img.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../SSM/SSM/SSM/SMBMS/target/SMBMS-1.0-SNAPSHOT/images/mm.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../SSM/SSM/SSM/SMBMS/target/SMBMS-1.0-SNAPSHOT/images/n.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../SSM/SSM/SSM/SMBMS/target/SMBMS-1.0-SNAPSHOT/images/read.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../SSM/SSM/SSM/SMBMS/target/SMBMS-1.0-SNAPSHOT/images/schu.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../SSM/SSM/SSM/SMBMS/target/SMBMS-1.0-SNAPSHOT/images/search.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../SSM/SSM/SSM/SMBMS/target/SMBMS-1.0-SNAPSHOT/images/tc.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../SSM/SSM/SSM/SMBMS/target/SMBMS-1.0-SNAPSHOT/images/tianjia.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../SSM/SSM/SSM/SMBMS/target/SMBMS-1.0-SNAPSHOT/images/time.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../SSM/SSM/SSM/SMBMS/target/SMBMS-1.0-SNAPSHOT/images/xiugai.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../SSM/SSM/SSM/SMBMS/target/SMBMS-1.0-SNAPSHOT/images/y.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../SSM/SSM/SSM/SMBMS/target/SMBMS-1.0-SNAPSHOT/images/yh.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../SSM/SSM/SSM/SMBMS/target/SMBMS-1.0-SNAPSHOT/images/zd.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../SSM/SSM/SSM/SMBMS/target/SMBMS-1.0-SNAPSHOT/index.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../SSM/SSM/SSM/SMBMS/target/SMBMS-1.0-SNAPSHOT/js/billadd.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../SSM/SSM/SSM/SMBMS/target/SMBMS-1.0-SNAPSHOT/js/billlist.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../SSM/SSM/SSM/SMBMS/target/SMBMS-1.0-SNAPSHOT/js/billmodify.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../SSM/SSM/SSM/SMBMS/target/SMBMS-1.0-SNAPSHOT/js/billview.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../SSM/SSM/SSM/SMBMS/target/SMBMS-1.0-SNAPSHOT/js/common.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../SSM/SSM/SSM/SMBMS/target/SMBMS-1.0-SNAPSHOT/js/jquery-1.8.3.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../SSM/SSM/SSM/SMBMS/target/SMBMS-1.0-SNAPSHOT/js/provideradd.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../SSM/SSM/SSM/SMBMS/target/SMBMS-1.0-SNAPSHOT/js/providerlist.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../SSM/SSM/SSM/SMBMS/target/SMBMS-1.0-SNAPSHOT/js/providermodify.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../SSM/SSM/SSM/SMBMS/target/SMBMS-1.0-SNAPSHOT/js/providerview.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../SSM/SSM/SSM/SMBMS/target/SMBMS-1.0-SNAPSHOT/js/pwdmodify.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../SSM/SSM/SSM/SMBMS/target/SMBMS-1.0-SNAPSHOT/js/rollpage.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../SSM/SSM/SSM/SMBMS/target/SMBMS-1.0-SNAPSHOT/js/time.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../SSM/SSM/SSM/SMBMS/target/SMBMS-1.0-SNAPSHOT/js/useradd.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../SSM/SSM/SSM/SMBMS/target/SMBMS-1.0-SNAPSHOT/js/userlist.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../SSM/SSM/SSM/SMBMS/target/SMBMS-1.0-SNAPSHOT/js/usermodify.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../SSM/SSM/SSM/SMBMS/target/SMBMS-1.0-SNAPSHOT/js/userview.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../SSM/SSM/SSM/SMBMS/target/SMBMS-1.0-SNAPSHOT/jsp/billadd.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../SSM/SSM/SSM/SMBMS/target/SMBMS-1.0-SNAPSHOT/jsp/billlist.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../SSM/SSM/SSM/SMBMS/target/SMBMS-1.0-SNAPSHOT/jsp/billmodify.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../SSM/SSM/SSM/SMBMS/target/SMBMS-1.0-SNAPSHOT/jsp/billview.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../SSM/SSM/SSM/SMBMS/target/SMBMS-1.0-SNAPSHOT/jsp/common/foot.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../SSM/SSM/SSM/SMBMS/target/SMBMS-1.0-SNAPSHOT/jsp/common/head.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../SSM/SSM/SSM/SMBMS/target/SMBMS-1.0-SNAPSHOT/jsp/error.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../SSM/SSM/SSM/SMBMS/target/SMBMS-1.0-SNAPSHOT/jsp/frame.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../SSM/SSM/SSM/SMBMS/target/SMBMS-1.0-SNAPSHOT/jsp/provideradd.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../SSM/SSM/SSM/SMBMS/target/SMBMS-1.0-SNAPSHOT/jsp/providerlist.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../SSM/SSM/SSM/SMBMS/target/SMBMS-1.0-SNAPSHOT/jsp/providermodify.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../SSM/SSM/SSM/SMBMS/target/SMBMS-1.0-SNAPSHOT/jsp/providerview.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../SSM/SSM/SSM/SMBMS/target/SMBMS-1.0-SNAPSHOT/jsp/pwdmodify.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../SSM/SSM/SSM/SMBMS/target/SMBMS-1.0-SNAPSHOT/jsp/rollpage.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../SSM/SSM/SSM/SMBMS/target/SMBMS-1.0-SNAPSHOT/jsp/useradd.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../SSM/SSM/SSM/SMBMS/target/SMBMS-1.0-SNAPSHOT/jsp/userlist.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../SSM/SSM/SSM/SMBMS/target/SMBMS-1.0-SNAPSHOT/jsp/usermodify.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../SSM/SSM/SSM/SMBMS/target/SMBMS-1.0-SNAPSHOT/jsp/userview.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../SSM/SSM/SSM/SMBMS/target/SMBMS-1.0-SNAPSHOT/login.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../SSM/SSM/SSM/SMBMS/target/classes/com/beerus/action/BillAction$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../SSM/SSM/SSM/SMBMS/target/classes/com/beerus/action/BillAction.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../SSM/SSM/SSM/SMBMS/target/classes/com/beerus/action/ExitAction.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../SSM/SSM/SSM/SMBMS/target/classes/com/beerus/action/ProviderAction$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../SSM/SSM/SSM/SMBMS/target/classes/com/beerus/action/ProviderAction.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../SSM/SSM/SSM/SMBMS/target/classes/com/beerus/action/UserAction.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../SSM/SSM/SSM/SMBMS/target/classes/com/beerus/action/UserMgrAction$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../SSM/SSM/SSM/SMBMS/target/classes/com/beerus/action/UserMgrAction.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../SSM/SSM/SSM/SMBMS/target/classes/com/beerus/common/Mark.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../SSM/SSM/SSM/SMBMS/target/classes/com/beerus/entity/Address.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../SSM/SSM/SSM/SMBMS/target/classes/com/beerus/entity/Bill.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../SSM/SSM/SSM/SMBMS/target/classes/com/beerus/entity/Provider.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../SSM/SSM/SSM/SMBMS/target/classes/com/beerus/entity/Role.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../SSM/SSM/SSM/SMBMS/target/classes/com/beerus/entity/User.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../SSM/SSM/SSM/SMBMS/target/classes/com/beerus/filter/EncodingFilter.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../SSM/SSM/SSM/SMBMS/target/classes/com/beerus/mapper/BillMapper.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../SSM/SSM/SSM/SMBMS/target/classes/com/beerus/mapper/ProvideMapper.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../SSM/SSM/SSM/SMBMS/target/classes/com/beerus/mapper/RoleMapper.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../SSM/SSM/SSM/SMBMS/target/classes/com/beerus/mapper/UserMapper.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../SSM/SSM/SSM/SMBMS/target/classes/com/beerus/service/BillService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../SSM/SSM/SSM/SMBMS/target/classes/com/beerus/service/ProvideService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../SSM/SSM/SSM/SMBMS/target/classes/com/beerus/service/RoleService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../SSM/SSM/SSM/SMBMS/target/classes/com/beerus/service/UserService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../SSM/SSM/SSM/SMBMS/target/classes/com/beerus/service/impl/BillServiceImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../SSM/SSM/SSM/SMBMS/target/classes/com/beerus/service/impl/ProvideServiceImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../SSM/SSM/SSM/SMBMS/target/classes/com/beerus/service/impl/RoleServiceImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../SSM/SSM/SSM/SMBMS/target/classes/com/beerus/service/impl/UserServiceImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../SSM/SSM/SSM/SMBMS/target/classes/com/beerus/utils/MyBatisUtil.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../SSM/SSM/SSM/SMBMS/target/classes/com/beerus/utils/Page.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../SSM/SSM/SSM/SMBMS/target/classes/com/beerus/utils/Result.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../SSM/SSM/SSM/SMBMS/target/classes/com/beerus/utils/SpringUtil.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../SSM/SSM/SSM/SMBMS/target/classes/database.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../SSM/SSM/SSM/SMBMS/target/classes/log4j.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../SSM/SSM/SSM/SMBMS/target/classes/mybatis-config.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../SSM/SSM/SSM/SMBMS/target/classes/spring-config-dao.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../SSM/SSM/SSM/SMBMS/target/classes/spring-config.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../SSM/SSM/SSM/SMBMS/target/classes/struts.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../SSM/SSM/SSM/SMBMS/target/classes/xml/BillMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../SSM/SSM/SSM/SMBMS/target/classes/xml/ProvideMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../SSM/SSM/SSM/SMBMS/target/classes/xml/RoleMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../SSM/SSM/SSM/SMBMS/target/classes/xml/UserMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../SSM/chapter01/SMBMS.sql" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../SSM/chapter01/SMBMS.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../SSM/chapter01/exercise/manager/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../SSM/chapter01/exercise/manager/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../SSM/chapter05/work/Spring/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../SSM/chapter05/work/Spring/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../SSM/chapter06/Spring/.idea/Spring.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../SSM/chapter06/Spring/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../SSM/chapter06/Spring/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../SSM/chapter06/Spring/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../SSM/chapter06/Spring/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../SSM/chapter06/Spring/target/classes/com/beerus/aop/ServiceLogger.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../SSM/chapter06/Spring/target/classes/com/beerus/aop/ServiceLogger.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../SSM/chapter06/Spring/target/test-classes/Test.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../SSM/chapter06/Spring/target/test-classes/Test.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../SSM/chapter06/annotation/Spring/.idea/Spring.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../SSM/chapter06/annotation/Spring/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../SSM/chapter06/annotation/Spring/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../SSM/chapter06/annotation/Spring/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../SSM/chapter06/annotation/Spring/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../SSM/chapter06/annotation/Spring/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../SSM/chapter06/annotation/Spring/src/main/java/com/beerus/aop/ServiceLogger.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../SSM/chapter06/annotation/Spring/src/main/java/com/beerus/aop/ServiceLogger.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../SSM/chapter06/annotation/Spring/target/classes/com/beerus/aop/ServiceLogger.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../SSM/chapter06/annotation/Spring/target/classes/com/beerus/aop/ServiceLogger.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../SSM/mybatis+struts2+spring/SMBMS/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../SSM/mybatis+struts2+spring/SMBMS/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../SSM/mybatis+struts2+spring/SMBMS/target/SMBMS-1.0-SNAPSHOT/WEB-INF/classes/META-INF/SMBMS.kotlin_module" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../SSM/mybatis+struts2+spring/SMBMS/target/SMBMS-1.0-SNAPSHOT/WEB-INF/classes/com/beerus/action/BillAction.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../SSM/mybatis+struts2+spring/SMBMS/target/SMBMS-1.0-SNAPSHOT/WEB-INF/classes/com/beerus/action/BillAction.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../SSM/mybatis+struts2+spring/SMBMS/target/SMBMS-1.0-SNAPSHOT/WEB-INF/classes/com/beerus/action/UserMgrAction$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../SSM/mybatis+struts2+spring/SMBMS/target/SMBMS-1.0-SNAPSHOT/WEB-INF/classes/com/beerus/action/UserMgrAction$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../SSM/mybatis+struts2+spring/SMBMS/target/SMBMS-1.0-SNAPSHOT/WEB-INF/classes/com/beerus/action/UserMgrAction.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../SSM/mybatis+struts2+spring/SMBMS/target/SMBMS-1.0-SNAPSHOT/WEB-INF/classes/com/beerus/action/UserMgrAction.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../SSM/mybatis+struts2+spring/SMBMS/target/SMBMS-1.0-SNAPSHOT/WEB-INF/classes/spring-config.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../SSM/mybatis+struts2+spring/SMBMS/target/SMBMS-1.0-SNAPSHOT/WEB-INF/classes/spring-config.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../SSM/mybatis+struts2+spring/SMBMS/target/classes/com/beerus/action/BillAction.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../SSM/mybatis+struts2+spring/SMBMS/target/classes/com/beerus/action/BillAction.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../SSM/mybatis+struts2+spring/SMBMS/target/classes/spring-config.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../SSM/mybatis+struts2+spring/SMBMS/target/classes/spring-config.xml" afterDir="false" />
+    </list>
+    <ignored path="$PROJECT_DIR$/out/" />
+    <ignored path="$PROJECT_DIR$/target/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DefaultGradleProjectSettings">
+    <option name="isMigrated" value="true" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/beerus/controller/JSONController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="270">
+              <caret line="18" selection-start-line="18" selection-end-line="18" />
+              <folding>
+                <element signature="e#385#386#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/springmvc-config.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="588">
+              <caret line="47" selection-start-line="47" selection-end-line="47" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Jsp File" />
+        <option value="Class" />
+        <option value="Spring-Config" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="ROOT_SYNC" value="DONT_SYNC" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../../.." />
+    <option name="UPDATE_BRANCHES_INFO" value="false" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/index.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/error.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/index.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/show.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/show2.jsp" />
+        <option value="$PROJECT_DIR$/src/main/java/com/beerus/controller/FilesController.java" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/index2.jsp" />
+        <option value="$PROJECT_DIR$/src/main/java/com/beerus/controller/FileController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/beerus/controller/JSONCOntroller.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/beerus/controller/JSONController.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/springmvc-config.xml" />
+      </list>
+    </option>
+  </component>
+  <component name="JsFlowSettings">
+    <service-enabled>true</service-enabled>
+    <exe-path />
+    <other-services-enabled>true</other-services-enabled>
+    <auto-save>true</auto-save>
+  </component>
+  <component name="LogFilters">
+    <option name="FILTER_ERRORS" value="false" />
+    <option name="FILTER_WARNINGS" value="false" />
+    <option name="FILTER_INFO" value="true" />
+    <option name="FILTER_DEBUG" value="true" />
+    <option name="CUSTOM_FILTER" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="localRepository" value="$PROJECT_DIR$/../../../../../../maven/maven_jar" />
+        <option name="mavenHome" value="$PROJECT_DIR$/../../../../../../maven/apache-maven-3.6.0" />
+        <option name="userSettingsFile" value="$PROJECT_DIR$/../../../../../../maven/apache-maven-3.6.0/conf/settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="MavenProjectNavigator">
+    <treeState>
+      <expand>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="SpringMVCFileUpLoad" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="SpringMVCFileUpLoad" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Lifecycle" type="58874e2:MavenProjectsStructure$LifecycleNode" />
+        </path>
+      </expand>
+      <select />
+    </treeState>
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="y" value="23" />
+    <option name="width" value="1440" />
+    <option name="height" value="842" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="SpringMVCFileUpLoad" type="b2602c69:ProjectViewProjectNode" />
+              <item name="FileUpLoad" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SpringMVCFileUpLoad" type="b2602c69:ProjectViewProjectNode" />
+              <item name="FileUpLoad" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SpringMVCFileUpLoad" type="b2602c69:ProjectViewProjectNode" />
+              <item name="FileUpLoad" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SpringMVCFileUpLoad" type="b2602c69:ProjectViewProjectNode" />
+              <item name="FileUpLoad" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SpringMVCFileUpLoad" type="b2602c69:ProjectViewProjectNode" />
+              <item name="FileUpLoad" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="controller" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SpringMVCFileUpLoad" type="b2602c69:ProjectViewProjectNode" />
+              <item name="FileUpLoad" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SpringMVCFileUpLoad" type="b2602c69:ProjectViewProjectNode" />
+              <item name="FileUpLoad" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="webapp" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SpringMVCFileUpLoad" type="b2602c69:ProjectViewProjectNode" />
+              <item name="FileUpLoad" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="webapp" type="462c0819:PsiDirectoryNode" />
+              <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SpringMVCFileUpLoad" type="b2602c69:ProjectViewProjectNode" />
+              <item name="FileUpLoad" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="webapp" type="462c0819:PsiDirectoryNode" />
+              <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
+              <item name="jsp" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="editor.config.ad.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="settings.github" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp" />
+      <recent name="$PROJECT_DIR$/src/main/webapp/statics/images" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager">
+    <configuration name="Tomcat 8.5.3830" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 8.5.3830" ALTERNATIVE_JRE_ENABLED="false" nameIsGenerated="true">
+      <option name="UPDATE_ON_FRAME_DEACTIVATION" value="true" />
+      <option name="UPDATE_CLASSES_ON_FRAME_DEACTIVATION" value="true" />
+      <deployment>
+        <artifact name="FileUpLoad:war exploded">
+          <settings>
+            <option name="CONTEXT_PATH" value="/FileUpLoad_war_exploded" />
+          </settings>
+        </artifact>
+      </deployment>
+      <server-settings>
+        <option name="BASE_DIRECTORY_NAME" value="Tomcat_8_5_3830_SpringMVCFileUpLoad" />
+      </server-settings>
+      <predefined_log_file enabled="true" id="Tomcat" />
+      <predefined_log_file enabled="true" id="Tomcat Catalina" />
+      <predefined_log_file id="Tomcat Manager" />
+      <predefined_log_file id="Tomcat Host Manager" />
+      <predefined_log_file id="Tomcat Localhost Access" />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="59020" />
+      </RunnerSettings>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Cover">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Debug">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Run">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <method v="2">
+        <option name="Make" enabled="true" />
+        <option name="BuildArtifacts" enabled="true">
+          <artifact name="FileUpLoad:war exploded" />
+        </option>
+      </method>
+    </configuration>
+    <configuration default="true" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 8.5.3830" ALTERNATIVE_JRE_ENABLED="false">
+      <option name="OPEN_IN_BROWSER_URL" value="http://localhost:8080/FileUpLoad_war_exploded/" />
+      <option name="UPDATE_ON_FRAME_DEACTIVATION" value="true" />
+      <option name="UPDATE_CLASSES_ON_FRAME_DEACTIVATION" value="true" />
+      <deployment>
+        <artifact name="FileUpLoad:war exploded">
+          <settings>
+            <option name="CONTEXT_PATH" value="/FileUpLoad_war_exploded" />
+          </settings>
+        </artifact>
+      </deployment>
+      <server-settings>
+        <option name="BASE_DIRECTORY_NAME" value="_SpringMVCFileUpLoad" />
+      </server-settings>
+      <predefined_log_file enabled="true" id="Tomcat" />
+      <predefined_log_file enabled="true" id="Tomcat Catalina" />
+      <predefined_log_file id="Tomcat Manager" />
+      <predefined_log_file id="Tomcat Host Manager" />
+      <predefined_log_file id="Tomcat Localhost Access" />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="59020" />
+      </RunnerSettings>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Cover">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Debug">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Run">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <method v="2">
+        <option name="Make" enabled="true" />
+        <option name="BuildArtifacts" enabled="true">
+          <artifact name="FileUpLoad:war exploded" />
+        </option>
+      </method>
+    </configuration>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration>$USER_HOME$/.subversion</configuration>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="188b0b6f-ca02-4c67-8912-b64ac51e71b7" name="Default Changelist" comment="" />
+      <created>1557288249455</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1557288249455</updated>
+      <workItem from="1557288251265" duration="2021000" />
+      <workItem from="1557296042275" duration="7889000" />
+      <workItem from="1557307778685" duration="189000" />
+      <workItem from="1557318454705" duration="171000" />
+      <workItem from="1557318647836" duration="4115000" />
+      <workItem from="1557366099455" duration="1484000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="15869000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="0" y="23" width="1440" height="842" extended-state="0" />
+    <editor active="true" />
+    <layout>
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49866667" visible="true" weight="0.24320458" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Designer" order="2" />
+      <window_info id="Image Layers" order="3" />
+      <window_info id="Capture Tool" order="4" />
+      <window_info id="UI Designer" order="5" />
+      <window_info id="Favorites" order="6" side_tool="true" />
+      <window_info id="Web" order="7" sideWeight="0.50133336" side_tool="true" weight="0.2532189" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32933334" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.28133333" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="FindBugs-IDEA" order="7" />
+      <window_info anchor="bottom" id="Spring" order="8" />
+      <window_info anchor="bottom" id="Terminal" order="9" />
+      <window_info anchor="bottom" id="Docker" order="10" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
+      <window_info anchor="bottom" id="Java Enterprise" order="12" />
+      <window_info anchor="bottom" id="Database Changes" order="13" />
+      <window_info anchor="bottom" id="Version Control" order="14" />
+      <window_info anchor="bottom" id="Tail" order="15" />
+      <window_info anchor="bottom" id="Application Servers" order="16" weight="0.32933334" />
+      <window_info anchor="bottom" id="Messages" order="17" weight="0.32933334" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Maven" order="3" weight="0.3297568" />
+      <window_info anchor="right" id="Palette" order="4" />
+      <window_info anchor="right" id="Capture Analysis" order="5" />
+      <window_info anchor="right" id="Database" order="6" />
+      <window_info anchor="right" id="Palette&#9;" order="7" />
+      <window_info anchor="right" id="Theme Preview" order="8" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/applicationContext.xml" />
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/log4j.xml" />
+    <entry file="file://$PROJECT_DIR$/../../../../../../maven/maven_jar/javax/servlet/jstl/1.2/jstl-1.2.pom">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/../../../../../../maven/maven_jar/javax/servlet/javax.servlet-api/3.1.0/javax.servlet-api-3.1.0.jar!/javax/servlet/ServletResponse.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="11" column="17" selection-start-line="11" selection-start-column="17" selection-end-line="11" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/../../../../../../maven/maven_jar/javax/servlet/javax.servlet-api/3.1.0/javax.servlet-api-3.1.0.jar!/javax/servlet/http/HttpServletResponse.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="11" column="57" lean-forward="true" selection-start-line="11" selection-start-column="57" selection-end-line="11" selection-end-column="57" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/../../../../../../maven/maven_jar/javax/servlet/javax.servlet-api/3.1.0/javax.servlet-api-3.1.0.jar!/javax/servlet/http/HttpSession.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="81">
+          <caret line="15" column="31" lean-forward="true" selection-start-line="15" selection-start-column="31" selection-end-line="15" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/../../../../../../maven/maven_jar/javax/servlet/javax.servlet-api/3.1.0/javax.servlet-api-3.1.0.jar!/javax/servlet/http/HttpServletRequest.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="20" column="25" lean-forward="true" selection-start-line="20" selection-start-column="25" selection-end-line="20" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/../../../../../../maven/maven_jar/javax/servlet/javax.servlet-api/3.1.0/javax.servlet-api-3.1.0.jar!/javax/servlet/http/Cookie.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/spring-config.xml" />
+    <entry file="jar://$PROJECT_DIR$/../../../../../../maven/maven_jar/org/springframework/spring-web/4.3.8.RELEASE/spring-web-4.3.8.RELEASE.jar!/org/springframework/http/HttpRequest.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="9" column="17" selection-start-line="9" selection-start-column="17" selection-end-line="9" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/error.jsp" />
+    <entry file="jar://$PROJECT_DIR$/../../../../../../maven/maven_jar/org/springframework/spring-web/4.3.8.RELEASE/spring-web-4.3.8.RELEASE.jar!/org/springframework/web/multipart/MultipartFile.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="27" column="9" selection-start-line="27" selection-start-column="9" selection-end-line="27" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/statics/images/屏幕快照 2019-05-07 下午5.32.24.png" />
+    <entry file="file://$PROJECT_DIR$/target/SpringMVCFileUpLoad-1.0-SNAPSHOT/statics/images/1557318908388.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="301">
+          <caret line="78" column="36" lean-forward="true" selection-start-line="78" selection-start-column="36" selection-end-line="78" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="22" column="24" selection-start-line="22" selection-start-column="24" selection-end-line="22" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/show.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="13" column="71" selection-start-line="13" selection-start-column="63" selection-end-line="13" selection-end-column="71" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/show2.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="14" column="72" selection-start-line="14" selection-start-column="72" selection-end-line="14" selection-end-column="72" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/beerus/controller/FilesController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="219">
+          <caret line="21" column="13" selection-start-line="21" selection-start-column="13" selection-end-line="21" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/index2.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="19" column="23" selection-start-line="19" selection-start-column="23" selection-end-line="19" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/beerus/controller/FileController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="915">
+          <caret line="61" column="17" selection-start-line="61" selection-start-column="17" selection-end-line="61" selection-end-column="17" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/index.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="13" selection-start-line="13" selection-end-line="13" selection-end-column="112" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/beerus/controller/JSONController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="18" selection-start-line="18" selection-end-line="18" />
+          <folding>
+            <element signature="e#385#386#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/../../../../../../maven/maven_jar/org/springframework/spring-webmvc/4.3.8.RELEASE/spring-webmvc-4.3.8.RELEASE.jar!/org/springframework/web/servlet/view/ContentNegotiatingViewResolver.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="40" column="13" selection-start-line="40" selection-start-column="13" selection-end-line="40" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/springmvc-config.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="588">
+          <caret line="47" selection-start-line="47" selection-end-line="47" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>

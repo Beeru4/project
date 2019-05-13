@@ -19,8 +19,7 @@ public class ServiceLogger {
 
     @Pointcut("execution(* com.beerus.service.impl.UserServiceImpl.register(com.beerus.entiy.User))")
     //签名(代码重用,提取表达式)
-    public void pointcut() {
-    }
+    public void pointcut() {}
 
     /**
      * 前置增强

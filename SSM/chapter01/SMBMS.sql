@@ -140,7 +140,7 @@ INSERT INTO `smbms_bill` VALUES
 
 ##用户
 INSERT INTO `smbms_user` VALUES
-(DEFAULT,'admin','系统管理员','123',0,'1983-10-10','13688889999','深圳市福田区成府路207号',1,1101,NOW(),NULL,NULL),
+(DEFAULT,'Beerus','Beerus','123',0,'1983-10-10','13688889999','深圳市福田区成府路207号',1,1101,NOW(),NULL,NULL),
 (DEFAULT,'liming','李明','123',1,'1983-12-10','13688884457','深圳市罗湖区前门东大街9号',2,1101,NOW(),NULL,NULL),
 (DEFAULT,'hanlubiao','韩路彪','123',1,'1984-06-05','18567542321','深圳市福田区北辰中心12号',2,1101,NOW(),NULL,NULL),
 (DEFAULT,'zhanghua','张华','123',0,'1983-06-15','13544561111','深圳市盐田区学院路61号',3,1101,NOW(),NULL,NULL),

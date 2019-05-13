@@ -2,6 +2,7 @@ package com.beerus.mapper;
 
 import com.beerus.entity.User;
 import org.apache.ibatis.annotations.Param;
+import org.springframework.stereotype.Repository;
 
 import java.util.List;
 import java.util.Map;
@@ -11,6 +12,7 @@ import java.util.Map;
  * @Description 用户数据层
  * @Date 2019/4/20
  **/
+@Repository
 public interface UserMapper {
     /**
      * 根据编码和密码得到用户

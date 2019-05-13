@@ -2,85 +2,21 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7292b2f9-b987-4858-b82d-62f0169958e0" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../SSH/SSH/JBOA/JBOA.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../SSM/chapter01/exercise/manager/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../SSM/chapter05/exercise/Game/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SSH/SSH/JBOA/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../SSH/SSH/JBOA/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SSH/SSH/JBOA/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../SSH/SSH/JBOA/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SSH/SSH/JBOA/src/main/java/com/beerus/action/CVoucherAction.java" beforeDir="false" afterPath="$PROJECT_DIR$/../SSH/SSH/JBOA/src/main/java/com/beerus/action/CVoucherAction.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SSH/SSH/JBOA/src/main/java/com/beerus/action/EmpAction.java" beforeDir="false" afterPath="$PROJECT_DIR$/../SSH/SSH/JBOA/src/main/java/com/beerus/action/EmpAction.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SSH/SSH/JBOA/src/main/resources/hibernate.cfg.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../SSH/SSH/JBOA/src/main/resources/hibernate.cfg.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SSH/SSH/JBOA/src/main/resources/struts.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../SSH/SSH/JBOA/src/main/resources/struts.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SSH/SSH/JBOA/src/main/webapp/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../SSH/SSH/JBOA/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SSH/SSH/JBOA/target/JBOA-1.0-SNAPSHOT/WEB-INF/classes/com/beerus/action/CVoucherAction.class" beforeDir="false" afterPath="$PROJECT_DIR$/../SSH/SSH/JBOA/target/JBOA-1.0-SNAPSHOT/WEB-INF/classes/com/beerus/action/CVoucherAction.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SSH/SSH/JBOA/target/JBOA-1.0-SNAPSHOT/WEB-INF/classes/com/beerus/action/EmpAction.class" beforeDir="false" afterPath="$PROJECT_DIR$/../SSH/SSH/JBOA/target/JBOA-1.0-SNAPSHOT/WEB-INF/classes/com/beerus/action/EmpAction.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SSH/SSH/JBOA/target/JBOA-1.0-SNAPSHOT/WEB-INF/classes/struts.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../SSH/SSH/JBOA/target/JBOA-1.0-SNAPSHOT/WEB-INF/classes/struts.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SSH/SSH/JBOA/target/JBOA-1.0-SNAPSHOT/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../SSH/SSH/JBOA/target/JBOA-1.0-SNAPSHOT/WEB-INF/web.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SSH/SSH/JBOA/target/classes/com/beerus/action/CVoucherAction.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SSH/SSH/JBOA/target/classes/com/beerus/action/EmpAction.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SSH/SSH/JBOA/target/classes/com/beerus/dao/CVoucherDao.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SSH/SSH/JBOA/target/classes/com/beerus/dao/SysEmployeeDao.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SSH/SSH/JBOA/target/classes/com/beerus/dao/impl/CVoucherDaoImpl.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SSH/SSH/JBOA/target/classes/com/beerus/dao/impl/SysEmployeeDaoImpl.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SSH/SSH/JBOA/target/classes/com/beerus/entity/BizCheckResult.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SSH/SSH/JBOA/target/classes/com/beerus/entity/BizClaimVoucher.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SSH/SSH/JBOA/target/classes/com/beerus/entity/BizClaimVoucherDetall.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SSH/SSH/JBOA/target/classes/com/beerus/entity/SysDepartment.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SSH/SSH/JBOA/target/classes/com/beerus/entity/SysEmployee.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SSH/SSH/JBOA/target/classes/com/beerus/entity/SysPosition.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SSH/SSH/JBOA/target/classes/com/beerus/filter/EncodingFilter.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SSH/SSH/JBOA/target/classes/com/beerus/filter/OpenSessionViewFilter.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SSH/SSH/JBOA/target/classes/com/beerus/service/CVoucherService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SSH/SSH/JBOA/target/classes/com/beerus/service/SysEmployeeService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SSH/SSH/JBOA/target/classes/com/beerus/service/impl/CVoucherServiceImpl.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SSH/SSH/JBOA/target/classes/com/beerus/service/impl/SysEmployeeServiceImpl.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SSH/SSH/JBOA/target/classes/com/beerus/utils/HibernateUtils.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SSH/SSH/JBOA/target/classes/com/beerus/utils/MD5Util.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SSH/SSH/JBOA/target/classes/com/beerus/utils/Page.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SSH/SSH/JBOA/target/classes/com/beerus/utils/Result.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SSH/SSH/JBOA/target/classes/struts.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../SSH/SSH/JBOA/target/classes/struts.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SSM/SSM/SSM/SMBMS/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../SSM/SSM/SSM/SMBMS/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SSM/SSM/SSM/SMBMS/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../SSM/SSM/SSM/SMBMS/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../SSM/chapter01/exercise/manager/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../SSM/chapter01/exercise/manager/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SSM/chapter01/exercise/manager/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../SSM/chapter01/exercise/manager/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SSM/chapter01/exercise/manager/src/main/java/com/beerus/dao/DescDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/../SSM/chapter01/exercise/manager/src/main/java/com/beerus/mapper/DescMapper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SSM/chapter01/exercise/manager/src/main/java/com/beerus/dao/impl/DescDaoImpl.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SSM/chapter01/exercise/manager/src/main/java/com/beerus/entity/Desc.java" beforeDir="false" afterPath="$PROJECT_DIR$/../SSM/chapter01/exercise/manager/src/main/java/com/beerus/entity/Desc.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SSM/chapter01/exercise/manager/src/main/java/com/beerus/utils/MyBatisUtil.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SSM/chapter01/exercise/manager/src/main/resources/mybatis-config.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SSM/chapter01/exercise/manager/src/main/resources/xml/DescMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../SSM/chapter01/exercise/manager/src/main/resources/xml/DescMapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SSM/chapter01/exercise/manager/src/main/webapp/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../SSM/chapter01/exercise/manager/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SSM/chapter01/exercise/manager/src/test/Test.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SSM/chapter01/exercise/manager/target/classes/com/beerus/dao/DescDao.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SSM/chapter01/exercise/manager/target/classes/com/beerus/dao/impl/DescDaoImpl.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SSM/chapter01/exercise/manager/target/classes/com/beerus/entity/Desc.class" beforeDir="false" afterPath="$PROJECT_DIR$/../SSM/chapter01/exercise/manager/target/classes/com/beerus/entity/Desc.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SSM/chapter01/exercise/manager/target/classes/com/beerus/utils/MyBatisUtil.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SSM/chapter01/exercise/manager/target/classes/mybatis-config.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SSM/chapter01/exercise/manager/target/classes/xml/DescMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../SSM/chapter01/exercise/manager/target/classes/xml/DescMapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SSM/chapter01/exercise/manager/target/test-classes/Test.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SSM/chapter05/exercise/Game/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../SSM/chapter05/exercise/Game/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SSM/chapter05/exercise/Game/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../SSM/chapter05/exercise/Game/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SSM/chapter05/exercise/Game/src/test/java/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/../SSM/chapter05/exercise/Game/src/test/java/Test.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SSM/chapter05/exercise/Game/target/classes/com/beerus/aop/Pointcut.class" beforeDir="false" afterPath="$PROJECT_DIR$/../SSM/chapter05/exercise/Game/target/classes/com/beerus/aop/Pointcut.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SSM/chapter05/exercise/Game/target/test-classes/Test.class" beforeDir="false" afterPath="$PROJECT_DIR$/../SSM/chapter05/exercise/Game/target/test-classes/Test.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../SSM/chapter05/work/Spring/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../SSM/chapter05/work/Spring/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SSM/chapter05/work/Spring/target/classes/com/beerus/service/impl/UserServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/../SSM/chapter05/work/Spring/target/classes/com/beerus/service/impl/UserServiceImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SSM/chapter05/work/Spring/target/classes/spring-config.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../SSM/chapter05/work/Spring/target/classes/spring-config.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SSM/chapter05/work/Spring/target/test-classes/Test.class" beforeDir="false" afterPath="$PROJECT_DIR$/../SSM/chapter05/work/Spring/target/test-classes/Test.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SSM/chapter06/Spring/.idea/Spring.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../SSM/chapter06/Spring/.idea/Spring.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SSM/chapter06/Spring/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SSM/chapter06/Spring/.idea/Spring.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SSM/chapter06/Spring/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../SSM/chapter06/Spring/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../SSM/chapter06/Spring/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../SSM/chapter06/Spring/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SSM/chapter06/Spring/target/classes/com/beerus/aop/ServiceLogger.class" beforeDir="false" afterPath="$PROJECT_DIR$/../SSM/chapter06/Spring/target/classes/com/beerus/aop/ServiceLogger.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SSM/chapter06/Spring/target/test-classes/Test.class" beforeDir="false" afterPath="$PROJECT_DIR$/../SSM/chapter06/Spring/target/test-classes/Test.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SSM/chapter06/annotation/Spring/.idea/Spring.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SSM/chapter06/annotation/Spring/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../SSM/chapter06/annotation/Spring/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SSM/chapter06/annotation/Spring/.idea/modules.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../SSM/chapter06/annotation/Spring/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../SSM/chapter06/annotation/Spring/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SSM/mybatis+struts2+spring/SMBMS/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../SSM/mybatis+struts2+spring/SMBMS/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SSM/mybatis+struts2+spring/SMBMS/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../SSM/mybatis+struts2+spring/SMBMS/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SSM/mybatis+struts2+spring/SMBMS/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../SSM/mybatis+struts2+spring/SMBMS/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SSM/mybatis+struts2+spring/SMBMS/src/main/java/com/beerus/action/BillAction.java" beforeDir="false" afterPath="$PROJECT_DIR$/../SSM/mybatis+struts2+spring/SMBMS/src/main/java/com/beerus/action/BillAction.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SSM/mybatis+struts2+spring/SMBMS/src/main/java/com/beerus/action/UserMgrAction.java" beforeDir="false" afterPath="$PROJECT_DIR$/../SSM/mybatis+struts2+spring/SMBMS/src/main/java/com/beerus/action/UserMgrAction.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SSM/mybatis+struts2+spring/SMBMS/src/main/resources/spring-config.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../SSM/mybatis+struts2+spring/SMBMS/src/main/resources/spring-config.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SSM/mybatis+struts2+spring/SMBMS/target/SMBMS-1.0-SNAPSHOT/WEB-INF/classes/spring-config.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../SSM/mybatis+struts2+spring/SMBMS/target/SMBMS-1.0-SNAPSHOT/WEB-INF/classes/spring-config.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SSM/mybatis+struts2+spring/SMBMS/target/classes/com/beerus/action/UserMgrAction$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/../SSM/mybatis+struts2+spring/SMBMS/target/classes/com/beerus/action/UserMgrAction$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SSM/mybatis+struts2+spring/SMBMS/target/classes/com/beerus/action/UserMgrAction.class" beforeDir="false" afterPath="$PROJECT_DIR$/../SSM/mybatis+struts2+spring/SMBMS/target/classes/com/beerus/action/UserMgrAction.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SSM/mybatis+struts2+spring/SMBMS/target/classes/spring-config.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../SSM/mybatis+struts2+spring/SMBMS/target/classes/spring-config.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SSM/chapter06/annotation/Spring/src/main/java/com/beerus/aop/ServiceLogger.java" beforeDir="false" afterPath="$PROJECT_DIR$/../SSM/chapter06/annotation/Spring/src/main/java/com/beerus/aop/ServiceLogger.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SSM/chapter06/annotation/Spring/target/classes/com/beerus/aop/ServiceLogger.class" beforeDir="false" afterPath="$PROJECT_DIR$/../SSM/chapter06/annotation/Spring/target/classes/com/beerus/aop/ServiceLogger.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -95,12 +31,12 @@
     <option name="delegatedBuild" value="true" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/Test.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-369">
-              <caret line="25" column="26" lean-forward="true" selection-start-line="25" selection-start-column="26" selection-end-line="25" selection-end-column="26" />
+            <state relative-caret-position="375">
+              <caret line="25" column="26" selection-start-line="25" selection-start-column="26" selection-end-line="25" selection-end-column="26" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -170,6 +106,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -213,11 +151,10 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
@@ -264,31 +201,23 @@
       <option name="presentableId" value="Default" />
       <updated>1557060038257</updated>
       <workItem from="1557060042332" duration="5175000" />
+      <workItem from="1557126027522" duration="2000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="5175000" />
+    <option name="totallyTimeSpent" value="5177000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1440" height="842" extended-state="0" />
-    <editor active="true" />
     <layout>
-      <window_info id="Designer" />
-      <window_info id="Image Layers" />
-      <window_info id="Capture Tool" />
-      <window_info id="UI Designer" />
-      <window_info id="Favorites" side_tool="true" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24964234" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2532189" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="FindBugs-IDEA" />
-      <window_info anchor="bottom" id="Terminal" />
-      <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Event Log" side_tool="true" />
-      <window_info anchor="bottom" id="Messages" weight="0.32933334" />
-      <window_info anchor="bottom" id="Database Changes" />
-      <window_info anchor="bottom" id="Version Control" />
-      <window_info anchor="bottom" id="Tail" />
+      <window_info id="Designer" order="2" />
+      <window_info id="Image Layers" order="3" />
+      <window_info id="Capture Tool" order="4" />
+      <window_info id="UI Designer" order="5" />
+      <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Run" order="2" />
@@ -296,15 +225,23 @@
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="right" id="Maven" weight="0.3297568" />
-      <window_info anchor="right" id="Palette" />
-      <window_info anchor="right" id="Capture Analysis" />
-      <window_info anchor="right" id="Database" />
-      <window_info anchor="right" id="Palette&#9;" />
-      <window_info anchor="right" id="Theme Preview" />
+      <window_info anchor="bottom" id="FindBugs-IDEA" order="7" />
+      <window_info anchor="bottom" id="Terminal" order="8" />
+      <window_info anchor="bottom" id="Docker" order="9" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
+      <window_info anchor="bottom" id="Messages" order="11" weight="0.32933334" />
+      <window_info anchor="bottom" id="Database Changes" order="12" />
+      <window_info anchor="bottom" id="Version Control" order="13" />
+      <window_info anchor="bottom" id="Tail" order="14" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Maven" order="3" weight="0.3297568" />
+      <window_info anchor="right" id="Palette" order="4" />
+      <window_info anchor="right" id="Capture Analysis" order="5" />
+      <window_info anchor="right" id="Database" order="6" />
+      <window_info anchor="right" id="Palette&#9;" order="7" />
+      <window_info anchor="right" id="Theme Preview" order="8" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -338,8 +275,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/Test.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-369">
-          <caret line="25" column="26" lean-forward="true" selection-start-line="25" selection-start-column="26" selection-end-line="25" selection-end-column="26" />
+        <state relative-caret-position="375">
+          <caret line="25" column="26" selection-start-line="25" selection-start-column="26" selection-end-line="25" selection-end-column="26" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

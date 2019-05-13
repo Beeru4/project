@@ -1,6 +1,7 @@
 package com.beerus.entity;
 
 
+import javax.validation.constraints.NotNull;
 import java.io.Serializable;
 import java.sql.Date;
 import java.util.Calendar;
@@ -11,21 +12,31 @@ import java.util.Calendar;
 public class User implements Serializable {
 
     private Integer id;
+    @NotNull(message = "用户编码不能为空")
     private String userCode;
+    @NotNull(message = "用户名称不能为空")
     private String userName;
+    @NotNull(message = "用户密码不能为空")
     private String userPassword;
+    @NotNull(message = "用户年龄不能为空")
     private Integer gender;
+    @NotNull(message = "用户生日不能为空")
     private Date birthday;
+    @NotNull(message = "用户手机不能为空")
     private String phone;
+    @NotNull(message = "用户地址不能为空")
     private String address;
+    @NotNull(message = "用户角色不能为空")
     private Integer userRole;
     private Integer createBy;
     private Date creationDate;
     private Integer modifyBy;
     private Date modifyDate;
 
-    private Role role;//用户角色
-    private Integer age;//年龄
+    /**用户角色*/
+    private Role role;
+    /**年龄*/
+    private Integer age;
 
     public User() {
     }
@@ -33,24 +44,31 @@ public class User implements Serializable {
     public Integer getAge() {
         //设置年龄
         Calendar cal = Calendar.getInstance();
-        if (cal.before(this.birthday)) { // 出生日期晚于当前时间，无法计算
+        // 出生日期晚于当前时间，无法计算
+        if (cal.before(this.birthday)) {
             throw new IllegalArgumentException("The birthDay is before Now.It's unbelievable!");
         }
-        int yearNow = cal.get(Calendar.YEAR); // 当前年份
-        int monthNow = cal.get(Calendar.MONTH); // 当前月份
-        int dayOfMonthNow = cal.get(Calendar.DAY_OF_MONTH); // 当前日期
+        // 当前年份
+        int yearNow = cal.get(Calendar.YEAR);
+        // 当前月份
+        int monthNow = cal.get(Calendar.MONTH);
+        // 当前日期
+        int dayOfMonthNow = cal.get(Calendar.DAY_OF_MONTH);
         cal.setTime(this.birthday);
         int yearBirth = cal.get(Calendar.YEAR);
         int monthBirth = cal.get(Calendar.MONTH);
         int dayOfMonthBirth = cal.get(Calendar.DAY_OF_MONTH);
-        int age = yearNow - yearBirth; // 计算整岁数
+        // 计算整岁数
+        int age = yearNow - yearBirth;
         if (monthNow <= monthBirth) {
             if (monthNow == monthBirth) {
-                if (dayOfMonthNow < dayOfMonthBirth)
-                    age--;// 当前日期在生日之前，年龄减一
+                if (dayOfMonthNow < dayOfMonthBirth) {
+                    // 当前日期在生日之前，年龄减一
+                    age--;
+                }
             } else {
-                age--;// 当前月份在生日之前，年龄减一
-
+                // 当前月份在生日之前，年龄减一
+                age--;
             }
         }
         return age;
