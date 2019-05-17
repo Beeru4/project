@@ -1,6 +1,9 @@
 package com.beerus.pojo;
 
 
+import org.springframework.format.annotation.DateTimeFormat;
+
+import javax.xml.bind.annotation.XmlRootElement;
 import java.io.Serializable;
 import java.util.Date;
 
@@ -9,8 +12,10 @@ import java.util.Date;
  * @Description 用户Bean
  * @Date 2019-05-09
  **/
+@XmlRootElement
 public class User implements Serializable {
     private String userName;
+    @DateTimeFormat(pattern = "yyyy-MM-dd")
     private Double age;
     private Date birthday;
 

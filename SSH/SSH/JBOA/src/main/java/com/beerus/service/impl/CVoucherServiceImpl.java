@@ -5,6 +5,9 @@ import com.beerus.dao.impl.CVoucherDaoImpl;
 import com.beerus.entity.BizClaimVoucher;
 import com.beerus.service.CVoucherService;
 import com.beerus.utils.Page;
+import org.springframework.stereotype.Service;
+
+import javax.annotation.Resource;
 
 
 /**
@@ -12,8 +15,11 @@ import com.beerus.utils.Page;
  * @Description
  * @Date 2019/4/15
  **/
+@Service(value = "cVoucherService")
 public class CVoucherServiceImpl implements CVoucherService {
-    private CVoucherDao cVoucherDao = new CVoucherDaoImpl();
+
+    @Resource(name = "cVoucherDao")
+    private CVoucherDao cVoucherDao;
 
     public boolean save(BizClaimVoucher claimVoucher) {
         if ((Integer) cVoucherDao.save(claimVoucher) > 0) {
@@ -28,7 +34,7 @@ public class CVoucherServiceImpl implements CVoucherService {
         page.setPageSize(pageSize);
         page.setTotalCount(cVoucherDao.count_Row(claimVoucher));
         page.setTotalPage((page.getTotalCount() + pageSize - 1) / pageSize);
-        page.setPages(cVoucherDao.listAllVoucherByFilter(claimVoucher,currPageNo,pageSize));
+        page.setPages(cVoucherDao.listAllVoucherByFilter(claimVoucher, currPageNo, pageSize));
         return page;
     }
 

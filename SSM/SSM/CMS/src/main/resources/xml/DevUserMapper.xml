@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Config 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.beerus.mapper.DevUserMapper">
+
+    <select id="getDevUser" resultMap="getdevuser">
+        SELECT `id`,`devName`,`devCode` FROM `dev_user` WHERE `devCode` = #{devCode}  AND `devPassword` = #{devPassword}
+    </select>
+    <resultMap id="getdevuser" type="DevUser">
+        <id property="id" column="id"/>
+        <result property="devName" column="devName"/>
+        <result property="devCode" column="devCode"/>
+    </resultMap>
+</mapper>

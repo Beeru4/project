@@ -10,6 +10,7 @@ import org.springframework.context.annotation.Scope;
 import org.springframework.stereotype.Component;
 import org.springframework.stereotype.Controller;
 
+import javax.annotation.Resource;
 import java.io.UnsupportedEncodingException;
 import java.security.NoSuchAlgorithmException;
 
@@ -20,9 +21,9 @@ import java.security.NoSuchAlgorithmException;
  **/
 @Controller
 @Scope("prototype")
-@Component("empAction")
 public class EmpAction extends ActionSupport {
-    private SysEmployeeService empBiz = new SysEmployeeServiceImpl();
+    @Resource(name = "sysEmployeeService")
+    private SysEmployeeService empBiz;
     //账号
     private String sn;
     //密码

@@ -4,6 +4,8 @@ import com.beerus.dao.CVoucherDao;
 import com.beerus.entity.BizClaimVoucher;
 import com.beerus.utils.HibernateUtils;
 import org.hibernate.Query;
+import org.springframework.orm.hibernate3.support.HibernateDaoSupport;
+import org.springframework.stereotype.Repository;
 
 import java.io.Serializable;
 import java.util.List;
@@ -13,7 +15,8 @@ import java.util.List;
  * @Description
  * @Date 2019/4/15
  **/
-public class CVoucherDaoImpl implements CVoucherDao {
+@Repository(value = "cVoucherDao")
+public class CVoucherDaoImpl extends HibernateDaoSupport implements CVoucherDao {
     public Serializable save(BizClaimVoucher claimVoucher) {
         return HibernateUtils.getSession().save(claimVoucher);
     }
@@ -73,6 +76,6 @@ public class CVoucherDaoImpl implements CVoucherDao {
             return HibernateUtils.getSession().createQuery(sb.toString()).setProperties(claimVoucher);
         }
         sb.append(" ORDER BY createTime DESC");
-        return HibernateUtils.getSession().createQuery(sb.toString());
+        return this.getHibernateTemplate()(sb.toString());
     }
 }

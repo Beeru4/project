@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Config 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.beerus.mapper.AppInfoMapper">
+
+    <select id="listQueryAllStatus" resultType="AppData">
+       SELECT  `valueID` as `stautsId`,`valueName` as `stauts` FROM `data_dictionary`  WHERE  `typeCode` = 'APP_STATUS'
+    </select>
+    <select id="listQueryAllForm"  resultType="AppData">
+        SELECT `valueId` as `flatformid`,`valueName` as `flatform` FROM `data_dictionary` WHERE `typeCode` = 'APP_FLATFORM'
+    </select>
+
+    <sql id="selectListAppData">
+        <if test="null != appData">
+            <trim prefix="WHERE" prefixOverrides="AND">
+                <if test="null != appData.softwareName and '' != appData.softwareName">
+                    AND softwareName LIKE CONCAT('%',#{appData.softwareName},'%')
+                </if>
+                <if test="null != appData.stautsId and 0 != appData.stautsId ">
+                    AND stautsId = #{appData.stautsId}
+                </if>
+                <if test="null != appData.flatformid and 0 != appData.flatformid">
+                    AND flatformid = #{appData.flatformid}
+                </if>
+                <if test="null != appData.level1Id and 0 != appData.level1Id">
+                    AND categoryLevel1 = #{appData.level1Id}
+                </if>
+                <if test="null != appData.level2Id and 0 != appData.level2Id">
+                    AND categoryLevel2 = #{appData.level2Id}
+                </if>
+                <if test="null != appData.level3Id and 0 != appData.level3Id">
+                    AND categoryLevel3 = #{appData.level3Id}
+                </if>
+            </trim>
+        </if>
+    </sql>
+    <select id="count_Rows" resultType="Integer" parameterType="AppData">
+        SELECT COUNT(1) FROM app_data
+        <include refid="selectListAppData"/>
+    </select>
+    <select id="listQueryByPagerOrAndFilter" resultMap="listAppData">
+        SELECT id
+        ,`softwareName`,`stautsId`,`APKName`,`softwareSize`,`level1Name`,`level2Name`,`level3Name`,`flatform`,`stauts`,`downloads`,`versionNo`
+        FROM app_data
+        <include refid="selectListAppData"/>
+        LIMIT #{currPageNo},#{pageSize}
+    </select>
+    <resultMap id="listAppData" type="AppData">
+        <id property="id" column="id"/>
+        <result property="softwareName" column="softwareName"/>
+        <result property="stautsId" column="stautsId"/>
+        <result property="apkName" column="APKName"/>
+        <result property="softwareSize" column="softwareSize"/>
+        <result property="flatform" column="flatform"/>
+        <result property="stauts" column="stauts"/>
+        <result property="level1Name" column="level1Name"/>
+        <result property="level2Name" column="level2Name"/>
+        <result property="level3Name" column="level3Name"/>
+        <result property="downloads" column="downloads"/>
+        <result property="versionNo" column="versionNo"/>
+    </resultMap>
+</mapper>

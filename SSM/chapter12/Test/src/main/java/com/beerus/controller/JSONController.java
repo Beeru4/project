@@ -97,6 +97,21 @@ public class JSONController {
         return JSON.toJSONString(user);
     }
 
+    /**
+     * 测试多视图解析器返回XML
+     *
+     * @return
+     */
+    @RequestMapping(value = "/xml")
+    @ResponseBody
+    public Object testXMl() {
+        User u = new User();
+        u.setAge(18D);
+        u.setBirthday(new Date());
+        u.setUserName("张三");
+        return u;
+    }
+
 
     /**
      * 处理错误页面
@@ -106,6 +121,7 @@ public class JSONController {
      * @return
      */
     @ExceptionHandler(value = {Exception.class})
+
     public String handlerException(Exception e, HttpServletRequest request) {
         request.setAttribute("error", e.getMessage());
         return "index";

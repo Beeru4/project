@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Config 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.beerus.mapper.AppCategoryMapper">
+    <select id="listQueryLevel" resultMap="listLevel">
+        SELECT `id`,`categoryName` FROM `app_category`WHERE
+        <choose>
+            <when test="null != level and level == 1">
+                 `parentId` IS NULL
+            </when>
+            <when test="null != level and level == 2 or level == 3">
+                 `parentId` = #{levelId}
+            </when>
+        </choose>
+    </select>
+    <resultMap id="listLevel" type="AppCategory">
+        <id property="id" column="id"/>
+        <result property="categoryName" column="categoryName"/>
+    </resultMap>
+</mapper>

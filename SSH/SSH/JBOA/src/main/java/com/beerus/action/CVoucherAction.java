@@ -14,6 +14,7 @@ import org.springframework.context.annotation.Scope;
 import org.springframework.stereotype.Component;
 import org.springframework.stereotype.Controller;
 
+import javax.annotation.Resource;
 import java.util.*;
 
 /**
@@ -23,10 +24,10 @@ import java.util.*;
  **/
 @Controller
 @Scope("prototype")
-@Component("cVoucherAction")
 public class CVoucherAction extends ActionSupport {
     //业务层
-    private CVoucherService cVoucherService = new CVoucherServiceImpl();
+    @Resource(name = "cVoucherService")
+    private CVoucherService cVoucherService;
     //报销单
     private BizClaimVoucher voucher;
     //报销单详情集合

@@ -45,4 +45,6 @@
     </bean>
     <!--加载静态资源文件-->
     <mvc:resources mapping="/statics/**" location="/statics/"/>
+
+
 </beans>

@@ -14,6 +14,20 @@
     http://www.springframework.org/schema/aop
     http://www.springframework.org/schema/aop/spring-aop-3.0.xsd">
 
+ <!--   &lt;!&ndash;加载属性文件&ndash;&gt;
+    <bean class="org.springframework.beans.factory.config.PropertyPlaceholderConfigurer">
+        <property name="location" value="classpath:database.properties"/>
+    </bean>
+
+    &lt;!&ndash;配置数据源&ndash;&gt;
+    <bean id="dataSource" class="org.apache.commons.dbcp.BasicDataSource"></bean>
+
+    &lt;!&ndash;配置SessionFactory&ndash;&gt;
+    <bean id="sessionFactory" class="org.springframework.orm.hibernate4.LocalSessionFactoryBean">
+        <property name="dataSource" ref="dataSource"/>
+        <property name="configLocation" value="classpath:hibernate.cfg.xml"/>
+    </bean>
+-->
     <!--开启注解扫描-->
     <context:component-scan base-package="com.beerus*"/>
 </beans>
